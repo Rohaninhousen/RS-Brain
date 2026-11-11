@@ -1,5 +1,5 @@
 {
- "publishedAt": "2026-11-11 14:00",
+ "publishedAt": "2026-11-11 15:00",
  "players": [
   {
    "id": "bullhorn",
@@ -2858,6 +2858,212 @@
      "addedAt": "2026-11-05"
     }
    ]
+  },
+  {
+   "id": "atlas",
+   "player": "Atlas",
+   "url": "https://www.recruitwithatlas.com",
+   "threat": "",
+   "createdAt": "2026-11-11",
+   "updatedAt": "2026-11-11",
+   "sections": [
+    {
+     "id": "s1",
+     "title": "What Atlas is, and who it is for",
+     "type": "text",
+     "addedAt": "2026-11-11",
+     "text": "Atlas is the one place where a recruitment agency runs its whole business. It is an ATS (a system that tracks candidates and jobs) and a CRM (a system that tracks clients and sales deals) in one tool, with AI built in. A recruiter normally jumps between a spreadsheet, an email inbox, LinkedIn, a calendar and a notes app. Atlas puts candidates, clients, jobs, emails, meetings, tasks and fees together, so nothing is lost and no one types the same thing twice. It is made for recruiters, agencies and in-house hiring teams. The problem it solves: too much manual admin and scattered data. The AI writes notes, drafts emails, scores candidates and answers questions about your data."
+    },
+    {
+     "id": "s2",
+     "title": "How it works, step by step",
+     "type": "steps",
+     "addedAt": "2026-11-11",
+     "text": "Atlas covers two jobs that recruiters do every week: winning clients (Part A) and filling the roles those clients give you (Part B).\nPart A, win a client (business development): Company, Contact, Opportunity (tracked in 7 stages), Campaign (emails, LinkedIn, calls, to-dos), Meeting (AI records and writes notes), Job (the client gives you a role to fill).\nPart B, fill the job (recruiting): Job post, AI criteria (scoring rules and personas), Find people (search your own database), Pipeline (7 stages), Client portal (a board or a one-page report), Placement (hired, and the fee is logged).",
+     "steps": [
+      [
+       "Add your clients",
+       "company, contacts",
+       "Create a company (Client or Target) and add the people there. A person can be a Candidate, a Contact, or both."
+      ],
+      [
+       "Track the sale",
+       "opportunity, 7 stages",
+       "Create an Opportunity. It moves through Identified, Pursuing, Initial request, Late Stage, then Converted or Lost. Outreach campaigns sit inside it."
+      ],
+      [
+       "Open a job",
+       "job post, AI criteria",
+       "You need only a role name and a company. Paste a job description and Atlas AI turns it into screening rules and three search profiles."
+      ],
+      [
+       "Find and move candidates",
+       "search, pipeline",
+       "Search your database and add people to the job. Move them through the pipeline from Sourcing to Hired."
+      ],
+      [
+       "Reach out",
+       "campaigns, meeting AI",
+       "Campaigns send multi-step outreach. AI can draft each message. Meeting AI records calls and writes the notes for you."
+      ],
+      [
+       "Close and measure",
+       "portal, fee, analytics",
+       "Share progress with the client, log the fee when someone is placed, and watch team numbers in Analytics."
+      ]
+     ]
+    },
+    {
+     "id": "s3",
+     "title": "Features and how they work",
+     "type": "table",
+     "addedAt": "2026-11-11",
+     "cols": [
+      "Area",
+      "Feature",
+      "What it does, in simple words"
+     ],
+     "rows": [
+      [
+       "Home",
+       "Daily dashboard",
+       "A morning view with today's meetings, tasks, interviews, your jobs and campaign numbers. A timeline shows your focus. Buttons: \"Prep for next meeting\" and \"Recap last call\"."
+      ],
+      [
+       "People",
+       "Candidate profile",
+       "Opens beside the list. Tabs: Overview, Jobs, Interviews, Files (resume upload), Compensation, Details, Activities, Atlas AI and Insights. You can send email, book a meeting, add a task or add the person to a list or a job."
+      ],
+      [
+       "People",
+       "Search and import",
+       "\"New search\" has 12 filter groups: Role, Company, Location, Keywords, Profile info, Education, Seniority, Function, Industry, Compensation, Profile depth, Communication. There is also \"use AI text to filter\", saved views, and \"Past assessments\". Import takes Excel or CSV (or pasted table) for Candidates, Prospects or Clients. Export and column choice are at the top. The \"Get Chrome extension\" button (in Settings menu) installs an add-on that saves people and job leads from web pages in one click."
+      ],
+      [
+       "Search",
+       "Quick search (Search)",
+       "A pop-up box to find any company, candidate, client or prospect. It lists recent items with Ctrl 1 to 4 shortcuts and has quick buttons for \"Create task\" and \"Schedule meeting\"."
+      ],
+      [
+       "Jobs",
+       "Job workspace",
+       "Each job has Dashboard, Overview, Job description, Sourcing, Candidates, Client portal and Financials. Overview holds client, owner, team, place, salary notes and files."
+      ],
+      [
+       "Jobs",
+       "AI job tools",
+       "Paste a job description, then \"Generate criteria\" to make scoring rules. Sourcing makes three search profiles (for example Fintech Python Core), each as \"Filters only\" or \"Filters + criteria\". \"AI redraft\" rewrites the description."
+      ],
+      [
+       "Jobs",
+       "Candidate pipeline",
+       "Default stages: Sourcing, Internal IV, Presented, Client IV, Offer, Hired and Rejected, each with sub-steps (for example Scheduled, Sent, Signed, Past probation). You can edit them in Settings."
+      ],
+      [
+       "Jobs",
+       "Placement (last step)",
+       "When a candidate reaches Hired (Signed, Started, Past probation), the placement shows in Permanent. You then add a fee on the job's Financials tab and link the placement."
+      ],
+      [
+       "Jobs",
+       "Client portal",
+       "Two ways to share with your client, each with a live preview. Kanban board: choose stages to show (Presented to Hired), whether they see LinkedIn, references and resume download, and which columns. Executive report: a cover page with client logo, colour and summary, longlist and rejected sections, and optional automatic reporting."
+      ],
+      [
+       "CRM",
+       "Companies and contacts",
+       "Company page shows contacts, people, jobs, placements, offices, files and terms of business. Contact page shows active jobs, placements, meetings and \"float\" candidates (people you offer to a client)."
+      ],
+      [
+       "CRM",
+       "Opportunities",
+       "Two kinds: Business opportunity, and Candidate driven (built from one candidate). Tabs: Notes, Overview, Outreach, Prospects, Companies, Leads. An AI \"conversion probability\" panel starts once prospect activity exists. A Playbook page holds your sales method."
+      ],
+      [
+       "Outreach",
+       "Campaigns (4 kinds)",
+       "Candidate outreach: find people for one specific job. General: send to a list of contacts. Candidate led: introduce one candidate to several contacts. Opportunity: a campaign inside a sales opportunity. Each is a sequence of steps with a delay: Email, LinkedIn connection, InMail, Phone call or To-do. \"AI draft\" writes a step, \"Send test emails\" previews it. Overview shows added, opened, replied, interested and presented."
+      ],
+      [
+       "Meetings",
+       "Meeting AI",
+       "Paste a Meet, Teams or Zoom link, or pick a calendar event, and the AI notetaker joins, records and writes notes. You can also email notes@recruitwithatlas.com. \"Create meeting\" has attendees, \"Resolve with AI\" for dates, an Interview toggle, job link and \"Draft with AI\". Self-scheduling links let people book you."
+      ],
+      [
+       "Work",
+       "Tasks and Lists",
+       "Tasks have three tabs: General, Candidate outreach and BD outreach, with due date, priority and recipient. Lists group people (default type: Candidate) and can be Private, Team or Company shared (view or edit)."
+      ],
+      [
+       "Money",
+       "Permanent and Performance",
+       "Placements and Fees tables (by fee or by fee split), with export. Performance ranks consultants by fees. The job Financials tab adds a fee: type, currency, amount, status (starts as Projected), dates, notes for the invoice, several fee earners with roles, and a linked placement."
+      ],
+      [
+       "Insight",
+       "Analytics",
+       "Five tabs. Activity: campaign, interview and time-to-hire numbers per person. Team (needs a team set up). Consultant: target cards. Analytics: type what you want to see and AI builds a dashboard. Active candidates: your live list."
+      ],
+      [
+       "Settings",
+       "AI controls",
+       "\"Magic credits\" pay for AI actions: 100 per month free, 2,000 more for GBP 20 per month, or a 2,000 pack for GBP 29. \"AI Agent instructions\" set your writing style for candidates, reports, campaigns and interviews. \"Skills\" are your own saved AI instructions."
+      ],
+      [
+       "Settings",
+       "Team and data",
+       "Users, job roles, permissions, custom attributes, blocked emails and domains, approvals, Signable docs (e-sign), terminology and design. Rules: auto-delete applicants after a set time and who may edit stages."
+      ],
+      [
+       "Settings",
+       "Integrations",
+       "WhatsApp is on. Xero (accounting), Timesheet Portal, Claude, phone systems (RingCentral, RingOver, 8x8, AirCall, Devyce), job boards (Idibu, Broadbean, LogicMelon) and CoRecruit meeting notes can be connected. Optional modules: GDPR notices, public job page, contractor contracts, end clients. The Help button opens a chat with an AI agent and the Atlas team."
+      ]
+     ]
+    },
+    {
+     "id": "s4",
+     "title": "The AI parts of Atlas",
+     "type": "table",
+     "addedAt": "2026-11-11",
+     "text": "What is the main AI-native part of Atlas? These are the AI features the report highlights.",
+     "cols": [
+      "AI feature",
+      "What it does"
+     ],
+     "rows": [
+      [
+       "Ask Atlas (chat assistant)",
+       "A chat box available on every page. You ask in plain words, for example \"Summarize my open tasks\", and it answers from the data already in your Atlas: the task, its due date, its priority and a link to the person. It can also read your emails and notes, so you do not search for things by hand."
+      ],
+      [
+       "Job description to screening criteria",
+       "Paste a job description into a job, click \"Generate criteria\", and Atlas turns the text into a scoring checklist. It is then used to judge how well each candidate fits the role."
+      ],
+      [
+       "Job description to search profiles",
+       "\"Generate personas\" reads the same text and suggests three different kinds of ideal candidate to search for. Each comes with a short reason and can be used as \"Filters only\" or \"Filters + criteria\"."
+      ],
+      [
+       "Meeting notetaker",
+       "An AI notetaker can join a Meet, Teams or Zoom call, listen, and write the notes for you. You can invite it from any meeting in your calendar with one click."
+      ],
+      [
+       "AI buttons across the app",
+       "\"AI draft\" writes a campaign message, \"Draft with AI\" and \"Resolve with AI\" help fill in the meeting form, \"use AI text to filter\" turns a sentence into People search filters, the Analytics box builds a dashboard from what you type, and the \"Atlas AI\" tab sits on each candidate profile."
+      ]
+     ]
+    }
+   ],
+   "files": [
+    {
+     "name": "Atlas_Report.pdf",
+     "type": "application/pdf",
+     "size": 10652,
+     "dataUrl": "data:application/pdf;base64,JVBERi0xLjQKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUiAvRjMgNCAwIFIKPj4KZW5kb2JqCjIgMCBvYmoKPDwKL0Jhc2VGb250IC9IZWx2ZXRpY2EgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YxIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKMyAwIG9iago8PAovQmFzZUZvbnQgL0hlbHZldGljYS1Cb2xkIC9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nIC9OYW1lIC9GMiAvU3VidHlwZSAvVHlwZTEgL1R5cGUgL0ZvbnQKPj4KZW5kb2JqCjQgMCBvYmoKPDwKL0Jhc2VGb250IC9UaW1lcy1Sb21hbiAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjMgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iago1IDAgb2JqCjw8Ci9Db250ZW50cyA5IDAgUiAvTWVkaWFCb3ggWyAwIDAgNTk1LjI3NTYgODQxLjg4OTggXSAvUGFyZW50IDggMCBSIC9SZXNvdXJjZXMgPDwKL0ZvbnQgMSAwIFIgL1Byb2NTZXQgWyAvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0KPj4gL1JvdGF0ZSAwIC9UcmFucyA8PAoKPj4gCiAgL1R5cGUgL1BhZ2UKPj4KZW5kb2JqCjYgMCBvYmoKPDwKL1BhZ2VNb2RlIC9Vc2VOb25lIC9QYWdlcyA4IDAgUiAvVHlwZSAvQ2F0YWxvZwo+PgplbmRvYmoKNyAwIG9iago8PAovQXV0aG9yICgpIC9DcmVhdGlvbkRhdGUgKEQ6MjAyNjExMDkwNTU1MTIrMDAnMDAnKSAvQ3JlYXRvciAoXCh1bnNwZWNpZmllZFwpKSAvS2V5d29yZHMgKCkgL01vZERhdGUgKEQ6MjAyNjExMDkwNTU1MTIrMDAnMDAnKSAvUHJvZHVjZXIgKFJlcG9ydExhYiBQREYgTGlicmFyeSAtIFwob3BlbnNvdXJjZVwpKSAKICAvU3ViamVjdCAoXCh1bnNwZWNpZmllZFwpKSAvVGl0bGUgKEF0bGFzIFJlcG9ydCkgL1RyYXBwZWQgL0ZhbHNlCj4+CmVuZG9iago4IDAgb2JqCjw8Ci9Db3VudCAxIC9LaWRzIFsgNSAwIFIgXSAvVHlwZSAvUGFnZXMKPj4KZW5kb2JqCjkgMCBvYmoKPDwKL0ZpbHRlciBbIC9BU0NJSTg1RGVjb2RlIC9GbGF0ZURlY29kZSBdIC9MZW5ndGggOTExMQo+PgpzdHJlYW0KR2F1YFk+QmVnXVAoKi8vVzIjXSFBZVlhRChWZjt0a3RcXjdQJWYuImg7NChhIT9yWm4jdF8nJWIpNW9FbiM2P282RiYyPi9dVHIkYzhbKUYuVTs2QFddaCxpIS49OFpUYDZZYUoyXUZWcE5IV0ArbCg5YkxxT1hDaFNZQzVCN0hFVGsqKG88XGFPbGo/Sz1wQEI3SEZzNig0XVsjJHF1SzYnZCtoLT84IiJjbjNRImdkIzZeS1EsRFVocXMsITZtT2xcZEg/akVjLXVvdTNhJlQuKl1oI3U/Mms3TDUvWVdQOz1TUjteWzNNc28oV082IiMlKElJO0lIKGdAdWA3SXBdSyZXInBOKidOZVNVQWdwJTwrO0UlMkdIYF0+bVkvKSVdPDA+aiomWmtiTDIqcWsxWHRePUopLnVLKjBwLmglXlAzI1dgZEdQWmZFLDMicyNBL1tISlJkcDpxSFYvW3MqLz42VWEmPU1eSERDb3ArS1ExRWpqLmEpImdiJGxTZWZENE9RLWhHPms1RFMhNyMmOjJiaEVbLFJtbE9SITssRlIsJmYnYENVKXMoXEJCbzEqcktIVVZJSmBRUFtnSzVARGdPQTZpJlFablhRQmo+Yz4kPCQ+JiY9OUFOYmEsa2EtNzYiZ2JWOEhQITphUVU8RnElVS5PQ1hLSyYlSC81UDliXXBuXV1FSkxTZVQiV2gtMElFJCs3UCNBKUZRWk4/YDNDIlpzUycjZVA6Wl1hX0tbNVg+QSs5LSsucChvJCRVLGYiS2ZNO2Q0MWhOW10rbzwlQ2REQks1SExdMjJHaVJKTlg+RFUsZUU/N3BLO2pQOk43Nm9AV2Ivb1o+VVdJIkQ/LnM4Mi0vJD1ZN1olZG8xPmVeanMrLDcuMidoOUpncVowRCpYWy8+OicoLCJdPlVwOldkPjwkVGxlSFI0LWtDM10qM2hCJUglUkhHQTo7TUsiYTJqXmxaKjpAQ1ksV2w8XS1UdEgpYkQnY1Q+SCFgSG5CYj5bRzdEJ0EtTz1CMmJgaTJYY3B1I1pdJC1obTRLV1dYXEQycjM+Q2EoVUAmVkFvY19GPGoiTTlyI2lBQGQiMGQ0MGBQOW5ZUUhlaHFncF1ucSRMXzxxS29GXkBHa18qKCdBYVNGXzRnVEpWLTgkXzA3P3NZUzZrbSxqV2tRKGU1NWgkMmZnLT5NKm9valQ3PzdEOiZdTGFoZEI/Mj0jUnUxZ2xpM1xnQVkpRXAuJS5lZnRwPSsoJ2djTlpDNjBuJzE3I19uQCQoW1hFS2tXRGJWaGtdT2M3YDVlTHEhbmElPW5CNzQxVD9tTjZKJiRoU1ZqSUReL3FVa1xMWi06QzgpRStPbkFncXU3LzAiOU1FKC1hKjUhSlQxSSI9TT81QCdjUzpSI2gnbU1gPmBKYTM6ViowX1owOyg8dWluK1hGLGZRXFgvO1klRExna2EmaV8xLiY0clJNZl1FazJuKWtTbl5oWEhiVkJwLUxqI1JZciRYOXM+J2NRYDNpVCo4Q0w1NT1odTUwPkQlSHJPIygrL0BWPTMlb2dJPyhOWG9oWWBYLkw6U3NpZT4ndT1vOS5WamNcRGlLWklbQXVdSV0iXi1wZzxsIjZcOiYrKWcnTWktMyxTWXA2YkErNF80K3BgNlIiJENASUA9JCo6NDZcYlgiR1UqS1ojbkJULj81YVBlT09DJ1EmISc8cTYkJj9JP0JjMTVMLzdKRipkYEAjVj1eISI2VjIrKmA0ZWQ5NEw3Z0RwPj5XWmwwYnNCbmNaJVM0Sj5Xb1BBc0ZpIkZVKG0rLC9bQCxVbl9wVFw0XU5NMUJAPmQkT3NJbF9BRUs5X0ppOClOdEZeUl5DP0JHVW82dUNVXFpIQ2pgTlZjWSczbmtIOjgvJEc4JmVka2xeVV5cYG1lUl5wXXNYLDpMJzFcdUdeY1pjTEE6RE4oclwpOUU2JWxXPSdiV04tKChRQnFuXnBxYGpFWjRKVEo7MF5TNE9ycmNUWkQkQGQiS3UxMSxAYFtHQFk7bCRvT2QkZEJQZydzN0pkLSdaZ1c+anQrU18wMihrKF9eKjwkMCtRRDNUN1NVTS0laUpWKEMxXU82bmZMTk41XSFtR2xoIk9fOFBVZFprU1hoS21sY21bXStuQG5IR1otNHFXVWotVzwvWS4+YmlXajBPQlwkOS1URWlONnBDPHFcMVdnL2U0cGAtL2kkKFRXNEQ9aTRGT2k7O2E7ZSthOVVnXkRNLyNbXWs9QztXJTQ/V01vdGYtalNYLycpM2phInVYKGE+OGFRanQnMV4wOFFvPWoiIWZFMC5ZSF5UPkpmMi0sdEpVKFBqYUE3Ly5bbSRvRyZdNDk7TDhuN0Q6WWVMNDUsXyJSckppUXRPMztZcVo2MD8rZGJbSVo1akl1bz4pS0BAaFFhLVJOWW4uaWRDLnVgOThYbHMsLHJOXlEiKHFbVl9QPkkibS0sdTgoTXE6PyE6JWA+PWVZdE1xSFYyW3IjXFJTM0JFTDlyQjMnYydmZEtlWi9CZms+YSJ1WCliXkdETmp0JyszMCsicExqIiplKTA/PWQzY1I5NXNNKSIpXSJsZGBpJl5KQkQhdGQlNDpWYzY8UzY+ZkRaUzlTOTMlSklUajNVYTU8cjQnZEE3bFxAW0lbcSwhQCVwNiNjRVsuTlxgM0BpJTBWbFhCQDlfQk9BaWZEJDo/aElQYGRvLSEiP2IqWkFLNlgwRVNWSHNPalhPVlhkVWtHLUU5ZFw4U0ktP0s9O1g6MGBnOzVRZmRQU1Q6PkIwXVhiS2Jkbjs9ZSNWJD9ETl1RPitAdWVQL1FFcWBDWGw8TiUnZkAmOENpcE8+XTk/T0I+KSIhYGsnZFg5U1dWWm1iT1o0T0c0RkQ8X0RZX1AucFE/ISpvU2NJNEhaJSRHUnFFOCgqYkBGdV5YKz4mLVRSYnJJaz90ZG5PR2A1XXAnP1JDJDJYU0k2VGkndCNJXSVjSzooZjNISFFlS2k4WU45TCJIWmIoIyVYSyYlQy5yJiokI2YqP0NvLC0hKyQ3Kj1kWF9AQTc2KWVLWHNaZTdWbCNuJkYvNzNbUSY+IS06NlAoJTQwRUMuMUs8QF4uO09tTSpPIWA3Q3NmWXEwPCglS3BdNCMkJDEpKUghdXE3MWhVJDFKU1NWR29ZblVUXjM2KiYuOko8a283YloxQj8tTVdERDdFbzA2NmJRVkpeTXFdWTJrViM7VzRiLkZdMDtMLjMuLT81SW9aPmpqbD1TciIpPjtWLCpJZT9SVEcxIVYzJVpkdSdvWFlsLEVDUTROYENXNUNJY2snaFhddUFZcV11OmxhcCxiSVw2TCQtUExqQyFTI0Q0Zjw8OU5HQjZjN0QociUqRHRFOVlfLiE6TjxdO15oMD1jSlxFTyZHRGkoND1eYSddLFtkPDtQPSJbR1FyS3RCXVNgVkBIJGRMT2hccWQ3Y0RGPDdeVW4vKyQwYSojZXA4I08yPlFBQkZLS2AraShTZHBZXDZRYURkY2RhO00oVEg3PUZtSyMhPSk7YHU0V3FTZV1iM04obDptKTA2VGEuQTpfJSFEcCErP2M6ZiUnajBlUEw5TFBkWlxjOC1nQm0tUz5ZZ1JUKU05IiMoKSM5alJTaUVNbTpAXGojYSNUaj8hWWA8XS1TZ1pCUzNHW1cycGc/UCREXEBbSEtrcD1OK15TQDNpMVkxJGMtYCF0SDY0aCIxalFfa1oxV1wxS0pAOi1PPV4jQXRyYGAob3U+TjZMYGhkRkRiLSFQUHUkWXUwVkAjKFJAIUclc2FDbVhyUytMO0w2RitNUDU8UEQrUnFDXzckTyI9cUphKkwzLWt0KiE6TXU1YGQxQz9ZIzFDQEY5O19MRT08SmIqJz4lcypbXUhFO3FgQGc8a2xxcz88MyxTUEFLVm5pUiJSZWBfXzI/RTljIVFvTzFhKVw2PV1bNHU2QT00LSdJLEc0Xk5wPyE0ZSIxNmhabHFpNCtlUGNuY1djZzE5dDJvZHBVQSlISSU5c2I+SidmZyQtK1JWYHVyK18maCZDXE83ZlJDRm8mTkxzQENnTSwocFI8PzZjR2Q+OFxbPiVuIXVdSEQkTWBAZklTbSpWPWUzLFNQQSxjQUlaJStldC1DWEtqMVlcWElPWVdnLGlEUC5JO1pCT1VubnRnLHJfM01rLkNhRTI4MVk8aXE6Qjh1cCxNT00oJUNkc09wS1pYXmU8S0ZtUyVfTzZxQk1DR20jZGQiYkFAbSVgWmZubmdQaiIzZ1hKTzxUVU5aLSkrYXRpZClscm9LYSJddUQrNi5jKT0wKUk0dWRFVklfO05ZPHMiLUBfIU8xa2NTMGBqQFc+TV1RQWkrU0I5SURmJFlHbzJQKl1vLD5RL3JmKEFzbDVqJjZmP0AjJ18oIUcvJGJDbVgqOy4ncUZaMCQ6bTVfcytkdE9tYXRucmw+VFJxZz1OIShQUlE5KENibyJdTWdmPDc4YDkzUmZrY0Y4S3AtTDdVK3BgMCpsWjBaLS10Z0hkbm8nOjxVP25aIlpJaV9ETlphQGkhbG5vODNgazVEdFAnKFJVZydAWGdFNm1XSGxpWDYhZyxHQllma106WTdUIzIsYiNXSUVoJVZUO2BdQURHMDBga2w/T1NkNSJnNCFWPmgmY0tiJmhtU0M+aU9xWVlXbVgpQGFobWBFZSlUPi9TRm5rclIwNUlZKlM9dVdfJSNNPyVFXDtqOiEhL1BdXTVAYFk2Lm5OWV9GIyZIOTdwK0BwWmRoQ21xKipSSSQ3RjFPYDlbcFMmPnQwS2RqP1VaYXFzTExdYFYqWTxTJyM/cy4zS1RiQzhHdDIjYWpKOVVsYFM0X0MiZz1lQl4kYUJSWyM2QTxbQSJKPUw1bzFicUBxZV1ZWVhJYzlpNVBdPyRPRSVUJlddT24ibzs0cGlZRDpTPFpfcWMlYGgzS25odXUscTlEITVNNC5OJlU8T0hdYzkybGJIQyVuZ1dSQDdrZXREUDNQM25ccyFjUkhFcFM9YmhMYUY3Ql5vMlY0dFUyOmYpczlhT3E7VS05RFkjTkgsJSJESWJpQ0snYkc0ODYnV0pSUGgpdUQpPm4wX2xvNTZILE02IURrRyUsKEUxYzlkPS5JWDhuVVdsSDcvdHEoLG9RYmZLVTFobEpbaj1MRFI7UzFibmZwUmk4cWFCSFUna2ZeU0VZQ2c6RCExMFRjc2s0NSVDc1xhRSdOJjBRTzlwcW83XmBWKiFFO2dMLFhkIkBBQjVNTGY0JCJlNTZoaFYuOTRjVlw8WSddXS1jPkgxKjo2Mm5bZic0Si81YSElZydPLE5wZllAYCkvIlAqWG9IPm0kWz5mVTc6QktLMFMjb3A7bV9MYU1PcVctcTRqXGhBa1dkZ1NEZWonJ1dTcE9RXURFOD9wOiIrbz5dY0BgOkloUCxQal4nTjtCSUFTcydVSThVNjV1KzFKMSF1RihwbiIpVFZccCQkYHJjZzMjM2gnLmZsM2JFZ101P0JkcVsqI0Q/WDpJITshTmpGMmpSSkNBQjJxV1g0U2FecDMoMUBWO2ldSD0sWEpiQ2k3PmNTWVlfWF9uRCkhWG5aSSwoZypWYHFAKkphR3RwV2c4T08uVSJqXWBiJmxwVk9mcU0iISovQSxPTSxkMTBjazpEJWA+NGtjRyRBRlpOLSs0VW8qLWBgbUJRRDAuLGltQkwuSmVBTzxGVzFKRWohMDdtWmVQciY5bDRpRm1FYChgXU5PZEhpZFlAMWhFbzMyUCFbZjIqTFFZL0ZAXUYiJ3AjQitLTFUtbEksNTFEMSJfYStnXHNZL1QwXkVwbTxPSlo7Y0NCWmQmQWZoYVBiKUleZFojRChRRGBxZTVDMUtya19wK0NaV0MlRmwxQUM/LDVPNGoiJFE9PlEzMC0wQllncktPZGtCbnJnLEpBdV9hWEc0UERyNWklUyFoZUdzXV1BcmBPamFNXG06SmtNamxiUDU3MlJqJjdWTCU3W1UuXjY9PWltX18pN1VJR0lHVjJyXHEiL1ZvTjRrLkc/Z2dkM3RDWz9GSTRJNjYqMig5bFcjTj5GbyxvR0xQVTJVKGpdYWxwanIwI0BJcGVrYExaMnJLJGFALjMtSkIqJnJVPik0UnJNR0IobG5fQyFpYkVTbDsiSnEkI0RZRGM6W1soYD1AKmJbXUVwRUNxbTg7KyU5dW9KW2wiTEglQylPLUF0aSdFdUtyVVhRWnJfO2plIiplTi90JU9oY3EwNnA3R0NaImFEL0JdOUpmdGRGRVQ2dC49ajlbQipfQmllSEMtMyQ/a2lAJmQwJldNK3EvZVNWMk1MbjIxYUUjMl44MzklJEo0IWo2KnRcbktjZEFnbjwkTVonc1xNT0ZwZF1oRDVnbEtbRkpJUmgwLlw9WSc3Xz87WyJcY2xCaC5iQiYqZUdRT1hJS2o+c01LOFhTSCtBLi9oP2ZBN2Myb3Q2YmY2KldMWEpbJmpWN1BNPVBWQSopPVxJcGRpaS81KWNISjIqbW5TPzZeMW9lJFdyWixuJkFIc15vN2szYFVYUUkhcWddUkV1TmNjLzonZWFvJj9UKW1icjpsT2ZlKkpMS0ZqaVtmUGJSNShqQ0QlNWg5MidJIlsyWzxwW0VAWmFiQm90Z0BKPk9maFBwRW8tRStfTVxcTUhTbjtKR0dlOWo1bUFgKVRrQkk5SFdhNm88RSlqZ2Q6a1M0VGNKOmpJVnFKSileWXB0NklTcFVbamleaGw/XUpPOWNiMVJkUSZoQDAmTTNfXyhYNT0yaC9AKCtJUExQNDQ2NHQraDkybUchKjtydEhqTT02SEcqWSQ5UmJNPTgzdSFSI10kPkppJjJVOjYvcWY8PF5UT19jPVtJZCNxUWNSRGk+WTZbZFJyOjpoa3M0QlwvU3FOcl0hTyRyPVdKUEk2UDooaDk7Xk46RV0tO2RbYHVxUGRgakMwZ0Y+UlFbczhMNHQsJVUsYidbXD1zcmFrWW9JZF90R1RdKmE6bkk0P0RoYio/KldSMSN0Xlc/dVEnIXBnX2UvW0Y4XDpWRGAxXEppY0VmQ2w/WWJdRnVsNDk+UEIpPWBMWzFGZXJwMCxXQD0zbzcta2g8IVElVVsxUztIWFA0Nlo5Xid0JkxII2UvTVg4SS5lMklnImR0TS44Oyc0Z2UqS01eKlVSPEhhSUJRIzVxJD1UQ0JZKTtdXV1DL1tBal5tbiJFQjNiN1JObzRWTzUjWSk6PC5oJig0MGtIXUVYOz9QcyJtbidIODJRWjBZKlFQKTxwTm8uUGhMUWY0T1ZJOHRUZWg5SGNmYFwyWnFyVmcsXWZfWW5tNko+JiI/UHU/JThPZyQ9QDg2NjRbU3JLSFQ0SSxqIT9wcz1vWCJYYDdgVUxUSEVzIVhtPWhbTEwzIlAtRC5lWjItZylBMChXPzxbUltkQ15fdSYvM2hJV2ZNJysjY0ljUixIOFk7X0NWLmoyOkIxKz89PksmOUQ9NikiLDt0cVVSL1slWFUrSi9pKz08WmtqcDZHPEdKUUpTdCUlY0p1KiNcOHBIWz1XQCUzcD1aR2U4WTVcKiJJaUA8V190W0RUNG5IP0FmVk9wR2o4MyE1Omw+YV9rMDRaQSJFQTpAI05caiUqMypMR0VZbFRlT1lFNloiTFtDa28iR2daR2BLLFdnZGE/cTBycCtPUWsjRm41MDdbQCMzcDwwVW4sTkJeVzpDZmstQD0xaV9zKi5rYyIvRy1PPz9ULkJsPUgja10lS1gsWVYiXnIiSCZSPEp0VEgsanJ0SSs4Xiw2PjMlaHVmci5EQzVnXihmP3JXNTYrLFg6dD9URVdJSWhMQD1UImRVKXRBKFc/c0FnVTRlLlImL2VqJGNmY1RDXClQVi0xMCJIc09pZ01cNVolNl5ZWlsrYzctY05vOSQxYSVHVmJKZF45ZFxgNF1VbiUnN1JYL3RETDpAWGgrPGs8NmFoKSNQOFhdaS5ATU9DJHE/S1tsSVdCYkcxY1YwdVdDJTRHSUFfa09hb3FGOjM3Q3ROcUozYWNtbCchXjs+bEY+b3I8OFJDcmAkLGYodE1yLjIuIiJuRztrUy4qUkNDKFglLGgvJjsvXTkkLiJATF5GW1tcJ11hV284b3UpXTJhUTIlXVBBNSZcVDlkI2ZxKj4/Wl1eOi9UIz8ldDohOSdOQ1daRjBIYlwvIVxIczJFWHNdKExTKiF0X09XRCUqTT5BXHBOZSRqTClgVTpfXEBqRWZkMzI7bF9zdGpCK2ljJXFNZUZWYCFIM18pTm9bXlpYQzQkYDMpcT9vR1k4aHRpVDUucVNQcWQ7SGlob0o6Im9QRWhpVGg6KzJealpfYTRjYk5HdShoSF1OYG0jRkAkKi0nT00jVWxmMDZiTG9TPVU+Sl5SYEVIVS5GT3FcKGQ/YFFXV1M0RkFeQk9UT0BvWGUhWUE6UW1sQWhyQWEiQjNubD9pOkVoQ211QTlnZTQuLF5WU0cwWFVlN2FkZik3Z2EnTnFPN2VrXUZcNzZGKjtsSWI9IlBaUGg5UXBRay44OlRENFh0Qm8qYGV0KG1xJGJNPDlFTSxqKGlONDF0OHI3SmVZV2hwYDBuLDtSZ248cCtYYEg6WkNiYFMuLUNtImxCbTpLTUgpPnIvPl0nSkg3JDRUSyI8X14kZ1MsNV9wImg3aiMlOkYtc2grQTxPUzFNLyZrVV5kYXFPWk5dInEmM3IqRVhwZVwydVooXUNVVXAsKyNQbz0vRFxyJS9bbTpuIzpkQW1iJyZpUGAhbSdyXVlWMl5GSVpzOzFfWlc9ZFBjZyQtZ0djVUg/N1dxQThqamhcJiUjK2JjRyxOa15na2stXlY0I1gtc1l1Qk00J245bzUoVkMyY2ssXmIsdGQqaDhYaG1qJF1LRi9YVzRYKCw2PjtEMz0kWCNMWGwrNlwkcyluYV02YTZwXjxDcmxGTFhKWmVSQ3NFM1ZyL1AjUVNTKDpFMVFqRl8rbGUkPTVWTDg/PkpHNmlqVllaQ0c+Nys4QjUlLlteUkUnNUJUITlYO1M1bWNoRV5DMGxBa1dmXU0jVDUzM0VMTU8uOitGKjNNO21kJWsnWi1lPTwpNCpaMjtfRGlNcl4qImZdIz4vcVBeMi5aTHIiSDlzWUVdU3FFQk5fMCQ+U0UuRXQ7IkYjODglaVBsMS9tUiEtT2RJUXQ0JipoUCJfYGE1a0YqblJlRXA0ZGNCNTFxRy85aFJzRDJvbGovWyVzMSpnIzM+K2JZUWM4bzdNSExmQFgsPiVbcCp1RmFBdGIiO0BWNiNtcl9tLj0pZUMob2M5XWIwVixRMVtOKlpOPTshc0JbUW1hNCltYj8mL0RSVUBHRnJsV0EkQFtGJF9MUyZrQU0wND9uR0c2WltmcHE9XyNualNpU2NuL3MvPkteKFhNXyk6XURHVUlIV1BbP1VHXCtTJCgsdSIoMWlhcms4KW1jWG4kVF4hQTtRQ15fZyknamdtM046NVJSNSUrU3UkOFJdJ15HbmVSKDFYb2NpTmdcY0lWIVcsUzNCY1dsUTszOzQmaDN0LCo5PWAqNDxCMD1fTklaNjNAclpQNShGNlg7TFgoQS90MSNXRzo4KCQyUFZVb29scG8sUjBGWS1MW2UuQjMrRyVyYzVDS2JWalExMUhJM00nbmJBblV0RUBAYS4uanQuVC5USlYlQkQjIlBjNGUsIVNAMS5PMkAzJEw9P1VNInRVPmA7JnEwRkpOREEwKlBhPFQnT1x1MjZOSF1GTV9CRz9cZVYwRU86J2E+ZSFYXVxyRkUyUCZLRkFRQ0xXYm9oR2NqJHMmMG80VmhbYiZmc2hNRilgRTBEJyxqXk9cOlZFJXVIRS5Tb0Y4bU9EaSU4JD9lY3U6KygmIkNIYylESUZRVTBpOmlPIUJbVypkTExFWV89TCFsdTV1cFFdYzFsTU85RXQzTSRWaS9KczhWT19xamRILG9ecF9RISMkUWpUWSxNNGBYMDZnL280V2NLY2FWY0swWkQqTSQ2LWhoWEk0LiEpN108dFpyNi8vWlE1UWNrVyZAcklSaGpWJ29cSW1ZWjlQV2k8N0kqVWZMVis8My1ELyMuKUk2cE1vbks2QEF1a3QmQy5KNi1VbFxPS1orbjdZOj0yPGxgM3MvKm1rTS0/YWZFYiYuRCMkaTxzOkFiWUJcWSlWKS9vaFkjUitvb0ovS18+TE5sJkMwQlFnWDkwNUQ2ZU8wYUguY3JfYVpHNzE1ZmZHVC5MKS5oRVA6OzZQdXFfMiojNWlkUTQqKWM8I2VPbnBrXGZeVUpIS1tqNk1UUyo1MXNvV1lRbTRBbypMPC4/KkM3U0JVP2cuNVlrQXBIcGM3SGMtZHJUPidqbkQqcmYxIzUkQ10qVVBMIlY1VEVZblY4OzFiYVZSdVd0aVhrMzsqOlZtai5uXDY8VztPOktQcTtpQzVZb0llaiZJTTcxSFEwPUolMW1wJExhNWVrSGwsUShFR01tcEBkYWNGQ0dOKmBFREonRm0xLkQhIWlYdGEvSURIbCwnLV5idCFxPXJkSDkkR2tdaHNtUy1YST0uW0BfMHJSUFRQLjA+Omw6IVA5NHBsMV4kLmJmZT5VaiQuNCVbXzYzcnJoOGtJaSRcJXMycUJMR29QSChcVlhPXiZPT11QSUUybV1nMTNRXzNKQEYkVywqdEk0ai8ra14lPSRxLmtVYiJTMyxxYUQxNm0uZVQvVzxjMWokWkx0X19xKjFvREldJEpCczszWlA6NnEtNERqJEk3WTpzckctLGNTSD08KFtJOExpcThhZTRVKVwlJS9ZajJrMzhIL1tTWUBEIUp0NTVTQD5pQVJfbSxTOCUpbFhQR1dXJVYwNVBWTEdrayloXXMsSWlacy4+RV9BOjBSUmRuY0BMJiNWZ29hPiFqQStsYSc5SjstMF1Ja0NKTXRJSF5TPk5vOGVoOmlabS1pTS9eVGJaWFZFMjYrb085NCRFNVVFWlY8PU8rLnNAc2ZjVTIrWmxyS1JITFZjJSlYWU4mb21SWyRVLkMhQHNDTVNpNkVzaSdKJylyR1srI29LJGA7Km51bnJROF5UKTg4LGJjZyRhXGNuRiVZP09KJms2Y15lNkklR2BzNWhVKUstNXVBRyMjcTZwT00nKGcmQypMPGRfLnNJXC9uYSZzLCFEckE2KmZFXWU7YTpqayhJY0whVmQ6LyErMWQiPEciRmxzPVZWNFBGVUxRMStFOzo+UyE+T3FxQC5tITlSbGtMbC9NQUBFbmQ9VElARl0wMipUNGxQSnIlRWg7OTY2bFIqaFZYLTpcPUBpPkEwWF07SD9vR0pDWEVmNCdON1NSbydqIWpRMmRPRWhcZGlWUzVhZ0xQZVA+Iko5azkmOChYXVYzPGw0SCQ1TCM2WTR1KEZJWDY/JFQoSVJlNUZdX2xPOCYlM2hXPHRaZTYrW1g/Q3FOV15zZkcwPSg0MykyVG1DJkwyU1YwKHM+OkAtODZbT0NXSVo1VFciVjgjUGs/b2kuaU41KlNWckZjUHRVbzZXPFtSJ15ZQzVHVkRIOTQhKHBIMFNINTxhL1pWXiI8Ny8+cU8lcicwInIxXVdUKUBWJl05OjM/I2oqMUgoIzxVUD5ZO21sIWtCcGgoSkFMUTQyUEBsM29XRSVCSWwvRF43Si4tdSNHKW1FRmBlSVVuW1EnYktiNkViVURFJTJRRGViUyhxYmxAc1NRVnR0XCVwTERrRVsjK3FVMS5dWkRBaWI+N2UsNj5nXllBXyVlKUlJRzhpTUNyMT4lPyV1dF4ncVo/TD5nTklldSE7ZCNxJU5hO10uKjZzLjsiL1dobU9DPjxePGdhT00iVjxDK2o+KmIxOk1uXi82XDVHMVtKZiVrVyhfLWs9NztELEI9SFRuKEBUQXBkOGgpKihKISJeYWtscmMscmQyTjxIW24/LzM/QyInXW5rOlhMMFpTRjE8XCRqVyRqRyRnT1Aqb0onPmZcLD4lUihjKGpHNUJqYiJaJXJESkQ5ZVFUcTpwTDgvJWdgT0NFNC47NTxhMC8uRystcGpJYj1WIzpoIio3O0dYNElIVnVGc2ItOC5tWElBcVwtI3VHa09pNmNNZT43XDhoOX4+ZW5kc3RyZWFtCmVuZG9iagp4cmVmCjAgMTAKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDYxIDAwMDAwIG4gCjAwMDAwMDAxMTIgMDAwMDAgbiAKMDAwMDAwMDIxOSAwMDAwMCBuIAowMDAwMDAwMzMxIDAwMDAwIG4gCjAwMDAwMDA0NDAgMDAwMDAgbiAKMDAwMDAwMDY0MyAwMDAwMCBuIAowMDAwMDAwNzExIDAwMDAwIG4gCjAwMDAwMDA5NzcgMDAwMDAgbiAKMDAwMDAwMTAzNiAwMDAwMCBuIAp0cmFpbGVyCjw8Ci9JRCAKWzxmZWI5NTU3YmE5ODA4Mzg2M2M2NTU4ZjJiOWI2ZjFmNz48ZmViOTU1N2JhOTgwODM4NjNjNjU1OGYyYjliNmYxZjc+XQolIFJlcG9ydExhYiBnZW5lcmF0ZWQgUERGIGRvY3VtZW50IC0tIGRpZ2VzdCAob3BlbnNvdXJjZSkKCi9JbmZvIDcgMCBSCi9Sb290IDYgMCBSCi9TaXplIDEwCj4+CnN0YXJ0eHJlZgoxMDIzOAolJUVPRgo=",
+     "addedAt": "2026-11-11"
+    }
+   ]
   }
  ],
  "demos": [
@@ -2894,6 +3100,21 @@
      "title": "Flynt product recording",
      "url": "https://drive.google.com/file/d/1erL8GL0g5br3qRjcfey5IOEikORJOWMK/view",
      "addedAt": "2026-11-05"
+    }
+   ]
+  },
+  {
+   "id": "atlas",
+   "player": "Atlas",
+   "url": "https://www.recruitwithatlas.com",
+   "unique": [],
+   "notes": "",
+   "media": [
+    {
+     "type": "video",
+     "title": "Atlas product recording",
+     "url": "https://drive.google.com/file/d/1vuYV10WPjPhRa6OmuT2yp_CxYzdi3GVN/view",
+     "addedAt": "2026-11-11"
     }
    ]
   }
@@ -3044,6 +3265,10 @@
   {
    "at": "2026-11-11 14:00",
    "text": "Landscape: updated from the 2 November 2026 yes/no review (marks, descriptions and insights)"
+  },
+  {
+   "at": "2026-11-11 15:00",
+   "text": "New product page: Atlas"
   }
  ],
  "notes": []
