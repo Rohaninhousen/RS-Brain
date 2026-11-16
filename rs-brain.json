@@ -1,5 +1,5 @@
 {
- "publishedAt": "2026-11-16 10:00",
+ "publishedAt": "2026-11-16 12:00",
  "players": [
   {
    "id": "bullhorn",
@@ -3231,6 +3231,530 @@
      "addedAt": "2026-11-16"
     }
    ]
+  },
+  {
+   "id": "workwall",
+   "player": "WorkWall",
+   "url": "",
+   "threat": "",
+   "createdAt": "2026-11-16",
+   "updatedAt": "2026-11-16",
+   "sections": [
+    {
+     "id": "s1",
+     "title": "What WorkWall is, who it is for, and what problem it solves",
+     "type": "text",
+     "addedAt": "2026-11-16",
+     "text": "What it is. WorkWall is an online marketplace where tech companies hire skilled tech people from other tech firms, instead of using freelancers. Inside one account you can search a very large talent database (about 3.3 million WorkWall profiles and 2.3 million external ones), post a job or project, interview people (with a human or an AI interviewer), sign contracts, track projects, timesheets and expenses, and pay bills. You can also buy software licences at a discount and earn money by lending idle staff or selling software.\nWho it is for. Buyers: consulting firms, staffing firms, startups and large companies that need tech talent fast, plus their HR, hiring and finance teams. Sellers (partners): tech firms with staff between projects, who use the Agency side to find work, and software companies that want customers.\nThe problem it solves. Hiring tech talent is slow, and using many vendors means many contracts, invoices and tools. WorkWall puts finding, interviewing, contracting, tracking time and paying in one place, and gives firms with idle staff a way to earn."
+    },
+    {
+     "id": "s2",
+     "title": "How it works, step by step",
+     "type": "steps",
+     "addedAt": "2026-11-16",
+     "text": "One sign-up gives you a \"Squad\" (your organisation). Below are the buyer journey (Part 1) and the seller journey (Part 2).\nPart 1, hiring tech people (in the app): Sign up (a free account is one Squad), Verify (tax details unlock actions), Find talent (AI search of 3.3M profiles), Post work (full-time or contract role), Interview (manual or AI), Contract (contract, project, timesheets), Pay (bills, expenses, credits).\nPart 2, winning work as a tech firm (Agency side): Find work (AI-matched opportunities), Propose (send a proposal or quote), Interview (scheduled interviews), Contract (sign with the client), Deliver (timesheets and expenses), Invoice (bill the client and get paid).\nPart 3, also on WorkWall: Buy software (200+ products, 10 to 20% off), Sell people (list idle staff on a \"bench\"), Sell software (a form, then team review).",
+     "steps": [
+      [
+       "Sign up and set up your company",
+       "free account = one Squad",
+       "One free sign-up creates your \"Squad\" (your company account). The dashboard lists three first steps: add your tax details to verify the Squad, invite your team, and complete your profile. Verifying unlocks actions such as posting work."
+      ],
+      [
+       "Find the right person",
+       "AI search of 3.3M profiles",
+       "In Find Talent, describe who you need in normal words. AI searches three lists (WorkWall members, outside talent, and people you saved) and shows a match score and a short reason for each person. Use filters to narrow down."
+      ],
+      [
+       "Post the work or add your own candidates",
+       "full-time or contract",
+       "Post a full-time job or a contract project (AI can write the post), or add candidates yourself by uploading CVs. Everyone then moves through one hiring pipeline, from Longlist to Hired."
+      ],
+      [
+       "Interview",
+       "manual or AI interview",
+       "Book a normal interview in the calendar, or send the candidate an AI interview link so they can answer on their own time."
+      ],
+      [
+       "Sign the contract",
+       "time and material or fixed fee",
+       "Create a time-and-material or fixed-fee contract. Both sides sign it inside WorkWall, and a project is created to follow the work."
+      ],
+      [
+       "Track the work and pay",
+       "hours, expenses, bills",
+       "People log hours and expenses. You approve them, then see bills, what is overdue and what is paid under Finance."
+      ],
+      [
+       "Or sell your team (Agency side)",
+       "bench, proposals, invoices",
+       "If your company has free staff, open the Agency tab. AI shows jobs that match you, with a match score. Send a proposal or quote, take interviews, sign the contract, log time and invoice the client."
+      ]
+     ]
+    },
+    {
+     "id": "s3",
+     "title": "Features and how they work",
+     "type": "table",
+     "addedAt": "2026-11-16",
+     "cols": [
+      "Side",
+      "Feature",
+      "What it does, in simple words"
+     ],
+     "rows": [
+      [
+       "Buyer",
+       "Dashboard",
+       "Your home page. It shows three first steps: Verify Squad (add your company's tax details so all actions unlock), Invite team members and Complete your profile. Below are shortcuts: Post requirements, Evaluate proposals (see replies to your posts) and Discover talent."
+      ],
+      [
+       "Buyer",
+       "Find Talent (AI search)",
+       "Type who you need in normal words, like \"React developer, remote, 3+ years\"; ready-made suggestions are also shown. There are three lists to search. WorkWall: members, each with rate, skills, experience, a match score and a short \"why / why not\" note. External: people from outside WorkWall (20 per page) with experience and skills, and a \"Bulk fetch\" button to get email or phone. Internal: people you already saved or unlocked. Filters: job title, location, years of experience, skills, company, school, degree and availability. \"Save to Candidate board\" adds a person to a work post (needs an open post)."
+      ],
+      [
+       "Buyer",
+       "Post Work",
+       "Say what work you need. Pick Full-time Hiring or Contractual Hiring (paid by the hour or a fixed fee). Describe it in normal words and AI writes the post, or fill the form by hand. The list shows your posts as Open, Draft, On hold or Closed, with filters for hiring type and skills. Posting unlocks after the company is verified. Replies from sellers arrive as proposals under \"Evaluate proposals\"."
+      ],
+      [
+       "Buyer",
+       "Candidates",
+       "Your own candidate database. \"Add Candidates\" offers two ways. One by one: upload a CV and the form fills itself, or type name, title, location, experience, contact details, LinkedIn, overview, availability, skills and work history. Bulk: upload many CVs together. Each candidate gets an ID. You can search, filter and export the list."
+      ],
+      [
+       "Buyer",
+       "Hiring Pipeline",
+       "One table with every application: candidate, where they came from, contact, role, stage, who added them and last activity. Group it by candidate, job, status, source, location, notice period and more. Save your favourite views and switch between list and table. The steps are Longlist, Shortlist, Invited, Applied, Interviewing and Offer Released, ending in Hired or Not hired / Rejected."
+      ],
+      [
+       "Buyer",
+       "Tasks",
+       "A simple to-do board with three columns: To do, In progress and Done. You can group, filter and search tasks, or switch to a list."
+      ],
+      [
+       "Both",
+       "Manual interviews",
+       "A calendar-style list of interviews you arrange or join as a panel member. Connect your Google or Microsoft calendar so recruiters see when you are free or busy (never what is in the event). Until then, people confirm each time with you by hand."
+      ],
+      [
+       "Both",
+       "AI interviews",
+       "Send a candidate a link so they can take an interview on their own time, with no live interviewer. Pick the type: Technical (AI reads the CV and job text and asks its own questions), HR screening (location, notice period, logistics and your own questions) or Custom questions (AI writes them and you edit). Choose 5 to 15 questions, 10 to 60 minutes and when the link expires. You can invite up to 5 candidates at once and upload their CVs."
+      ],
+      [
+       "Both",
+       "Contracts",
+       "The list of contracts with filters: waiting for signature, signed, expired, declined, paused or withdrawn. Types are time and material, fixed fee and offer letter. Sellers also have an \"Internal Contract\" button for their own staff."
+      ],
+      [
+       "Both",
+       "Projects",
+       "Shows work that is active or finished, either time and material or fixed fee, so you can follow each job from start to end."
+      ],
+      [
+       "Both",
+       "Timesheets",
+       "People log hours against projects. Pending timesheets wait for approval and can be approved one by one or in bulk, with totals by person and project."
+      ],
+      [
+       "Both",
+       "Expenses",
+       "Claims show as pending, approved, rejected or paid, with totals and reports."
+      ],
+      [
+       "Both",
+       "Finance",
+       "Vendor Bills show what is outstanding, overdue and paid. Credits is your wallet and opens after you add tax details."
+      ],
+      [
+       "Seller",
+       "Dashboard",
+       "Shows this week's hours logged against your capacity (40 hours), the same three first steps, and cards for \"Explore opportunities\" (new matches), \"Work Invitations\" and \"Review sent applications\". A time tracker lets people check in with a selfie and pick their project when they check out, and a timesheet summary shows the week."
+      ],
+      [
+       "Seller",
+       "Find Work",
+       "The Work Marketplace: jobs \"matched by AI to your services, skills and available resources\" (over 10,000 listed). Type what you want, for example \"Remote Salesforce CP\". Filters: minimum profile match, engagement type (time and material, fixed fee, full-time), work mode (remote, hybrid, on-site), duration, skills and country. Tabs: All opportunities, Shortlisted, Applied and Drafts. Sort by best match, newest or highest rate. Click a job to see the rate, length, number of positions, the full description and a WorkWall AI profile match: a percentage and a reason, such as how many of the required skills your profile has. Then press \"Submit proposal\", or bookmark or share it."
+      ],
+      [
+       "Seller",
+       "Invitations",
+       "Jobs that clients send directly to your company. Filter by status (Received, Applied, Withdrawn, Declined), type and match score, and apply to the ones you want."
+      ],
+      [
+       "Seller",
+       "Quotations",
+       "Write and track price quotes for clients with \"New Quote\". Counters show All, Pending review, Accepted and Draft, and tabs cover Draft, Shared, Pending Approval, Accepted and Rejected."
+      ],
+      [
+       "Seller",
+       "Proposal Status",
+       "Every proposal you sent, with live status: Draft, Applied, Accepted, Contract Declined, Rejected or Withdrawn. Filter by type and by how it started."
+      ],
+      [
+       "Seller",
+       "Agency Profile",
+       "Your public company page that buyers see: headquarters, year started, team size, industries, services offered, awards, leadership, team members, projects, clients, certifications and case studies. It also shows years on WorkWall, projects completed and repeat-client rate."
+      ],
+      [
+       "Seller",
+       "Client Directory and Invoices",
+       "Add your customers (name, organisation, country, tax number, billing address) and see their projects. Client Invoices has Customer and Internal invoices with totals: net payable, overdue, paid this month and total invoices."
+      ],
+      [
+       "Website",
+       "Software marketplace",
+       "Buy software licences at 10-20% off: 200+ products in 15+ categories such as CRM, security, cloud, website builders, payments, email marketing, e-signature, ERP and design. Read reviews, buy in bulk, and track licences and auto-renewals. A separate Hardware area covers business hardware."
+      ],
+      [
+       "Website",
+       "Selling and plans",
+       "Firms list idle staff on the \"global resource bench\" or fill a short form to list software, which the team reviews. Plans: Free ($0, 10 credits), Business ($30 a month, 500 credits that do not expire), Enterprise (custom). \"Assist\" and Enterprise give help finding vendors and bulk discounts. WorkWall does not publish its commission or whether payments are held in escrow."
+      ]
+     ]
+    }
+   ],
+   "files": [
+    {
+     "name": "WorkWall_Report.pdf",
+     "type": "application/pdf",
+     "size": 13312,
+     "dataUrl": "data:application/pdf;base64,JVBERi0xLjQKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUiAvRjMgNCAwIFIgL0Y0IDUgMCBSCj4+CmVuZG9iagoyIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhIC9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nIC9OYW1lIC9GMSAvU3VidHlwZSAvVHlwZTEgL1R5cGUgL0ZvbnQKPj4KZW5kb2JqCjMgMCBvYmoKPDwKL0Jhc2VGb250IC9IZWx2ZXRpY2EtQm9sZCAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjIgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iago0IDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhLU9ibGlxdWUgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YzIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKNSAwIG9iago8PAovQmFzZUZvbnQgL1RpbWVzLVJvbWFuIC9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nIC9OYW1lIC9GNCAvU3VidHlwZSAvVHlwZTEgL1R5cGUgL0ZvbnQKPj4KZW5kb2JqCjYgMCBvYmoKPDwKL0NvbnRlbnRzIDExIDAgUiAvTWVkaWFCb3ggWyAwIDAgNTk1LjI3NTYgODQxLjg4OTggXSAvUGFyZW50IDEwIDAgUiAvUmVzb3VyY2VzIDw8Ci9Gb250IDEgMCBSIC9Qcm9jU2V0IFsgL1BERiAvVGV4dCAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdCj4+IC9Sb3RhdGUgMCAvVHJhbnMgPDwKCj4+IAogIC9UeXBlIC9QYWdlCj4+CmVuZG9iago3IDAgb2JqCjw8Ci9Db250ZW50cyAxMiAwIFIgL01lZGlhQm94IFsgMCAwIDU5NS4yNzU2IDg0MS44ODk4IF0gL1BhcmVudCAxMCAwIFIgL1Jlc291cmNlcyA8PAovRm9udCAxIDAgUiAvUHJvY1NldCBbIC9QREYgL1RleHQgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUkgXQo+PiAvUm90YXRlIDAgL1RyYW5zIDw8Cgo+PiAKICAvVHlwZSAvUGFnZQo+PgplbmRvYmoKOCAwIG9iago8PAovUGFnZU1vZGUgL1VzZU5vbmUgL1BhZ2VzIDEwIDAgUiAvVHlwZSAvQ2F0YWxvZwo+PgplbmRvYmoKOSAwIG9iago8PAovQXV0aG9yICgpIC9DcmVhdGlvbkRhdGUgKEQ6MjAyNjExMDkwNjQwMTkrMDAnMDAnKSAvQ3JlYXRvciAoXCh1bnNwZWNpZmllZFwpKSAvS2V5d29yZHMgKCkgL01vZERhdGUgKEQ6MjAyNjExMDkwNjQwMTkrMDAnMDAnKSAvUHJvZHVjZXIgKFJlcG9ydExhYiBQREYgTGlicmFyeSAtIFwob3BlbnNvdXJjZVwpKSAKICAvU3ViamVjdCAoXCh1bnNwZWNpZmllZFwpKSAvVGl0bGUgKFdvcmtXYWxsIFJlcG9ydCkgL1RyYXBwZWQgL0ZhbHNlCj4+CmVuZG9iagoxMCAwIG9iago8PAovQ291bnQgMiAvS2lkcyBbIDYgMCBSIDcgMCBSIF0gL1R5cGUgL1BhZ2VzCj4+CmVuZG9iagoxMSAwIG9iago8PAovRmlsdGVyIFsgL0FTQ0lJODVEZWNvZGUgL0ZsYXRlRGVjb2RlIF0gL0xlbmd0aCA4MTE0Cj4+CnN0cmVhbQpHYXVIUWxdXiddUDVoXSJVMi1kMzo8cHVqNjFGLT5xcXN1V25RLEFDWzpiXVddIiY9ayZYKUBPI2FxSlhkPThwXU5NZGhtXFFILyNXWWttYV1DRylsVVVwUiEwRi9nKTdSKmVESjJhdCxqKkx0XUslaDBJMy9IUGUoXG02PG9RQStFUmxsP2ROLk8vRkVnU0lMP1VrLGlvLytUNGklXF9FJDoxLSE3MlM8TCsyLDJnQWY0IVVdN185YDgmLihyOlFZNURHTSwuVz84ZyVZPUVVb1E6QyQrJThwOClbXEdaSzw1OVRFRU47ZyoqNUtoTW9pNlIjKVtOTk1LYylALGFMLisrUUJhRTVlIj8kVm9vYDArRjFZR0txQ2IrL3I5PDFoRTJlJVdpSEooRTxyYVtmcG1QVCdgL05jcGpAOj9zViQudTByWChMdXIjaS9gRU1jcF0oKWs3Y0RkYiZJalBWJ3RiV0VUREhaP20vI1dbWGhJMkBJbj0oclVMcztuNi51RChVJzllPUQtaFRsKGNHV0ZtXyk9LGhgNS1eVUxaRTZDXVwkZGZ0TVZbbUVfXCpQSj1cLEBHbCRLTVdISUdOMm5MbD51OyY1Q2hRN0ZxZTZVJF8vPEo4PkNSZSM/VF0iKVInO1ZJXi5LLihlXkY4cEQnKyg3TU91JFEuI1VaaWE6aDp1N1BQSkBmZkgwQHA8cUpBXFsxUlRkLjsiQk0oYGVXJmQsUk5oMjBuXSljYFtWVGNEQTFSTWcoREJvbUlYaSdGYUVzIWhJZkRpMSNPS1NVXSNSdWpiYjNhTjJ0X1xxPkhGL05hO2tjYGxPV0RQZDM2JzdUIXBEPW1FaC1JVHE7PmFJUD48Oz5WQU9cJjdTSTEnUyEyUGdQXk1pZ1AqJjlFWFZWYWUrPFw9OTkyZCJvRmdURD5OazBiZlRfcVdWT2laZ01JIjNwPSo6XiRQLE9bUCRWVDAxL19rOTwmVChPV0YvWi0vNVgxTD4pN0k2cTluVGouPz5zKHFVT1suTWgxKkBGJjBJOCojVWVQVWFuRlk4NyhAQiFyR3FnSl1iT2gmbkRZcjxvbVleKmZJOEQ1ZUNpWXUybHAocWtgcDZNMyItKHQ8WiFCJFooJSRXMFMqNjFgWVYmIV85XGAjTGBFM29bWnFgO1FYTEhGImwrISc0S0RcTkY7UkVWbSI8NExJaGthJ1xmVTpaWDBOW0pkSWhdOk5xQz9NJDpzWzlgOC0+Wyw9TGkoJ1dTJ1IwPGZUZ0g3bXE5KCduNiFLTlg7RzhwMV87Q0tcZDRtQmMlRDg/TGQ2bS9ZVVg1S0cuJm9xWUU7NzhPcz9NRFF1Zl1eLHEuLE1lRkBQbm5ZOiwxRGJIRU91ZDtXcU03PXIyZiYhVD1fW2leNidBYkhXIUQ9L0REYT1NUkpbUiVuZmQuXXJMVzc+SVRbIVNuXHVxODtTYTpxSU1oXjFwMXNfVEJxVC48PFcqPCZ1NVJYIUdZb1InVkglNU9ESUp0UCova2pTQ2BncnBaTEAiRCRjXFBNXEQkRDR1a0s3YGtDbixJb1pETERLLClCUTNdcmhLby0lYFQ1NnM9SyNrQzs5XithZTlfI0pnQnIjMjhDRl9ySF4wSWw2WWklOTZfVGg4SWxhIipRXUNBcSk0LTg6MkQhU2VUQz4lSVcjaUxcVWo5QUgrJkpGaTovYDtPbEdHa3U+YFpOQkEhLVwqJ2MwZG9bKl4iZnBccEpGQ0o8UmluRD06Pz0sLVRVN2EvSUY9bkVJLCQjK0pIcUlpRisyQWI8YjsjOWQmLiI4KFhOKGctITZpMj48V0MoRTpPKjxjVmVydWBgTCxWM3NBTURXVnEnSWE4KWJML0EmKzxwbW1FYm4+WisxQSFkRUY6bl9qWD51RytOZmszTVRtUStQRyRoZ1EnKypfTyJ1cyVTWEtWVyw/S2g2cVVRRkcrQU1ERC9AQEc+YSFmNUBNWXVLQ1JMckpfWW40Slc2UiJOMkt1QnNhaG1zOVoiLmssMF9mVzcmXiVtNVZNOGg2JDFhJytcJF4wIV1nZ15rVDhTdUQvSjB1PjkoQzYzTk4nRyZVS1s0a0xPPlMkQ1E2YFM7WGdGcmE2QTpWWXM1VjxLKU9oJS4mOykrZTdEciltVEIoaykjcFdRNGROVyhFJ1dHT3RiLyw5Xl9jLkFXYT9KWCE8NG5ZJlZCXTAkRSJsVD9MTUU+IjM/RWBdYD9SNi00UyEqPzdsV1FsYkUtRGMlIydQLCtrJF9nNW8+L2ZrSl8nPjQlLHNkcGJVVzZsZGFqckNZJ24xKUNIISIqS1Y6ZyY0QzYkVkFcYiM1MmFXRCs8ZiYhNDVnVidzMVZlQV9GdWxnPHUubmdwVUNINUNQXVtdLXVBLFtANy46a2VdYj8uUUI1WkkmNkssR0hwMS0vUmliUlBYXFQnV3JzbVIpTG5UQyRmTzsqJ2MkaFZjMWpTLzVBTj00PipxMiFdMWoydDYjJTgyXDwrSDprY10kTWYpVDdYZCZwQE8tK01hLSImTkVnRSpTMWpTOmBdZzRgLGVxI2g2bl5fNElBbDZZIjZZKU1Sb1hFPlN0OlBULmMzXTdwUTViMnBwMF5tP1BXR0VPVzBhL2NVPm4kdFw4ZT0pV2JHaFJbUmJvRSE+PFBPM2ZcclxYSUpadVY8TTY2QWl1L1A5WktjUWYxMms+YHImWXBCKHM9UyljQigrME5CSygxQmErPU9ORE0kbnBxJzZZXkdYPmdEU1E4NDYxalg/ImwrR25RQF9fSSUrKzo4Y09gSkI8M1IyMGhIIzMiZCciQGxOTStFSE9mIkhGNTVkNT09b0JMcmVIQEIqWFZqNT5IWTQ2My5cYUlRWE5yMVsxMkwpZkluXlghXk9VU0chTnBgPWlLalVZVyclXiQqUlBIUjM8YUd1ZCFndWUnLERpLXVcI25XWWNhYls4RyxRVClfN1FmKWhGOVgnVCtwc04/S3UuQj0xUztucTxsP0JyKlRpWTQqb1w9KktuXl1cbzc2Imw+ISR0MlF0S1UsXWMpUXMuaFZ0amQvXzRMaiUuSiIrcGJjNyYtTzVMI0MzSVI3K1o4YEFtN1Y2RkBDZVM9MSQsZU9AKj01cFxGQzpKWWZMbXBebmEwa1czJ0JsPE9MXi9cNWhnUVA9aC9oOjVfPFoiSU1pZCllYkkkVUUiUys8cD4hIS0vaWpCZlo/SCpZQVFAWTxpOE9aZGBXLyE8QC5AMzVkQz00QVVRXDBrTEVRVVUxYk5bR1o9SlNmJU8+KT9RUWAuS0oxcyJlWy9zITQ4aGw0KGZMISE5PltBX0NYMz9nMjorZVtZPWVHTT9IMkpCTmYvbUA3VTVaP2YoVWJlMjc0alIpbidqUzFyW3QkYydORG1DSSpmbWYqKCNlUVpHXz0/ZU1PSWlgdV8mXT5xVSRARSQvUCZxMy8qImBXRD0vIUgzLFguXmRAP0wrKUdPU2dzaVxVcy4kO188UWoicTROS11RMGxlKGQoNzFARVs4KUk4S1BrX11SM05aOlEwTDZZKiNEMjpNZ09UZVNwV1JdQ1VLMTJROzsvIT0qS2dvLSNCWEhoM05JSUtRTyUpY0pVW2JIbSJnLyIyYk1ScCFac1tAUHFsXGNrJFZAZkxHVjE9P14oTSYkX0lUMFYvUGciZWROYko/a3VCLSpgYF88LVxcTmU2Qj1ZcE0rK0dVQ2c1J19jSC1wNEtmM1YxVyc3Vj4zSEk6dHIwRTAwPzBFK1dGRk5rcC5gYFg0dT5jaWFgY1BGWDJMQEZBYEtLbFlSMWtoV1hIR286QGBTcCFZKWYpZ248Y0gnYFtgRWZKUyhhKEQ/MTRpJWA3XmxVVzlRYXM/ImlPTDpPTDovJzJOVD1gKD1bN21ZUGVQcWJnWDs/WUdAQj0oW0I/TS84O1A0TUY/bDM1LnAsWyw2Ty0kWS9eUDo4KXBNPU1MPVE1XSs1XzMyNElxYzNpcCpeSlBVRXIqSGlhbVphQU8iRCYrP2dbS3MwWisjakRZW3Fqc2VLLD4tOSs4aTJYR0FWXzI1PDhENkN0I1FhcU9AbDEqXj9bRTsuSj8xKXM9ci5iKEQkOGlbJV1lXGRwKTw5Oz11PEs9dC41L0pPPTFmWytAO2U3clNHOCNyKi1nWjFyUjpNRzwoZ1lOcGpjRkwlLVtOPFNMWnEtKT02I2pJQiIpPCk4J1RWJTRrL1hiTFtsXzNCc3ByRjFsRzJWSUA+V1Y5J2c1JV8oTyEiZiY3aERIIUZfcC9lU0RIamJSSmZPPHBqOzg4YEdDQFZMQj5RPV1vTCZRRHRjJkAhTzVMYiExUlwhMXAvVWozTT4vOlR1WV8xTzlHRiI1a0cpQnU8Y09eaCNlK0JSIjlaXWwoLElOTDNRLXFkaCpsPTIyQ1pKVV5pSG5XVU1nYiQkIk1tZTNNOiM7MCVoKkpQZFtETiRJSzxLJk5TL2hUPT1XVHNaL3Fic0Y3blMkT15tTG1qMF1wTGJAazxbKCpaKVUvYjs1J1ZqWDxhLUpGUDBsKGxRZylhR01naztOdW4zTSYnUSVKSmJePl9PKWlmR1pbUXUiM1o8TkIpL0xYLXIwcFxMNWA/TVxuWmUyLnJ0Sj9bTVdxcVAjMjc3JyddXypPLWQ9LyR1cTkzQ0lgXCVJdG9kYV4iMUhZPFxRSkZsJGVgV3ImcCZrJHJSY1Q2PEtIdThwJj9EUiVwPmRrL24kPjszbEppMCFXKlBMREVoMyZQbjksQDJWdUxqIWJAPFFCNVlKMXQjMSwjZUxGM1FuOG9lPlkwUmM7VF1rWiplWjVqVCtEY0xHbj1VVzlMcSFHWzRvISczRk90VCNdSUE9PDwvSSNDJ1VyJ1FmJCVBYCY1RTcqNS9XRCpQaC8wJiJcYG1GcGZrOm4xPDF1Vz1PMlBzKlBZQGpbIl4uNjMtJVtWQms9NUoybk1UQCc2UjJgbV9mYkVKYShAL0AoQEBOYWIsTTpvJT1zLzVDR08sVmJdZ0U+JVJiPihVI2AhbUhyOUAnNjwxQDRDOy84YjVjTVBpNUM8aio0bF47LmNRaVdeQ0svNiZebVgvQU40LkFGT0xjVGxUWiFHXjcnSSZEJG8vLV5zbS8+XGZcT0VqdGhUaDc5MXRtOktJXlIxUmQhOzotV3EzKGFRRS81P051NChnaCZkODFCcUFIZj11QUtIcCRZdDVQKllzayZzQWc1SGVrWVQtJDw2PDRnWCwtXi4nMSdwL01WVHNiYzxRYG4mOC9OZWlvNjEtJl5TT0xaVFllJVsxdF1NYT1RPGlZQEo/IVRuTS46bGYkcW1VNSQwOClYNSc7Wzo1OFFdMSFcRDdEVVEqPHNzbz4wZkdEZ01aSGppXWFzczQiXCFfJzkuUSZkQmdtUzEhbSRRZ0MjdGE5WGA8RHBDV3EiITIsOVtLYGpAJVBeTUtcdDoqP3EkS0xjSXFEKjRSYVJwaURVYEZlKGliRjtKJCM9WSRCXmJcMidhb1BpLyxxbl5KZ1w2WVNMNDMpTG9SZjJ1JGZTPidPOk0iMDNgNSQwRko9LjlVO0s+N2RHWjZDIlY5RWdFI107WDsyRS8oLmIlJltTVmIvOW45WTojLEdzdG5oNVwqRDEkcU1hL2RmTTJSLz0kZmdDVz4qQl9GISkpMjgoa0VdMVBeYmxtP3FMOyhoR3FBcmAlciUjNT1EZk9baitxXG1tSSpeWC5UbFtcNmAlNVtNQmRPNz5VMWUhTTxfZEwjanAqYFErNCI+QWlKXD5cXjQhYihMNmJLRi4mXGVdPldcPFxWPVUlYisqSzhzW1RBTiprYSVIUEYiYzgzQGZKJ3UiXklEQD9eRil0PVVNaE9qbyVXaT9eIiNTPnErWjpQT00+Nz8xZ1BBQi1BXzNTZCVmbkVDNjdwKERbPUtjYmIqc0wkYS46K2E/MElJZj4zWFY6U2I/VkA/UiRob2ZtdDVwTkQrSGFkKCM+QkRZXkU9ZE5xYTVRLXIiSFAvVl5IPEByNz9IZSlcb0hUN2FRVVJUUiUoS25Gb1cocHBnZjBWUExqakgzK1UiN2Y1Z1B0LldyIXUlLzxXME5OKT1dRGlcL01gVHMlXSNKZjNcUzlDVkhlPy4jNnMmLGFBQSshLk9daFozRz5hPjlJP0MiayM6Iy0+KUlpL1I8bEUyNW0ySlc4LHBKLFUvPEpwXzRETUAhUGcuL2BNNjpOcChWLUNfLStTPGpPPmNRUGdmU2k6ZUhAOXMhIS1RPGNcJCs9Tk81QVthSjo8TEIkW1RyRkAoKk8/PzZrTlorcGNNYW5FQGZESGRuXCVMRTEiVXBXbE9DXGsnJTpkKy5hLCElWklpWjk5dGYrJ1A9PURzPlFgIj1oZXBdRD5qXDc8UThZOTM6S0coMF1CQ2I2Q0o4bDMiN2wiR0UxQzI4YVZyLmdSXUZubTZHOiJRWGwqPTU0T0tdZF8iVmVgdTlDRXBMbj07PGREXHJCYkRrVV1Lajs2VS1qLFxyOXFTUDdGcFlQZUNsZiVmcUtML29YXTFpTGA5VT0+U207ckJXYlNHK0lEUixyX19UQEUzQSoxRiU7LWVGRjhPbFZUbC1bM29VTmNEOUs6ZGVPOEVBbXBjRjJfP0FIVzlPYCtIIjtMa1dlOzZHSF9hb0VjNyYoTkdCOWhxJXMhJmpsa1EhIl8xaGR1KG1sWzxaWk1ebkhTNjpRTFE6aTRZWzAybVV1VzgvSipSNDMkLkZMYVs3NCdkOURQTj43QlllXVxqcnNxMTlCYyteX0ExMVEtJiknZyEzSF5FOi8xWDQmTVE/MjRiJz4+QSRaOUFmbyZAVlRnQCM1QWZdT1BPaUJGXDtqOCwpXnVsJTFxN1E0OV9BIzwuQUVYZ104PV0wVSFbWyg/cEMxZzFqL1pxXXU3Q2cuS3JEdURhXUJbV1FLbUZQKEVhU0g4byVDLGowXyQzQUhzRG9maXJnPi9QImJbLDt1Q2VAMmVVaVVOXmkuOi88V0tkVGhmPTAnNm9aaGIyMF1wb0NpIk1Ca2FYZVckZVlFSF8wRVlGYC5gYjtaN2VpRiFeRmcnRTZNUiVFSFZOS0dhKGBTUi4qK2BIUDJBTzdrTmNQIWcuL1ZOb3IkXkgjInJzW1pGUzpXJk1GRDdIN2E+Rm5cbVFtT05sbSNSWSNfKkAsbEFVJlk4OU9lYipmMzg5UV5tOjswOj5sXDVaMUY6TjdzZ1whO2xRaiwvU0o+IyNURVFKK19GaGAuam5NMVA+dTVJaW4zQEAwMEwtS1M8b2REbStZcWtyWTwvXy4wSlJnZy1FWTpWVSdvZDFlX1VAbi0jJS0+MCtXK2Q6Tiw0QlsmKjQ7QVVqYSR0aDghOj91Iy5yKE1oQzAtbVZhMlhgUFJrWDFUM2VFbm8mMlNQZnMhSjlGSjlPKEZGJjZfZSpzKGw7O1I0Tz1FY2YlYlgtMzNVLShDcGtJMllQODgiJUc3QCo0PlIjIyhpTUExT2Y7JV0hTmdKVlc7Km90Vy5JKiQ+XWtRSytZZlpQI0hUJEBbcCVNRUQ6TGVmQyxAPlg0cCppX00wTCEnLUpyYGlPYWFVWzhNWU9maiQ7MStOL2ooSiwlakEpYk9UXyhGcGY0YFxiYk9hdS82RkoldHEjPzcoNCgoXixXaCgqPUY2TEBwXjxlWkcoWmVMaio3SFQxOl83VkBkLSdCW2IuZ2I9L0VCXkVXZ250STRxJkEvTFRadTlsOlIyZGFULlFkamxtbGMnTjtPW1pXJDFfczZPcjdbOWBvPHJsMlFKaFVeS2pDXCRwSnFrLjFSO0xbPiQzNVE/VkhKJFRSYHVNZTFZUG1mU2o+MEtdNmlUY0hgMT9cN1h1aW0mL1M6LkFsKjUnVUJLNm8oQi1oREIyb1tfVSc8P2pjRShTO1FwLVojKFEkOFY+bTg3dVpfZyxGZmRKUlQtTHFdWEdTamhPWCJkTSQ+U0BsTyZoKyosVk1ASiNUPz8qLTlTSjlmNG1IViduM0oiJlYmOS41NFRZIipZOCgjRENrVStaNSxxVlVhMDxjMSZmQUhLQkhBMG9DamcocmpvXXU8WG9MXWxyIj5EOXNTUTpENDk0ODBUNkt0RDwpYHBVSG9BR0dvbTsyT2BhUC82Lm9URF46YkExMGckUnAoal4uWmwoUWpJYDtdQz42ISdKcUgxYyI9NTcqcyRsIkVrJnEtaWBNQ25vJFxvUTI5Ri9XQmo+WkRVdS4wLCYwNUNdKE8lTjNNZDc4NEVvcidFYU42K2lyREJdMUgqX0IwP21eV21pV2VpJl9nbCdLIlBmW2JiSGBKLEBDOzNhZERoQjZGTHEiLDhaXFZiPD9WRGhXNzZhKCFkTG9dckUhW25tK08qWzRaITNMT1hWUnJSal4jLV1FXEAnUipLQkkyTSQ9Z09LdV05YUlMWltANCovP1xnZCs2VkIzL0hnakNeci47QFtEbF1ANkxeTiVfKTw+YEFGNW1fcUY8IUczK1llMXBNUiZma09CWEs5SnFcZEA9ZEY3UV8zNm4zbi5lV083YGZzQDhcNiRTL2pkbiIpcmssISM+XSxnXjVVMSFNNzAiRnFsLCsrTEVuQk1UVCEnQl5Nc1FKLDAkOF5gLyY0cjBNPjg6WyRNM1BWNitdc21tNGNuPTRzbkpWZ0A0VCw4KDRQPU9FXDcxZ0lTaFxJbyVrZGg/STc0YiRXW2glOyluTSwtKy9jPFt0SUsmSkRMWV1DY0ZzUkQ1bW00K1ZUXTM/Jz03WDUzZG4wNFtHS0gvJERIPDgtdCdANTxlOGwiSjprYipeJWElaz1GPzdpYFBWWi4lQlY5QU1wOjgjNVFRS1hTbjJwblNddWUyTC5VbDZNZzBmQD5xNiwtR09LPEYtYSUqM1IoOVZ0JVBWYkxMZ1RfY2NXNj4nU2IxZVVVMztCZk87a2dCZG83YDRIJypdV05gXlREQk1eMjVaYyk3VWZ1UHJnNT1YVztsZjNVTj1KX1omOCE5JCNiPSIjb1E7azssRFU4YT4jQT4ma3BhJ1E6bDw6cEpuSyVKXkorMENIR1teJ0RTREErJTVkcVNQWFAyPy1MRU4kOHRMXDcxREF1MUxBVDArTTckR2hWZnIsVTBqLWdvXi1TLHI2R1BEOkNjOzE+ZlBVWGNJRnA6cSFjUypxR2k5ZTZ0PT4sNiNjSzwxZXNbKmojQEN1cFFYXVpraiZBLisqRUQ1M0ZRT1RwYidUaT1aKFxmKFd0VDJoUDcsQTxYOiI6L20jKk48WUcjSDl1T3VHYUIkLiZWKHV0aihlbERpI3BnLlMkXkdlQlg9P0w7XUNdcy9FRHA9Z0hvZmM8WyZqOzhQTnJyRVREKVFeZmJccDBgLmcuaDNUUmNAbUtkaGAjN1BGQTFzOmFaQCM6IVsrPCxtPW87bT4oQ0swZWgwYTE6OVQmJW4wIklgPCtVdD51WTMjIyE8UEpdalpXWDRcXWklbDotbENaNF9XW0AzUiM3TFMlXytTWj1gLXQvPT5OVlBHLD4pLEM5V21WXEwiWy1FcyElY2syLiIrW240QCQrbzJIIWVWRUttUFglUkxMclMrVy1HWVNQXTsvZVNeRCY9Tm8xM2RYOydTQ2Q5OFMmKVUkISYrZDwmWCZSZ1Y4PkUkJ2lIPl8nTyFVTS1lSSw0IzJfUjJPVTxDbU8vYT5NSkwiVjlZPyREQGtCWk4+IUItJUVkITInT2FIOWMmI1NQMWw4bVZAJyxQJ2VCLkp0IyQyRl1XWlpJN1wvW01fUVo2LU43MlBmRVhBJDxQKVh0LzZlLT1ERVlaPlMzYGs+ZzFCWmB0Q2A+TTZIcCskXiwzWC1FNDE/TjVAOG0zSjotWVMxUy1AWE9zYmRyJkhUZD1sIl8lRT89JDVKPmwqNDFKWWw+QjE8MFZJMVYtSDxXcCYkRlJZSmNaWjgvMyxCdF45OkYiaC9uQ2FHa3InZzZyWnVQUDJUQ0o2LjRSbzZMMTBiVlcxNjYyaHNsImY5VlRWSCtNWW5FOmlVRGxdQnNRaU4/WzpsbGc7TS9tJ1VPYF05Um9VIlQxSkpUVWNqZztSRFNRNiY2UC5qXTUla0QqOiZFKVFXPzlIR21zPWNrW0w6bUxKNGVbPVkna0o5cEZZM0ZDQiEnUz4pTUxTaUpGVDpoZyI2RjlPNjQmN0RPMlJaLTdKTWBHUEJZcTlBbz0/JS9XRFtfWlZxUHEpJzxXLkpaP1BiI2VUJ2IoL0lfcyMka1w7U1tnT1gzIT08TDFROGkmcC1QJz04MDtLYUJsWlBHVE48LW5rWko0KDxbLF5GSEdebjoxKyQzVy9uQyw+NSVQSidLM2FjRkA4TDRfUidFNjVAR3QtMFc9Z1hfZWg+Img0cUNwN1pqJjwiVm9rITcvQWJGciM6MShpN1hPV3IiXm4ndEBoVTMwbWcySjVUTDFbRiVCWyU2TmU3byZjRW5yNl0idDxQWDhZTmxjOHJzZHFXdUsvZWUhbjhoa0lza1hHdGNTQEA2aGMiNTZYPyZnZ2JvVD8ubSlTJCImNiQvZk9pL3AsW1VlXTYpKF1pR1RxRj9fMDZIY1hHbCQvTTRYPE5EdElxQFRqXTZWMHRxY2ZiX1FUP1s7Ky5DPGsxN25AdFwpby9PbDE/KTchIzpoIy0sKjkkbU5zLVA6W0EhVjM5K1ZzST8iR09zSTgvOmhRTWcib3IkTTFjOF0sc3UpNEE5dHFQQnJkLl0zVjg9SEg6LkcrSi8lXClXUFNmbkAsSCJWWnBUJURmS282YW9+PmVuZHN0cmVhbQplbmRvYmoKMTIgMCBvYmoKPDwKL0ZpbHRlciBbIC9BU0NJSTg1RGVjb2RlIC9GbGF0ZURlY29kZSBdIC9MZW5ndGggMzE2MQo+PgpzdHJlYW0KR2F1MEVEL1wvZycpcTwrMGVpPD9tXU46THI5ZXIqZHEjWT9nSSVESChFRD9kWm8jNUQ6byRdXUVJPlAjMFZmc3UoSDNnUSdGU19lO09TY2xSPGRwYDBnbFI9bS9FWDwhJEBRc3FlWmMzJj0rOGthNUlsJHMrSGtRbW9xSEpTZkVjITRJVXVxcS1qaCpoWVlrM2tIalwoTDJbYURNXmVUZCkocm9ga1xYKl4iSl41RlBPVTFEYzZjSyJMdVdGWSlJYDVRMDY2WFVbVEJNZ1NCQmYrTCNFLyhkbVo3aGxBamJbUygjRGQ0RnEmUl5ZXU4wKlknUENDWi8mUkdpMSQiSkU5ajdyXnI/Z29ZKTs6KyVQTE9eSTthLXJJIy5Ga2owNk5CJDo9Y089RSdmRSFfOV5LZz05PlNYVCFzRyVyRDJFOklGUWomXXRbLlt0UHRtTXRiQD4oK0IuSWZCSjdqaTZuMm50cUVxUzoiLFM3MjNhPTRKSzUoJG0lMTMxTSFtQFlnMCRLPUNWKF5LJHBtXlArKW0vITBHcUQyLT9GcDBVWThRLzhFSWBKKkkyOWZIOkIrJ15TZyskJ1ZTajZEdG5JOS8/OkJmISpPTyNAajExP3JfV2lhSU4/QylTUVs2QkgjMEcsJVRrbT9oLDEyTD1jc2hFIytKayRlak1LJ3RMZU0+S0JkQyVCcUdFZFRAbklRTzJVXEFdaixjSmBLVDA0MnJqZ1BRay8mPiE0XCNeYSIqVD1LUSE9OGc6QTJtTjg5VmJQRUU4RlhgbWBmUSFDMzxMKnFZTnRuVVFQIm5pTV0qI11qJyRicU1HaXNtdEdwdVEubSJGZEgqUzVvNWdqbU1yJVtfZ2FVRCxRSSVtVkBCT2F0ZVQwVjVeSTo1Nz4lLXVEXDZUcWYqUWxUP3U8P2hjND45ST0mdUAoNycqZyMtc088OHJxJTYlJ0xjciM5NEkxam5ATkdWRzBoMUBXPEA8VyZeZENGbE1fOnNaKWhkWllVJjUocjRvSzlqP11gZyM0VkVrKkAtZSQqPUtUUU5SOEduZEtCN0lAVUhWKCNPP2RfbytCUT50OlFqYCFEMkloSSNsK10sb19rPy8tVTBwQV5TZHFLVm9QQXFVJC9fUyQxMywxZiFUN0dGKC1DXHVXNDJlJjNSdTZ1b2cyOFdecHM3VlhAMEs8Nmg4PHRdTnIzdCElZnQ7a182PW9xQWY7Nz4+VDQnakBVWGtHI14nbTwqdWY9dTJfVGtdKUY1KVBFTV9gXlVab1syK0U5blMwP01SdG1RWFVsciUrSk5BWDRpXHFHKE4iKmhQSVxebkElS2lJV0gtRnBNLnM+ZyJFbVgnLCFtK2tIPz9FS2pLLktoaF9ATDwxKi80SDpbKChfZG9xM0E9NVdOP2QlNDI4XyU2OFBBc0c0XVBbOEdCViVAQCoxVEVITEpfKDldIV9RSjFUVTpXb01LJkZrJC9EXlpAM1NKdVFYXmo4JjxtbzFXY3JjVEosXEZJQWgkIWUycydLWE1GQ18rVWVRJS5xNkpVbSphPzUoY2tsPVVqWS9TbCIqVFNxc1I0KjcnUU9bTUIsZU5ASykxXW9NOl9pW0JWVyNSISglZSgnM1hPMjVqRFRWallWUk43U01FN2w6PlFuKnBncFIhSWhuQSMwcU5SQS1Nb2onZTg+OnFJQUVzWGpuND4xZEhRNDRZbypCWD1kPklNTUBJK1trRksvXWs5WTZyKSdcR1kqRzY8cWteJ0hzV1ZiWjBQKSlKRj5UITQpUSw7Z3FbOV9KbmZeOTIiWHJVaCxOUlEuInJHI1lWVGFRWis2PUYsIV8nIzRSXidEN3NLXlw+Ikt1RE5IO3BkVk05TmQ9XWw1ISpIIyRwJi0wKGthMF9ablNMYUZDMV0yUkNJJiE+PmVPa2UoclRIL2NwSWc+UFpwZEliJ10wZWUtNjdrXC1tPyczK04xYGQzUC5zWnM4PT5sZWovIkgiOTcnRjBsTCdibGpCS1c6M0RVPi40KTBZZiIjNSkvJGA/YWYqLk5BPSMqX1ZtRmQlMWskc2NgakUxWW8+NFs+YF82WTJAWW1GSDEha0N1Zi9cJXRBWUJNR3JJRjdBPHBELEhxP2AxbGRVWiNybjtkJm1Tcko1Oy5RXjs+JlY1LzJgLHRTTFNubWdDblVZSlsnI0BGSzZRJSklUFxXc29mSmhUSVc0Wk1ZP1xeJGlZLUgzOiMkLUEnOVRWSVxxMDt0JGdoKk50M3VQZ105RV5eIyVtYDlqWChZM18wVCI0W1olI1ZxWGxMUXJVMWtJPyIzbnNPck40S1lUbTtaTTA7XE0yMFpXMzBIRWZ1YlhjR2M3XFk3QTQ2MjRKMU1sckxeMFFuPkZzIkUuLlNJR0I9PlNGQjlZMWVGVytiSFMuZSNtXXNpJHE9JlliJmZQJjA3NmNrVV1wVzg2ZlcmPFpgXyRkdD1Ic1duRDEySyk7Um1rV2pBTEkiLz9rNk85PFppMyROOEddNk8tIm5RW0leME5xOCJuVHRwbEAkUiYvalFBOlgxQylRMUQxZSFRU2Y9Sz5oNCcvaSomXW0nJjE/O2QsNzElZyckbWdXPzM9Vl9VcCRAaEUrS3FlZGtTPCtjUEcnKk5acGZfSy1EckQsRFgsXEZdTm8iMlZzXEsrL1VUaWsoWllqNzZIYygtSlJRJ2FkUipOZWw8S2g/PitfLSJQKkZEXkNmUFJmTjAnRkReN0IvQCQ2KHMiRGZmMGVKQzhZNC9CajMpSChSO1lWNzxHPVFLUidhY0tcRCksRXM2PzhsWl8kJiQsLUUqPVZKLTw6QVMlO2gmXGVARlA8aS1qMiNiTlwmQDhwNyVkaColZl9sMEg4LG5AZkpQbSxhZFlIXj8pMD4nVlluJUBtUW8vTVxZVkBVcjIlTWo6PjFwP2owNS5VPGJvWS87MFRCM0MnQTMqdV1FLkVzb19sOVs5LlNac3M+b0tiYUVocTVOWjVmaUlnK3BjRTxSYic3Q2Q5ZSxXYWxOR2MlUjo3QW5hanBmQlJ1VVclJ186YydwXlJOLFZrJW1tYjRNR1c6UTkqNDlxWkZzRUQwIjR1KCNTWy1TK0wqUkdKWC1caVo6NyEqTjZHYEJGTz5KYlZeXldoXjgiTTUmYnBUPjRIRD9WTnBscTk3U29oJkpvTm8iUWAmMlpIRHU4KV5gQlU7XGgsLWI1KyQtcUIqdWAyWW5EM2EvWi5zdTJGVUZfNSxUKW8mMzRdcXJJajhGNUtPR1NuN2ZKTDgnW2c1UTRTXUYhQW9YbC1MUk9cM3FZaS8tVW5sTXFtWVAiRThUVmhZYDxQWGtNcHRaOmdaUC9SMFA9V2lHQlAyY11KK15gaCV1Ul1EWFFzNWJVTHRMI2t1RWdXYDFcUkVAQEMiY1xXLzk7MTRqNSVFXztEL2k2MlUwayJgNkBeJzdZNmd0VmA7ZUg2MU9ubUdGXnEpQC07Rj9VSV0sYkM7NzdWS0xZJFtgcEpHQEwxNDNfRkFsUmt1alkkLjppZyQsSmtjQWU7LiEpSjshOylUQGlEP3BDRFhcYGRbUk1jNC87J29IJ0omTiJPVkZmOTU7XD5LdEdNcEVoNHJWM2hqJThBOVxVN0dnXzRidF1VVXNnSy9JZ0g4SzN0QCc1JSxkZUg6aVYtYHU8RldpMFI6RGJnVClfUEdpY05rTjVgcDwjNHUiaTdebTNETVlHJmJtYiFRU0BlVi82Tj4xRkRKWylMQkxnQmRXQ1kzLydfRWl0ZV0scFE7IVxpSFxMalc0MzAjbT8yI1RDXjwtL0BhYElsOV9xZko5SkEjUShjQzReWElcaEBROTRIVS88YGcjSjdBY1FSaWImUklKYFVMOE9jSm1OITRHLlQyPzo3LWRrQV5HazAtJWcycStkRyVeKGYkbCE9c1dwM1krYEI8dEVpXk9eRSpUSWRRV0ZvdGgjTGJ1LmQjT2QpZlhwJWZMUWhcc2IvSUpVOnQoUVQlWl0iYTxwNz1uXEVoKlNHMlM7KSQhZ0ZZODptZCdmQFtUZl0+TFBvJSxbIW5fJVNyREJBcWg5PlhTa24nWXFoOFgvM2M6U0YwL1ZHRDs+XUYnVSJMS3FoXTNjcD5mPlVeR2dIPmsyZVEiYmFSNDdeTl5eSGs9YkQvXmZMLUgsN3UuYHE7Mm4yU3JsK2dAXiZKK20/STVofj5lbmRzdHJlYW0KZW5kb2JqCnhyZWYKMCAxMwowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDAwNjEgMDAwMDAgbiAKMDAwMDAwMDEyMiAwMDAwMCBuIAowMDAwMDAwMjI5IDAwMDAwIG4gCjAwMDAwMDAzNDEgMDAwMDAgbiAKMDAwMDAwMDQ1NiAwMDAwMCBuIAowMDAwMDAwNTY1IDAwMDAwIG4gCjAwMDAwMDA3NzAgMDAwMDAgbiAKMDAwMDAwMDk3NSAwMDAwMCBuIAowMDAwMDAxMDQ0IDAwMDAwIG4gCjAwMDAwMDEzMTMgMDAwMDAgbiAKMDAwMDAwMTM3OSAwMDAwMCBuIAowMDAwMDA5NTg1IDAwMDAwIG4gCnRyYWlsZXIKPDwKL0lEIApbPGE4MWE0ZjY1MWVhZTI2ODljMmIwNDZmM2MyZWZkYmJiPjxhODFhNGY2NTFlYWUyNjg5YzJiMDQ2ZjNjMmVmZGJiYj5dCiUgUmVwb3J0TGFiIGdlbmVyYXRlZCBQREYgZG9jdW1lbnQgLS0gZGlnZXN0IChvcGVuc291cmNlKQoKL0luZm8gOSAwIFIKL1Jvb3QgOCAwIFIKL1NpemUgMTMKPj4Kc3RhcnR4cmVmCjEyODM4CiUlRU9GCg==",
+     "addedAt": "2026-11-16"
+    }
+   ]
+  },
+  {
+   "id": "recruit-crm",
+   "player": "Recruit CRM",
+   "url": "https://recruitcrm.io",
+   "threat": "",
+   "createdAt": "2026-11-16",
+   "updatedAt": "2026-11-16",
+   "sections": [
+    {
+     "id": "s1",
+     "title": "What Recruit CRM is, and the problem it solves",
+     "type": "text",
+     "addedAt": "2026-11-16",
+     "text": "What is it? Recruit CRM is an AI-powered hiring platform for recruitment agencies and executive search firms. It joins a candidate database (ATS) with a sales tool (CRM), so one system handles finding clients, filling their jobs and sending the bill.\nThe problem it solves. Agencies usually run candidates in one tool, client sales in another and invoices in a spreadsheet. Recruit CRM links them: Company, Job, Candidate, Deal, Placement and Invoice, so nothing falls between tools, and AI agents handle the repeat work."
+    },
+    {
+     "id": "s2",
+     "title": "How it works, step by step",
+     "type": "steps",
+     "addedAt": "2026-11-16",
+     "text": "Five steps from a client to an invoice.\nHow the product works: Clients (companies and contacts with stages), Jobs (job with status, pay and requirements), Pipeline (Applied, Assigned, Interview, Selected, Offered, Placed), Deals (Open, In Progress, Won, Lost), Placement (a candidate tied to a deal and a joining date), Invoice (bill the client; needs billing details).",
+     "steps": [
+      [
+       "Add companies and contacts",
+       "clients, sales stages",
+       "Store clients and the people you talk to, with sales stages."
+      ],
+      [
+       "Create a job",
+       "post, build or import candidates",
+       "Open a job for a company, post it to job boards, and build or import candidates."
+      ],
+      [
+       "Assign candidates",
+       "hiring pipeline",
+       "Add candidates to the job and move them along the hiring pipeline."
+      ],
+      [
+       "Win the deal",
+       "deal with a % chance",
+       "Track the money agreement as a Deal with a percentage chance."
+      ],
+      [
+       "Place and invoice",
+       "placement, then invoice",
+       "When a candidate is Placed, create a Placement and then an Invoice."
+      ]
+     ]
+    },
+    {
+     "id": "s3",
+     "title": "Main features",
+     "type": "table",
+     "addedAt": "2026-11-16",
+     "cols": [
+      "Area",
+      "Feature",
+      "What it does, in simple words"
+     ],
+     "rows": [
+      [
+       "Finding and filling jobs",
+       "Candidates",
+       "Profile, resume, notes, tags and activity. Add by hand, bulk import, or upload resumes (AI parsing in 24+ languages); merge duplicates; job-change alerts."
+      ],
+      [
+       "Finding and filling jobs",
+       "Jobs and pipeline",
+       "A job belongs to a company and has its own pipeline (Applied to Placed) shown as a board; assign candidates and move them with the stage chip."
+      ],
+      [
+       "Finding and filling jobs",
+       "Hotlists and Submit to Client",
+       "Saved groups of people for later; send chosen candidates to the client with feedback."
+      ],
+      [
+       "Finding and filling jobs",
+       "Hiring Manager Portal",
+       "Clients review candidates, give feedback and raise requisitions."
+      ],
+      [
+       "Sourcing and AI",
+       "AI Search and Sourcing",
+       "Describe who you need in plain words (turned into Boolean search); searches your database and 800M+ outside profiles; location and commute search."
+      ],
+      [
+       "Sourcing and AI",
+       "Chrome extension",
+       "Saves profiles from LinkedIn and other sites, with verified email and phone enrichment (uses credits)."
+      ],
+      [
+       "Sourcing and AI",
+       "AI agents (ARC)",
+       "Resume Formatting, Candidate Submission, Candidate Pitching and Custom Field Parser agents; more are coming."
+      ],
+      [
+       "Sourcing and AI",
+       "AI writing helpers",
+       "Job descriptions, candidate summaries, email replies, outreach sequences, call transcripts and notes."
+      ],
+      [
+       "Sourcing and AI",
+       "Onboarding AI",
+       "A chat helper in the top bar (type or speak). Ask how to do something and it takes you to the right page and highlights the button to click, step by step."
+      ],
+      [
+       "Email, outreach and automation",
+       "Mailbox, sequences and triggers",
+       "Connect Gmail or Outlook; templates; email, LinkedIn and SMS sequences with open tracking; emails sent when a record moves stage."
+      ],
+      [
+       "Email, outreach and automation",
+       "Calling and meetings",
+       "Call and text from a record with recordings (paid numbers); Meet, Zoom or Teams links; tasks and calendar."
+      ],
+      [
+       "Email, outreach and automation",
+       "Workflow Automation",
+       "Rules that update records, create tasks, send notifications and connect to other apps; priced separately."
+      ],
+      [
+       "Job advertising and career pages",
+       "Job posting",
+       "Multipost to 3,000+ job boards (25 credits per job) and advertise on LinkedIn."
+      ],
+      [
+       "Job advertising and career pages",
+       "Career site tools",
+       "Public job page, application form, profile-update form, talent pool page, and the Recruit Craft website builder."
+      ],
+      [
+       "Money and control",
+       "Deals, placements and invoices",
+       "Deals pipeline with win chance; placements link to deals; invoices (beta) with billing details; timesheets for contractors; commissions and deal splits."
+      ],
+      [
+       "Money and control",
+       "Dashboard and analytics",
+       "Counts by stage, job, company and deal, target reports, plus paid advanced analytics."
+      ],
+      [
+       "Money and control",
+       "Admin and security",
+       "Users, pipelines, fields, off-limits flags; GDPR, encryption, single sign-on and IP whitelisting on Business; audit log and roles are paid."
+      ],
+      [
+       "Integrations, plans and fit",
+       "Integrations",
+       "Gmail, Outlook, Zoom, Slack, Zapier and Make (thousands of apps), open API, and an MCP connector for Claude and ChatGPT."
+      ],
+      [
+       "Integrations, plans and fit",
+       "Plans and trial",
+       "Pro $95, Business $135 and Enterprise $215 per user per month; monthly credits are shared for AI, sourcing, calling and posting. 30-day trial; a free plan with small limits."
+      ],
+      [
+       "Integrations, plans and fit",
+       "Fit",
+       "Boutique to large agencies; reviewers praise support and customization but note a learning curve and extra costs for AI and automation."
+      ]
+     ]
+    }
+   ],
+   "files": [
+    {
+     "name": "Recruit_CRM.pdf",
+     "type": "application/pdf",
+     "size": 6057,
+     "dataUrl": "data:application/pdf;base64,JVBERi0xLjQKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUgo+PgplbmRvYmoKMiAwIG9iago8PAovQmFzZUZvbnQgL0hlbHZldGljYSAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjEgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iagozIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhLUJvbGQgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YyIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKNCAwIG9iago8PAovQ29udGVudHMgOCAwIFIgL01lZGlhQm94IFsgMCAwIDU5NS4yNzU2IDg0MS44ODk4IF0gL1BhcmVudCA3IDAgUiAvUmVzb3VyY2VzIDw8Ci9Gb250IDEgMCBSIC9Qcm9jU2V0IFsgL1BERiAvVGV4dCAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdCj4+IC9Sb3RhdGUgMCAvVHJhbnMgPDwKCj4+IAogIC9UeXBlIC9QYWdlCj4+CmVuZG9iago1IDAgb2JqCjw8Ci9QYWdlTW9kZSAvVXNlTm9uZSAvUGFnZXMgNyAwIFIgL1R5cGUgL0NhdGFsb2cKPj4KZW5kb2JqCjYgMCBvYmoKPDwKL0F1dGhvciAoYW5vbnltb3VzKSAvQ3JlYXRpb25EYXRlIChEOjIwMjYxMDIxMDYwNzA0KzAwJzAwJykgL0NyZWF0b3IgKGFub255bW91cykgL0tleXdvcmRzICgpIC9Nb2REYXRlIChEOjIwMjYxMDIxMDYwNzA0KzAwJzAwJykgL1Byb2R1Y2VyIChSZXBvcnRMYWIgUERGIExpYnJhcnkgLSBcKG9wZW5zb3VyY2VcKSkgCiAgL1N1YmplY3QgKHVuc3BlY2lmaWVkKSAvVGl0bGUgKFJFQ1JVSVQgQ1JNIG9uZS1wYWdlIHJlcG9ydCkgL1RyYXBwZWQgL0ZhbHNlCj4+CmVuZG9iago3IDAgb2JqCjw8Ci9Db3VudCAxIC9LaWRzIFsgNCAwIFIgXSAvVHlwZSAvUGFnZXMKPj4KZW5kb2JqCjggMCBvYmoKPDwKL0ZpbHRlciBbIC9BU0NJSTg1RGVjb2RlIC9GbGF0ZURlY29kZSBdIC9MZW5ndGggNDY0NAo+PgpzdHJlYW0KR2F1YFc+PnNRQSg0UEZKa1s+Tj8tP3NyX11LQyNYb09YQy5XYGBgMFgxITdNKiRvVWJnV0Q5RnA9SmFuT3Q4LSJcQFs7RVJdOSxXPUxXQGNvOjpkUk8xPV1CYW9BXTFPRVdZRSshM1oqcTtjLVZdWy11LGMoRig3YyUwXipNKGRXXmZYKmAzbW1WNGcqOGFEIUc+PVlOS25iOU0yMFNOXmtlP0xIRUInU1MsYFNBajRJcVwqT3JSZVYzNG8lUXIuXl9JPm9cdXJZTjRoSSo6XmNLSUJPYj84V3AlOFpQJ3VrXVhcRjFfXitkcEVNQl9bPmlJZ1c6NE5gRzRGRTJvXyQocDBmaGIhKlFLNyU0ZXMtMmheWU5WIV5tYGk+P2dMU0oiY2ZLbW5dOUtXaldwRmZqR0lOXWI2QDtBa0ZyXE80WzNpTCNLR0dbQ2laK0tDWE5uclhEMiZTcGxCQ0VUaydFMkZOcGc6QkBxJm1mXFw3RzciM0hRYjooW3BBPGxibEZpXyo5P2dHQFZMSV9XcWpcJSc/SmNGcWNbXUpCPWlVLFVnYzFVSDlILSFyL1NucipBX2h1I1hhUiguUG1JazNfZzckTStONHMtNC8nLyI4X0lsbjBOIVlFZE1CJXIzY0NnalpZWCopLWM9LSFsPiRmRCVGM21Tcm47JmtMZGlgczo8U2tOZSVCZ1FPLzAnPyFmIzlkZi1QbGFiNEM+KGNdakE6WVVJREY2XVcyN3EiLzc3bzhKTFZlJFZqPjdeN2VPOTE/KTJGSCQqS1dSO09CaF9cbGFnKW9kT3VDdUJpVm1va3JscSttZDRaYXNzZFtATkZFbEdcXlBvb21fQ0hVX0dwYkNYPiJKSShCdT03XHMnajdLOksncywlbyRSUW8zWDVtR01cYlBbWVxISkw7MiRUakszR1RKIWI8c1BDLThjYT9fNWg+RXBcRm5KTVhzUm0xbkslaEQhJi5pIzYodEI0XWAtW2oxckBOYWU+WCtVTmlwMCJnY0JpXihaMUhFM2s1Q05wTVI7UzMpbzFMK3VHaTk5TWwjb1tdSl1RKFhPWVEsNDVnQT5fZTgvU2BSV0hdZW83Si9fTkorUjxuIyZPRD06OnJsPEpXcmMkSDVVV1pHclVJK3I7LyU7SScwXSYtcltVUCIkdCdKYDckL0hZcEFfWzNRMjRBaypuP0RVLW9aOSE6dHFfMWhfJlpkUVB1KkgvaGBMbiptYCQsay8rRjRuITZRMzNXPz9xJyJlRThnLDw8bSxWXkpbTTUjUGk1UkljKlBRWFVPWFJEdTdRQHAkXS1KST0tajopM09ALEVQbmFFLS1MTSdAPE47MSZETV9vNDlbVygqUyVfZUY5QSsiMlwuXCVrRyZCZFExaExcMC9FWiVoY1deJlo+ISkvclVMcjttNzFNa3RraiE3PDsmNV1YM1VzIShHOlpCN1UzR11YMzRBQTlGOFBocyx0OFJCSWo8RFc8JVpIclgtPlZpS2cuc3NBPiNYTV9DNDtvRCRBN1ZEM21CWG5sMjFvTlJYPEVNKEknbmUsLjFeQ2okMXJkdTBOaU4wSDZgaik3a1A9YkZSQ0Qua0ttNkxwYik9RmhtXzxlMnM/a0ArbkNTOD4nKztDKj1RZUE0LGRiKSFbaiEwbStJR2trYWAzIWtaXWdRYjVQPVomOmdvWzJMVUwyWUspanFIXGBeI1ZnXydncVA3M0pPNCFGPFE6I2kiM0koO2EyaEdjUD9gPmlqIWQiTj1mTkIzKSQmUllMZCVUV2ExWmEqVUs1RmpfakJEUVRNI2JZU0hYZlk6L1pxQWBhYnEvbW8mRSxoOjU6PTRCMD1ZNzswdDdkZiprVyZIWVUnPj9QTUoyVSIzPywlUWhBc0tBX09Ea14zMSwvLls9WEZzOFUwQ2V0PEJDaj5BTkQjbzs1cUMvMUtkcGJSJlpqaVw4ZzNPPHVkMSslPCk/cyJKQ0U5JlM+QjguS1srXW9yJmBnV1JfbmBQTiVCLU1jSDhAQFApY00sMFlMYGZZNTdhOioiYTAzX2Y2OHEyKkNvUCVPciooOUtcOnNdYSJQWUteYV9EJ1xxWSlLUFdBVlpRWkw5YSg1LWxtcnQnajlcWmJaZiQvb2xsIWVkLG86JDZDYlMyQmxOLF9qb3Ioaz9balRGVEN1ITEqcGYnS1VbVWBBWFppLXVpWHM8YS05N3JET1U5PGY3Ik9jby1GLkM9QkMrN2RtJDJYQzIsJVlaP1sjO1pwUTtSbVslbkFDPm5EX1FpZURZY3VsLjFHdHBIO2dwIXFmKV4iMjc/Nk9TbGVBJ0IqLS8kUlxGS0VOPVxXUmJwLmtaLTJaRW9jK2ZBJV9LQyUnYSFCMSElS2FMV0doMEM6YF5YKFROTipOXUBBSEVlSSdhNy0hVG9MRS81SGUqaWBSKTBYZE1QNzE0KC9jSl5XdW0kYDtzQls0R2o1N1JoWjBxMldOJWpkXy5VXzldaERyITctLTcjNjpPZGA7cztOKnNfRWkuTHRaLCU8NFlqLDJZbVgqNzMiWmlySEVbNkBGYDhpVy07ND43UmhPI0Q8U3NSIi5ULSghRDtrTjJOOywhbEVIOjUpXTlBPFQpbVlDUkZmPV1aO0QmK2YnJS04JipSI25nPl0yNmBAVEZrQlslSyhdP3UqaFpCU0NdYlZIRUxHaiJoTWQqMj0vSSUvZFk5MVBuWzcwdWxoYSNCW3JySigyYHU/LV1HailrWW5EWFo7aFMpOVhybmk9LGVKQFdMczFuZ1thbTU1aUlmZlUnIUplKWNnO2stRVRCUktWN0lXX1kiYSQrU2VtcjRrKF9gKlMuUGswRSNbZFpLJzYzciEjUiM7VEdbO05eRVwmME1AOkBqIT5SU2BwMHExKV1dVCknVSg1KF9iYD1IKFpnN2ojKWhdbS9ccVpFLGgtWUxpLUVRbEUwZFJUVWRtYjxyZXAyLnJIKydFNUBxSSUuI2pSbFxvNUJbWVVtRU5Ya20uQlE9WytCZEYmSGBVI15fJCVKXUk3OnBZOkopMkxEPT1CPGBcVDZMbWFvXWRHPm9SWExwQCk9QCI1QT9hb0JLNjFddF1BLldZTWtzQmpfZ1A4LFVKZEVGM1QtaE9tI1xGRCgvPEMnY2VBaU1BYFZtb3VmQTVmUW5YT0xmPC04ckZwUGY3JlhkOjxuLSlBOURGRFowI0otX19dcDp0OiVSJ14tKlk+bCNCYzNXTGAuZWVcMTQyOStcZXJkQVtgRSQlN0I0VEMpR0lrIj5fXSE9QidLJzFdOy1FdEBrcklmZV1MQ2UwP01zOk87VUIxN0BIcjtnRkAmVT5mPkNKNyciWzZEMChCJzVIJlNUMTInXUo5PmRUXU0jNjskLGxCNEE7WV5jOU09YWAjSVg/YGkvZEw+SEZYYD1IUkZ0SiZZLWxzX0RVamY4ZC1uJTFtQUUzODI7U0c6PG0wNFlxIlxpLl01KFdIVCJfJkoiYUUvajBiIVpyR1woLFdJXVU+KCImbUdTMixHaVxgIm88KE1yYShMLER0V1k/RmdpYyE8RjZLM2BtLiE5NFwwODJsYEw5YVhucEtYNDxHdDopI1FkbjA+X1VCR1RBNXJDRllPYj1UUCFEQkp0OTYndV1WdWNcbCpUKDAuUVFURz9bTlA9bVU+ZDJLTUljQEguLi0+KVhoN2IyZWNnaSQlaStfXV5mPEp0TzNPazgsQk45aVZVLD5VKGxtdVprSGombzBHVnJzN0IibiM7Wi9qSjBgSlsySC8zT3NnOT9NJyZUaG01NiRxMT1gYTllREZgY2w0MVIyJEglN0xSS2xZIWw1T01aNWpNTlktJi4lLnQldGklJmkiYCphbyVkOj5iMF9GNFwsI05SWE00b0FyNiNOTTowXGFKJm1BIktnb3VfbThWc0omRlJSOCs9W0k0MmNDTkskUT9mL2ZBKUkkV2FbPmw2Z0RZLTJlJWkkOUY4NW9CTT5mY2RhQW1xKTtbcm5MUkUuVCguMl4qNkNlWTRWUz9Ebi1HUmI0TzVwXiQ8K01PTDxEUFwhbTA6PzlhZiE5aGdrQlNQQjEuMVgwXlFVJmE8T2xWYjAvKF1WSWpvLGQidDJgS1Zzc2VTYChFN0NNRzRtXToxLSNrVldQTUMjZTlWaTRbYGpKOl5oblIuZEVpR3I1QG85MGdYZSs9KFQmMSRuYEY1L1wsWWJHUVIvPCVEa2xWXm50LE8nI1YqSjhxNDkkMjNDTmt1LTlrWyEtbD07WVpibShFUUxBNiRXWzU3RFpwWGpnYiQqUWFzZj11Si8tSU4uLz8+ZmhLci0kNEdzKU07UkZEYjNOXWtiRCpTMmU1MzdkYVleNihyRVppVU5eKWtqS3VURilhKEYsYWcqNkYocD5WcTZEbU5HJ1BtQjVQaXFAbEo3cmwnZlA6UjIkWikiIzpDTVknM1smN04yMWhEWV1BI0xKUyFJbjI9TC5sa3BDZk9JIik/Wj9bTD9xNTBGOj1GUDtBIW47azNAK1swbF8nWilJXG8lSCgyVVtOT3UxXC5QN108US1eWjUiVXVrN1IpKmtXOV8mLywkOVtcYG1Bb2AtJmBqZl10ViJiQXMpXmhqLEZGdGtOXF5jaDkwPWdMVFFOKmU5TmlfKT5IOj1mMEo0UlI5IXFYXkInMV07M2UnJD43bGY7UnVCck5ORiw5cV1UbU0pQXFOdTRsOTRoRl9lRWNvZUJqSGc6Xjs9PSRRKytYcl9sMDsmSDMtNkFaUDYtSkhCTTNWZjJBcjtIIy5yVCwqVVk1UCRZVTk4KXI2aycqai0lMCtmb2EtXGdOaj81Yj1QY2csT1grXG9pPjZdLFMxRFA/QEYrVGxeaUpQMi4sWituOlRQcTRxJTdtRHVZS2NRMytDcEhjOD9uXiRPO2ldQDhFMzk2I2ojYkNUaEMxYjcsSVhJYU04OCVFWjRnc0gjLkBPTkx0SkhrVSJCZigjcmwnblZIaDMubXUjWTZAaTZrUkhxSCE9bmVUaVgrJlFSNiROUDteT3FiSyZ0dFRtXDpEYCtfUEhQM0gySkZUVXNdYS1KRWw6VT0+P1JUSjg6OGQ3a04hdD4obS8mLUFMV2BPImxcUUZCLCkkUmZqN1ZHP10yW0lEc0s6V1Q4LilONWxdU0lYLzhZOXEvQVJmV2ssXCt1Rj5dS3Q+QyVtZmk5blIlLF5UMSxBYWtJUy0xOWJxU2ZmcCU8TGtSZCtTWyI8RTUzTFpIdGpMZT8wRlg6b3ErQTU9KHRAJGQpOW1kJzkhSmRML2c6IztwOyFvKWlgUEJVSUBPK2gtRy43Zm5hUl9wcUsyUT0yaC9RYGVOPkNhbVUkO09vaF4mXisrVnNRdC1aRWkvQCgwY282aiQ+cWNQKjltTktecjNXbHRiNENRTF9KZlRSPXVlYGtqU0w7TF1dOCJbKmJYIVwyJ1VBbS08YHFEMFhAYSdfQTYpRm4wUCYpWHJxPk5WM2I9SXNZczEyS0ohbytyWjpcNkZxVkdyWm5uLCJyMkFYNWJCV09XZGQwPm0hSllddF80M1M+IisjPGI8KilkSyFrX0EvK2pOM25FUWlxJz8vMTVSTFcqNjRjS1RdPDksSEAwRzliaiRMPmtbT1pET21jNHAxKUMlO2FdTVJoQCZwQW9qO2kqVWgmOF1Vajo1bSEkMXVxYEtSJHIxTiIxOUQnJFc9NnI0Sktlai5ZdVhGWGJzWiRqO05nVjVMOmIvUWZUa0M8UF0pVjtnMGdAUT8+TSYydDQ5YTE7WjJmNEotPk8rcj1tWUk7ZjZ1SlY4I0RKLStEITxWNmRbU2trXDNkaGdfZE4iPWM3RTBqJitPPTYmJyQ4NlshSVMkPCZKTFVFNiRSNDljIigoJj01UmA2cT9bT01pT1s9aVIhZG1vSkhZdVUuOTxnQSUiPHRBMzsjRy87TVg5c1RJa2RUR0IuQj4jaVJMY0U7Ri03LyFyJHEyW3FfSUEuTS1KUi1JSmYyOjZjWlQudVRvM0dOPk5BTi9JS1sxQGlKNVg9NCNXUDA9bVkuPEpfczE5Qzo7Y0FBXkohcllAcSwzdUZMZj5ybTdkYEtaTjomWz9sWCRFZz1DQ1ZKUEpsKy0yTUxqNERSSnA+IlwxckxgKDxfdWVwSlRebkVLUG5SIXMtQWU6Qn4+ZW5kc3RyZWFtCmVuZG9iagp4cmVmCjAgOQowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDAwNjEgMDAwMDAgbiAKMDAwMDAwMDEwMiAwMDAwMCBuIAowMDAwMDAwMjA5IDAwMDAwIG4gCjAwMDAwMDAzMjEgMDAwMDAgbiAKMDAwMDAwMDUyNCAwMDAwMCBuIAowMDAwMDAwNTkyIDAwMDAwIG4gCjAwMDAwMDA4NzIgMDAwMDAgbiAKMDAwMDAwMDkzMSAwMDAwMCBuIAp0cmFpbGVyCjw8Ci9JRCAKWzw4MDNlNzUxNDdmY2VlYzBkODdiYTU4MDU5OGQ3YTliYT48ODAzZTc1MTQ3ZmNlZWMwZDg3YmE1ODA1OThkN2E5YmE+XQolIFJlcG9ydExhYiBnZW5lcmF0ZWQgUERGIGRvY3VtZW50IC0tIGRpZ2VzdCAob3BlbnNvdXJjZSkKCi9JbmZvIDYgMCBSCi9Sb290IDUgMCBSCi9TaXplIDkKPj4Kc3RhcnR4cmVmCjU2NjYKJSVFT0YK",
+     "addedAt": "2026-11-16"
+    }
+   ]
+  },
+  {
+   "id": "zoho-recruit",
+   "player": "Zoho Recruit",
+   "url": "https://zoho.com/recruit",
+   "threat": "",
+   "createdAt": "2026-11-16",
+   "updatedAt": "2026-11-16",
+   "sections": [
+    {
+     "id": "s1",
+     "title": "What Zoho Recruit is, and the problem it solves",
+     "type": "text",
+     "addedAt": "2026-11-16",
+     "text": "What is it? Zoho Recruit is cloud hiring software (an ATS and recruitment CRM) for recruitment agencies and company HR teams. It keeps jobs, candidates, clients and contacts in one place and moves every candidate through the hiring steps until they are hired. Part of the Zoho family of business apps.\nThe problem it solves. Recruiters lose time when CVs, client details and emails sit in different files and inboxes, and hiring steps get missed. Zoho Recruit puts it all in one system, repeats routine tasks automatically with rules and an AI helper (Zia), and shows what is stuck."
+    },
+    {
+     "id": "s2",
+     "title": "How it works, step by step",
+     "type": "steps",
+     "addedAt": "2026-11-16",
+     "text": "Five steps from a job to a report.\nHow the product works: Create job (job opening with client and requirements), Get candidates (career site, job boards, import, CV parsing), Pipeline (Screening, Submissions, Interview, Offered, Hired), Automate (workflow rules, Blueprint steps, Zia AI help), Talk to people (email, interviews, assessments, campaigns), Measure (analytics, forecasts, audit log).",
+     "steps": [
+      [
+       "Create a job",
+       "client, template, AI help",
+       "Open a job for a client, from a template or with AI help, and set screening questions."
+      ],
+      [
+       "Get candidates",
+       "career site, 70+ boards, import",
+       "Publish to your career site, 70+ job boards and LinkedIn, or add people by hand, import, CV upload or email."
+      ],
+      [
+       "Match and move",
+       "pipeline to Hired",
+       "Attach candidates to the job and move them through Screening, Submissions, Interview, Offered and Hired."
+      ],
+      [
+       "Automate",
+       "Blueprint and workflow rules",
+       "Blueprints and workflow rules send alerts, create tasks, assign candidates and update fields."
+      ],
+      [
+       "Share and report",
+       "portals and analytics",
+       "Clients and vendors use portals; Analytics shows sources, hiring speed and results."
+      ]
+     ]
+    },
+    {
+     "id": "s3",
+     "title": "Main features",
+     "type": "table",
+     "addedAt": "2026-11-16",
+     "cols": [
+      "Area",
+      "Feature",
+      "What it does, in simple words"
+     ],
+     "rows": [
+      [
+       "Core hiring (ATS and CRM)",
+       "Job Openings",
+       "One page per job: client, requirements, status, a timeline of changes, and the candidates attached to it."
+      ],
+      [
+       "Core hiring (ATS and CRM)",
+       "Candidates",
+       "Profiles with resume, notes, tags and status history. Add by hand, import, upload CVs (the tool reads out name, skills and history), email, or the career site."
+      ],
+      [
+       "Core hiring (ATS and CRM)",
+       "Clients and Contacts",
+       "Client companies you hire for and the people at each one, linked to their jobs; staffing agencies can import from Zoho CRM."
+      ],
+      [
+       "Core hiring (ATS and CRM)",
+       "Interviews",
+       "Schedule rounds, add several interviewers, use an Interview Kit for feedback, and run video interviews through Teams or Google Meet."
+      ],
+      [
+       "Job posting and sourcing",
+       "Career site and job boards",
+       "A customizable careers site feeds applications straight in; post to 70+ job boards and LinkedIn; the sourcing summary shows which source brings the best applicants."
+      ],
+      [
+       "Job posting and sourcing",
+       "Social and referrals",
+       "LinkedIn Apply Connect, employee referrals and mobile apps for Android and iOS."
+      ],
+      [
+       "Zia AI",
+       "Zia Matches and Insights",
+       "Finds the best candidates for a job (and jobs for a candidate), compares candidates side by side, and gives ratings and next steps."
+      ],
+      [
+       "Zia AI",
+       "AI Assist and Summaries",
+       "Drafts job descriptions, emails, SMS and notes; summarises profiles, notes and email threads; turns video interviews into transcripts and summaries."
+      ],
+      [
+       "Zia AI",
+       "Chatbots and assessments",
+       "Career-site chatbots answer candidates and do first screening; AI builds role-specific assessments."
+      ],
+      [
+       "Automation and teamwork",
+       "Blueprint",
+       "Locks the hiring process into set steps, with checks before and after each step, so nobody skips one."
+      ],
+      [
+       "Automation and teamwork",
+       "Workflow rules",
+       "When something happens and a condition is true, send an alert or SMS, assign a task, update a field, call a webhook or function, or run at a set time; includes approvals."
+      ],
+      [
+       "Automation and teamwork",
+       "Portals",
+       "Separate portals for candidates, clients (review shortlists and give feedback) and vendors (submit resumes); @mentions and chat for the team."
+      ],
+      [
+       "Communication and reports",
+       "Email, campaigns and inbox",
+       "RecruiterInbox for candidate email, mass email with templates, Zoho Campaigns, and a Resume Inbox that collects CVs sent to an email address."
+      ],
+      [
+       "Communication and reports",
+       "Analytics and Forecasts",
+       "Dashboards, hiring metrics, source ROI and revenue estimates; setup covers users, roles, fields, layouts and an audit log."
+      ],
+      [
+       "Integrations, plans and fit",
+       "Integrations",
+       "200+ including other Zoho apps (CRM, People, Analytics, Campaigns), LinkedIn, Slack, Calendly, Mailchimp, DocuSign, Checkr background checks, Indeed and HackerRank."
+      ],
+      [
+       "Integrations, plans and fit",
+       "Plans and trial",
+       "Free (1 active job), Standard and Enterprise (AI matching, portals, Blueprint, automation) per recruiter per month; yearly saves up to 16%. 15-day trial with Enterprise features, then back to Free; 45-day money-back."
+      ],
+      [
+       "Integrations, plans and fit",
+       "Fit",
+       "Corporate HR teams and agencies of any size; the per-user price can add up as a team grows."
+      ]
+     ]
+    }
+   ],
+   "files": [
+    {
+     "name": "Zoho_Recruit.pdf",
+     "type": "application/pdf",
+     "size": 5888,
+     "dataUrl": "data:application/pdf;base64,JVBERi0xLjQKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUgo+PgplbmRvYmoKMiAwIG9iago8PAovQmFzZUZvbnQgL0hlbHZldGljYSAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjEgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iagozIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhLUJvbGQgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YyIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKNCAwIG9iago8PAovQ29udGVudHMgOCAwIFIgL01lZGlhQm94IFsgMCAwIDU5NS4yNzU2IDg0MS44ODk4IF0gL1BhcmVudCA3IDAgUiAvUmVzb3VyY2VzIDw8Ci9Gb250IDEgMCBSIC9Qcm9jU2V0IFsgL1BERiAvVGV4dCAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdCj4+IC9Sb3RhdGUgMCAvVHJhbnMgPDwKCj4+IAogIC9UeXBlIC9QYWdlCj4+CmVuZG9iago1IDAgb2JqCjw8Ci9QYWdlTW9kZSAvVXNlTm9uZSAvUGFnZXMgNyAwIFIgL1R5cGUgL0NhdGFsb2cKPj4KZW5kb2JqCjYgMCBvYmoKPDwKL0F1dGhvciAoYW5vbnltb3VzKSAvQ3JlYXRpb25EYXRlIChEOjIwMjYxMDIxMDUzNTA3KzAwJzAwJykgL0NyZWF0b3IgKGFub255bW91cykgL0tleXdvcmRzICgpIC9Nb2REYXRlIChEOjIwMjYxMDIxMDUzNTA3KzAwJzAwJykgL1Byb2R1Y2VyIChSZXBvcnRMYWIgUERGIExpYnJhcnkgLSBcKG9wZW5zb3VyY2VcKSkgCiAgL1N1YmplY3QgKHVuc3BlY2lmaWVkKSAvVGl0bGUgKFpPSE8gUkVDUlVJVCBvbmUtcGFnZSByZXBvcnQpIC9UcmFwcGVkIC9GYWxzZQo+PgplbmRvYmoKNyAwIG9iago8PAovQ291bnQgMSAvS2lkcyBbIDQgMCBSIF0gL1R5cGUgL1BhZ2VzCj4+CmVuZG9iago4IDAgb2JqCjw8Ci9GaWx0ZXIgWyAvQVNDSUk4NURlY29kZSAvRmxhdGVEZWNvZGUgXSAvTGVuZ3RoIDQ0NzQKPj4Kc3RyZWFtCkdhdWBXZ0pbKiUmcS9wbmw9RDFXRGtranI+S2FvOmBjSnVeJCJlYXIsOjdaN1FFIlg6OF8kajVpOmJjQEImLUdCI1ZqNSkxSU1aLS0uT1U1QUVNIlgrczkpSSJTMlQqLUtQJVNuckl0cSNzcls/LCFrUzdqUVwsYHA/Rm9PTEVyLE9AOz1RMSs6T0RpLEAyM3RXUDlRXlBYMzNXWm8/VmBkJWNAXmpDTFdnK1MuL1coNWx1cFklaSJQcT5BLGpcVGlJSW5cO0UyMnJzNypFcUxGX3E6Z0piKDhZUCpUO3JISSUxZypaaVBQZFBNdTYpWEE4Ri9yS08wNmRpLzMtZTVOPydoYEo7NDBCaChjXWIzaVdeUGxISDBoLmJvclJGW104Kl9bMm5KWFJsLSRTUl4tIkVLW09JKktiOmJNMGFxUE48UEokYU1EPlpGTS0xWUldKTcxMy5lNilmZnRBOFNEJWE8a1ZlRlZCX3VUKzBYUmAnbFM7ImttX0chT3BVcjFjS2JwVltjRz0wa25wT1Y4J1gvOWJMZjpHP2htVURiaGBoTkdlNU0/YTJBQ1A7OFBTMUo+VCklSG1wI08pYilfI2MnYHJXby9pPW1oNkQsckNpQGIoPk1lOD1pQVwoXmwjPTVKbCxqQCZbZmVWbmNXSy5nOlVLS3A/WF5RUE1ObDhAZW4pOC44Jz41JyUyNXQ5YnNsckFMQjNRZThJU2s/Kl0+VFc8aWNLRl5rI0loajJoSyJyZl8hcUtLayVtJTBZNWg7SzJgMy84SWBDZjtwLW41TUsqWyJtXWkpV1BgL1ByJFcrPiU0VEhNTVJFNilXaVlqZ1FkKF1uTmI9NVZHMF0tJkZlZ1hEXmYsMmxCVEhUTmovRS1QV2xjPHFmTCJKQSMmcjxOJDtdV1o0I2UyLTsvbSE4b2M6NU09NkBrPjlDQnVAOiJuR1QiPGkuXmV1W1QwKChnR1RVdDlQN1dsMUBgJGVWQioycHE8b21Hb15vTXNzLzJxI2VDUEQ7T21YRzRLViRcYVFBPD9JcmwsTyQ6cStRTk4iJllXNy9RKG9bQl1sWShVXG0nOWpaNzU2VygoIXRXdCpIQCZIOkUlU2dONzQpZEg7UllySictXmFKRTFMJGpFcSVgT1VuOU9UR2ZDPFo+K1hvP2ZCWCZGKCMmbi1yMztTTC0+W1NLI2gwOSlUOVs3NFZNLENSbUdfZkwuLitwLU0+KEk9Y3ModTVWaGU6blVwS1FPajBlUT1kOSVeJmdwbz9cKnUwPlpwaCoqMUpsYz45O3NMJ0QkcE50VD8/O14na2JjIktnZ29PQ2ApJi9OJURHSyVGOFtfWD5kY3FmcS8xOnFHInFDSk0wVyRyKmtML1liUGkmLzolPlJJQUMvX1tQaU0kQE9FMktyM1tiTFBUPHFMUGEoRWYlQ05WPFFOZlcwRW5OK25ZVFNPMGpLJkI3RyN1IUgpKismR1dLNzQwT1FRUjlWJXJtIXMiJW0nMC1JQTFBXytsXm9SNThyJUc0WUkvKCckTy5QTjZtbGo4RGlZQDtAKGVtJUNCWyQ3NSorSiwoQidlb0BNMnEhRF84bGNbNlknYVs/Uik/Kj46QFxKJ1xRa21jPTJZNixAUk5iYiVcJ3MxT2A5Zi40aCpGdVNRPWE7UzJAVixLJWdqaidhUlhhKi49LkM8dVwjNmRrXTxQaDM7UzByRU8iRFlFb18wYS4ra1QwM0tQJmNVOlJVLkEndT5cVFM5OGtxPnAwbltJTyQqcU1LMW4pOE5cIzo9M3JpZGA6T1RdVzBgSm8nRGpARXRSSzNYQzAnN3EoVmdLbW1SaCFwVVVMNCJabTtrNkZCL2dgT1BBRDM6LzMmYlwmVmNoMSVnMjQwXDdZMHFddSVPKmtvUGA5Qz5UQ21JIlpYR2ohcHMjbj07VyUsKGJudCVnWHJSImJvdGdDWzRWODtkRSEoVlBpSXM7Ki9GZ1QmaTZPdVg3YC0pSiptcSwnQ3QzNCdKMUYycj04aUokbzI7PklGOFVqO09DM1tqIkVCZVUkP3E3aUprPiNCalowL01lTj9SYm9zWXROKlJcdCQvV1AjT0NZWEBWTj0jUGMrJ21rOj5KOlRCa2M4XEAjNV5ybSYjK0A3LSxEXV9kMkMyO2dQYGpdTVxea2hiRlorWVowMzFdIyc7bkMjIzA4X01gJiwkIU0uLDMjRTZOY11JXHUzMk4vW05ZVE40SSNgYzxyOFg4JUJvWmBENkZuMSpyPzNcQGxKMl5hWkhSS0BlWjpldCZPWl1gMD5PVyYxODxfXWNxOiZ0RyIjSlk+NFdFKkE5UWpuaF1mWC82NXJvJypZS2hKLWRjMyhlODotYnMvYzp1XD1XQFM5J1JoXnAjYjc3YkgnSVt1XGlyWkopIWpfVFxmYWUzXEhjbm1nNipeO0RlVmElL0pkRDdnQWw4bDl1Q29laCo/KmJfWjk3OVhjPVJNJj1BVFwqbl5XMWI0WlBaYTRhVjliJiZxTENJYms2ckJPW0IiN2VFQ11IQklgaS49KENuQSFiXyQ2bVJdWEgkUlwqJyFLLSxPZ0g0TzVpPXFaOD4qKF47JDI6Zz5rZENIXSc8JDcscSpBZiliYFBAaXJEMlFVKFFPMjJMR0MiKTs1dSosOG05WEZsU006QDsjNEdlU0RuJT4rJ20yI3VDPjdoKChHNHVHI0dNQWhrIyIjVmJhbm9IUV8iI0hSRiMnTkcjcU5nUEciMW9wXiVQTDNaO0QvTz4lI2g0VGQoQHBUTDxEZU4lLHJpOSguMCJcZC9eT1xHK3NRQCYxamFfYmAkcCVXPHBIXzlCcVEtNEU+dEFHVGgrY2k2c2AhI0c5UnFnR1xCV1NeWSMhKDd0W0ApIj9kcy0yWmM9VTxTalIhTT11WCopSl0rRHBwVlNHYDJRLz9VbClWaSNwV2M5RD9ORFRUcCZLb2hzaW5KYzVIKC9yZ1UrPmdfZ1BAcmRqJlFtTidxS1A7IWArIl0lQGhkVmBOVy47LjwuWzRMMjg7W2RQMCEuJkgsMjdcOW1MSl9LQ0BMVkBbXVtPTFp1czRxVFdQOSdEOlk5NGoqK1pYVEVoQVohODstW3A1KzxOalppcVE1UyViWTB0WiI6Pj8vYGNXKFhTJjwiOUxaOWxda2w3RXQlSylGJz44OStfM1dZN0VBYiVcUWFdSHQ2NEttMVZWP1J1ZVYlP0NHSyJHMTs6KmtxTCMuLkVlXFVyNmk7LTQmWVUiZz9zLCc5Pkgob0lhTlE4N3A3aDMqSkNYPk8zKiZzKjRkSCJFSCtCUUJWcm41K01mVWtTLUBxYGhWJm1tb3E8ZmdhZUk1RVppSXIqamhcLVFxMFhDSjFtciRvMGAsKy9mamQmIUYiQyY1KXUncVEoSkt0RyJMb0QnQGtKI0lNP2JgNi5uRGguYDBASD5GKDszcVFpVjRARiMiUVMkOGY1JzJkKVEpWk1BITU+dThYVSRjaG4xWHErMzxeZyFzNjZFMkhPNnNpPCNmNU9tW2xmYT0jYzcuRUgsIjBLKy9XY2cnR2FTKlIkMUg/OCJeaE8nZVQicDNPTCxSUHBEbXJyJVA7U0E5JUJrVjNDc2E+PD9KKk4jXUksUEQ4OC5gaDBKOyRyUGJVW2pFbEA8TFwkSTBoKjMmdC1fWWdjYkcxLVw0YHBvRGxgaltOYkhlJUdjdEs2PmcmZ1hJX2ohNiQ1XkpcSDVqNF9iLkllc0xuVFwoYmU1XWAyImRKOm47LlVlIml1JjEiXDtgalBrJVU1MWwhcCFKNTk3IWVpIzM5Yy0pcXNTQWg1WXBSIWxiMk41L21ZWFRuWDw+J1BZMEEuWEQ3TnIwLFUzL1Z0Ij1MIlt0WF0iSm5Eb2MzZTBeYy5dPko3UGBnLEspXFVAZ1w0Ml9iLCFgaCQkJmZSR1k1SUZKSVYqXlItQGlNKVAhTUU2UihEXlZxSjNiUzUkM1RNaEkxS0laP0hBO1hOPTtjdFY0WGJfYXJddW05OzA4S21qNUooQklUPk4wPFo7KHQvVEFgZmYhOkA1OmYlNkBsPnQhREpiQ0M1I2ZhIURtRktqUjkySS09O0JTWClGW0M3VTEpT0BvaGZSP0EkNm9NXC0naUs+R2FDTkchVU06c11PRUg4SW5bcFEpV1YjWlpVS01yWWUzPUokXlErXmZbKmMmbVpvMFFTJz1Ebixyb1tzUUMiVmE7UCU1amFzIyEnazdgbHNkZkpwdSRwWmFZYjkjWC1BN1xfQWozQVFvQkgzNjNdK1NyLiEkZDdOVzhdbD8oMnJTMnJAajYpL1RjUWwvJSFIUlMlXHMqUEg2UlZEZTY3bTknPSg1QDdyWmc/W1U7K2hmVHVLcVNcUVxlUCpzKCkqJjsnJ1dNamYuQ0hIJFYnZUw3Rk9lSkA4WWZgPERwKGtRRWNVR29iRF1cVDw4OkcuKEBadWwvO1FCbTwlIiluQWklPywoYzpWTjkjKyFpL0pvOjxxUTIuZChCPlBuY2FMMlgnNUsoLjxdX25oU11iQWlRIUhAVGRyKjsjNkNtPWVOLk9UWUhSJyY8NScuSXIzOzc0NyJYZ0BWKCFcdChAbl1XTHFtJV5AVS8vYWdgLm1DOFdtJzlqVnJcU2hjYU9dWFtMVE83a1JvamgvQkxYXik1T0dJU0NsP0pSIW4sbVhgMUpdIUckOGFjNmUpaURyLkY3VElNImMpODxncShtTSQ2PzMrIj8zUSlfYj5CQFVWT3IlPjVmak1kTTEvPURCIlI8MCtRMGRXdTgjNV9hPz5nTGlCJitBOlpOZTFfKUBeUHJITy9SaSplK0ovQ2pRUkFSKD5wO1k+bnM1IU4qXD5Wa0VVLGBRWyw0VF4hai1BdS4hSFVaQSF1Zjo6YTAxaUxvJzNETF1MJlMtXjVfbDVhNCRrSkVYTjpOdSVRbT0uNV5CNWlFL1NcTThxPExLSjhSODUyajNlP0AlMTVNXFw8LV0nbShWWlVARVRwSyMzc11dJ3BybEloMmwzc2Y1R2hNRWEvXyg+MVVMITxFKEVNaF0uaTBVTTVnUzo+UilzX19WUicjQ1dQb2UiVE9Ba00pIiJQOGVaIzJrIXIzKEs7XzsuUkI8NClaQSRePExaOHBZJkI9P1dQJ2QtTCtobTdXIVRZQ2NqSy5KVi5oWWMhM3UqRnBIOzxzOUpgZWcoXC5dYylSPUVbL2EkLVFuLklGMHI7cmB0ME86PypDMzBhK2k6KkFjTiQqSTEsJUMhV2lCSC5lQ3U2J0FUamhsXWg6YyViQVNQZUI6a29TdWtAWV0tVEUuMV0pZShiLS1tOjBOPywkRThGaVZ1QC1PYGJ0RUZPZiY/S20nX1NvL2dsPl4nXT5DWFw8bTFBImotcFFbNGpIODdoJEJyVTVxSi0/Q2ZlU3Nic0N0YVM6XSRBZFZhcTohZU8uOTs4NlpmOEMxbkdFZWJMLmtaYlA6MzxvLGZkWjhaI1UlYChCYy5sbSE7Z21YJjhAMTBuaStoUERbJG0wciEqWkhDZDElO3RuRlQoZVN1QVtqTEZNUz9ZSkJHPkFxUlIyQD5YPGVcRmIxWylGYjFbNlc0RTc+XDZtKUBnNk4xTVghKVRURD1NK2EjJj5VMFQkSnQ+Sz9FSFExPyQ9UiRacGpcOk1qL08/WDttR0dCNC0wMlBgZlUkbTw1ISxrZmhsdWs3LjIiYmg5R0VVPC49MkRuPlRyZmVWOF5nRUVsI3BfTzEuQHBqXzpvUFlkMU01LFo/ZVp0SSZGJm9Rby5KK0s9UzQ0UDVHL1YnNlA/QEwySC5fZnIrJi8+JSZ1K0JGVCRFdEwuYzZNZGYtdHRRIV8jMWhyaGAlYyc5YS1rLnRXOT8raiolJVotRyYzN3FkbTRHYT5tNkQ5SEguTGxpJGkxUyEjIW45YjJOSjxQV2Mhc0hAZi9jfj5lbmRzdHJlYW0KZW5kb2JqCnhyZWYKMCA5CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDA2MSAwMDAwMCBuIAowMDAwMDAwMTAyIDAwMDAwIG4gCjAwMDAwMDAyMDkgMDAwMDAgbiAKMDAwMDAwMDMyMSAwMDAwMCBuIAowMDAwMDAwNTI0IDAwMDAwIG4gCjAwMDAwMDA1OTIgMDAwMDAgbiAKMDAwMDAwMDg3MyAwMDAwMCBuIAowMDAwMDAwOTMyIDAwMDAwIG4gCnRyYWlsZXIKPDwKL0lEIApbPDQ2NDE0YmU0ZDQ1MTJmYWEzMjZmZTVhZDg5OWVlMDU4Pjw0NjQxNGJlNGQ0NTEyZmFhMzI2ZmU1YWQ4OTllZTA1OD5dCiUgUmVwb3J0TGFiIGdlbmVyYXRlZCBQREYgZG9jdW1lbnQgLS0gZGlnZXN0IChvcGVuc291cmNlKQoKL0luZm8gNiAwIFIKL1Jvb3QgNSAwIFIKL1NpemUgOQo+PgpzdGFydHhyZWYKNTQ5NwolJUVPRgo=",
+     "addedAt": "2026-11-16"
+    }
+   ]
   }
  ],
  "demos": [
@@ -3296,6 +3820,57 @@
      "type": "video",
      "title": "Metaview product recording",
      "url": "https://drive.google.com/file/d/109Aa5jotZ1GOzzm1ou_zDE_1Y4nGxKke/view?usp=sharing",
+     "addedAt": "2026-11-16"
+    }
+   ]
+  },
+  {
+   "id": "workwall",
+   "player": "WorkWall",
+   "url": "",
+   "unique": [],
+   "notes": "",
+   "media": [
+    {
+     "type": "video",
+     "title": "WorkWall product recording",
+     "url": "https://drive.google.com/file/d/1W9GqZfDLE-mcIKc4Cw3QxYiWonQjQ72E/view?usp=sharing",
+     "addedAt": "2026-11-16"
+    }
+   ]
+  },
+  {
+   "id": "recruit-crm",
+   "player": "Recruit CRM",
+   "url": "https://recruitcrm.io",
+   "unique": [],
+   "notes": "",
+   "media": [
+    {
+     "type": "video",
+     "title": "Recruit CRM product recording",
+     "url": "https://drive.google.com/file/d/1M8U3_PMJIYqA9i_l9mTQhCvvXYXHO_zm/view?usp=sharing",
+     "addedAt": "2026-11-16"
+    },
+    {
+     "type": "video",
+     "title": "Recruit CRM Onboarding AI recording",
+     "url": "https://drive.google.com/file/d/1_Lu_URKysLxx2jME8Ujp-fZw-S2Oc0pN/view?usp=sharing",
+     "addedAt": "2026-11-16"
+    }
+   ]
+  },
+  {
+   "id": "zoho-recruit",
+   "player": "Zoho Recruit",
+   "url": "https://zoho.com/recruit",
+   "unique": [],
+   "notes": "",
+   "media": [
+    {
+     "type": "video",
+     "title": "Zoho Recruit product recording",
+     "url": "https://drive.google.com/file/d/11yp3sGdxG-P607GcfhTPs9rbbNxQdaYp/view?usp=sharing",
      "addedAt": "2026-11-16"
     }
    ]
@@ -3455,6 +4030,18 @@
   {
    "at": "2026-11-16 10:00",
    "text": "New product page: Metaview"
+  },
+  {
+   "at": "2026-11-16 12:00",
+   "text": "New product page: WorkWall"
+  },
+  {
+   "at": "2026-11-16 12:00",
+   "text": "New product page: Recruit CRM"
+  },
+  {
+   "at": "2026-11-16 12:00",
+   "text": "New product page: Zoho Recruit"
   }
  ],
  "notes": []
