@@ -1,5 +1,5 @@
 {
- "publishedAt": "2026-11-11 15:00",
+ "publishedAt": "2026-11-16 10:00",
  "players": [
   {
    "id": "bullhorn",
@@ -3064,6 +3064,173 @@
      "addedAt": "2026-11-11"
     }
    ]
+  },
+  {
+   "id": "metaview",
+   "player": "Metaview",
+   "url": "https://metaview.ai",
+   "threat": "",
+   "createdAt": "2026-11-16",
+   "updatedAt": "2026-11-16",
+   "sections": [
+    {
+     "id": "s1",
+     "title": "What Metaview is, who it is for, and what problem it solves",
+     "type": "text",
+     "addedAt": "2026-11-16",
+     "text": "What it is. Metaview is an AI platform for recruiting teams. You describe the person you need, and an AI sourcing agent searches, builds a shortlist, learns from your feedback and writes the outreach. Around that sit AI tools to screen candidates, review applicants, and keep interview notes.\nWho it is for. Recruiters, sourcers and hiring managers in companies and agencies.\nThe problem it solves. Sourcing is slow: you write Boolean searches, read hundreds of profiles, write every message and chase replies. Metaview does the searching, reading and first drafting, so the recruiter only decides."
+    },
+    {
+     "id": "s2",
+     "title": "How it works, step by step",
+     "type": "steps",
+     "addedAt": "2026-11-16",
+     "text": "Sourcing is the main flow. Around it sit other AI tools.\nSourcing (main flow): Brief (type the role in plain words), Agent runs (searches and states its assumptions), Pack of 50 (candidates with AI profile summaries), Rate (Yes / Maybe / No, plus a short reason), Refine (the agent learns and builds a better pack), Sequence (the agent writes the multi-step outreach), Reach out (connect a mailbox, then switch on).\nBeyond sourcing: Screening (AI interview with scorecard), Application Review (rank inbound applicants), Notes (interview notes from templates), Reports (trends across interviews), Job Posts (write and check job posts), and fillmore (an autonomous agent that finds, emails and books).",
+     "steps": [
+      [
+       "Brief",
+       "type the role in plain words",
+       "On the Sourcing home, type the role in normal words, for example \"Senior Backend Engineer, Bengaluru, 5+ years, fintech, Python and AWS\". You can also attach a job description or speak it."
+      ],
+      [
+       "Agent search",
+       "assumptions, live progress",
+       "The agent first says how it read your brief (for example \"fintech is required; Bengaluru includes its commuter belt\"), then searches and shows live progress."
+      ],
+      [
+       "Candidate pack",
+       "50 people, AI summaries",
+       "You get a pack of 50 people with an AI-written summary of each, plus a short note on what the pack looks like. Open any person, then press Y (Yes), M (Maybe) or N (No)."
+      ],
+      [
+       "Refine",
+       "agent learns from ratings",
+       "After a few ratings the agent offers \"Refine search\" and builds a new pack of 50 shaped by your answers, and explains what it changed."
+      ],
+      [
+       "Sequence",
+       "outreach written for you",
+       "Select your Yeses, choose \"Add to sequence\", and the agent writes a ready-made outreach sequence from the search. It is created paused and linked to the search, so later Yeses join it. Nothing is sent until you connect a mailbox and switch it on."
+      ]
+     ]
+    },
+    {
+     "id": "s3",
+     "title": "Features and how they work",
+     "type": "table",
+     "addedAt": "2026-11-16",
+     "cols": [
+      "Area",
+      "Feature",
+      "What it does, in simple words"
+     ],
+     "rows": [
+      [
+       "Sourcing",
+       "Agent mode",
+       "The main way to search. Describe the role in words; the agent finds people, shows its reasoning, and keeps a chat open so you can say \"Python is a must, fintech is a bonus\" and it treats them differently. The box also has: Exclusions (people or companies to leave out), Channels (Web is on; your ATS can be connected and Metaview's own data can be switched on), Connectors (add other tools), a knowledge button, file attach and voice. Connect Slack to start searches there and get a message when results are ready."
+      ],
+      [
+       "Sourcing",
+       "Filters mode",
+       "Turns your brief into filters you can see and edit. Each filter (job title and similar titles, location, years of experience, skills) is marked Required or optional, shows how many candidates pass, and has version history. You can also ask the chat to change the filters."
+      ],
+      [
+       "Sourcing",
+       "Look-alikes",
+       "Paste LinkedIn profiles of people you like, say what you like about them, and the agent finds similar people."
+      ],
+      [
+       "Sourcing",
+       "Market mapping",
+       "Paste a job description or link. The agent writes a research report on that talent market using web search, marks each figure as Observed, Estimated or Inferred, and says its assumptions. It can take about 30 minutes."
+      ],
+      [
+       "Sourcing",
+       "Talent mapping",
+       "Name a company and the functions you care about. The agent maps people who work there by function, seniority and location, including old company names and acquired brands."
+      ],
+      [
+       "Sourcing",
+       "Candidate packs",
+       "A table of 50 people: LinkedIn and GitHub links, title, company. Tabs: Full pack, Unreviewed, Yes, Maybe, No. A profile shows an AI summary with numbered sources, career with tenure figures, education, endorsements and contact details. Leave a comment, tag a teammate or tag the agent. Actions: Add to Recruit CRM (send people to your CRM), Find contacts (look up email and phone), Add to sequence, and Review. You can also export the pack and share the search with teammates. \"Show 20 more\" uses a monthly allowance of Agent profiles."
+      ],
+      [
+       "Outreach",
+       "Sequences",
+       "A list of all sequences with charts for Sent, Opened, Bounced and Replied, an on/off switch and the owner. Each sequence has three tabs. Steps: each step is an Automatic Email, Automatic WhatsApp, Manual Email, LinkedIn Message, LinkedIn Connection Request, Phone, SMS or Manual WhatsApp, with a wait (Immediately, After 1 day...) and optional \"skip after 4 days\". Email steps have subject, new thread or reply, sender, Cc/Bcc, a body with merge fields (first name, company, job title, education, location, years of experience, sender) and AI-written lines that are filled in per person from their profile (the Prompts bar adds one, with ready fields plus a Custom prompt for your own instruction). Preview shows the email for a sample person; \"Send me a preview\", Duplicate and Delete are in each step's menu, and Duplicate, Change owner and Delete are in the sequence menu. Candidates: who is enrolled, their status (Paused), and which email and phone to use; add more by hand. Settings: four switches: find candidate emails automatically, find phone numbers automatically (both use credits), enrol people as soon as they are added, and skip steps that cannot be sent (otherwise that person pauses). Connected searches: link a search so anyone you later mark Yes joins automatically. Gmail or Outlook must be connected before it can run. The sequence menu also has \"Send me a preview\" (a test email to yourself), and a step's type can be changed at any time."
+      ],
+      [
+       "Screening",
+       "AI screens",
+       "Describe the role in a line; the agent drafts an AI interview (for example three questions, about 11 minutes). You edit it, try a question yourself, preview it as the candidate, then share an invite link. Candidates answer on their own time and you get a scorecard. A table shows Enrolled, Unreviewed, Progressed and Rejected."
+      ],
+      [
+       "Hiring",
+       "Application Review",
+       "For inbound applications: AI reviews applicants in a table so you can sort the strong from the weak. It starts with a setup (or a specialist helps you)."
+      ],
+      [
+       "Notes",
+       "Conversations and Templates",
+       "Interview conversations are kept here. Templates shape the notes: Recruiter Screen, Technical Debrief, Intake, Client Call, Candidate Pack, Coding and System Design Interview and more, or build your own."
+      ],
+      [
+       "Insight",
+       "Reports",
+       "Filter conversations, spot trends and get alerts. Built-in reports: Candidates, Candidate Talk Time by Interviewer, Interviewer Punctuality and Interviewer Question Count."
+      ],
+      [
+       "Hiring",
+       "Job Posts",
+       "Create a job post from an upload, a template or scratch, with comments and checks."
+      ],
+      [
+       "Agents",
+       "fillmore coworker",
+       "A separate autonomous agent that finds candidates, runs personalised outreach and books screening calls around the clock, and works with Slack. Offered with a \"Get started\" and a demo booking."
+      ]
+     ]
+    },
+    {
+     "id": "s4",
+     "title": "How the agents work (the AI-native part)",
+     "type": "table",
+     "addedAt": "2026-11-16",
+     "text": "What makes Metaview AI-native is how its agents behave, not just where AI buttons appear.",
+     "cols": [
+      "How the agents behave",
+      "What it means"
+     ],
+     "rows": [
+      [
+       "They plan out loud",
+       "Every agent first states how it read the request and what it assumed (for example, which requirements it treats as must-haves), then shows what it is doing, such as \"Searching for candidates\". The user can correct it in the chat."
+      ],
+      [
+       "They learn from Yes, Maybe and No",
+       "Ratings feed the next search. The agent moves toward the kind of person that was approved, and explains what it changed. A \"No\" without a reason is not turned into a hard rule; a short reason makes the next search sharper."
+      ],
+      [
+       "One brief becomes many outputs",
+       "The same search produces filters, a shortlist, profile summaries and a full outreach sequence with a personal first line for each person, written from the brief and the profile. The agent avoids inventing pay or client details."
+      ],
+      [
+       "The user stays in control",
+       "Sequences start paused, nothing sends until it is switched on, and the agent asks for input (a mailbox, more ratings) when it needs it."
+      ]
+     ]
+    }
+   ],
+   "files": [
+    {
+     "name": "Metaview_Report.pdf",
+     "type": "application/pdf",
+     "size": 10029,
+     "dataUrl": "data:application/pdf;base64,JVBERi0xLjQKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUiAvRjMgNCAwIFIKPj4KZW5kb2JqCjIgMCBvYmoKPDwKL0Jhc2VGb250IC9IZWx2ZXRpY2EgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YxIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKMyAwIG9iago8PAovQmFzZUZvbnQgL0hlbHZldGljYS1Cb2xkIC9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nIC9OYW1lIC9GMiAvU3VidHlwZSAvVHlwZTEgL1R5cGUgL0ZvbnQKPj4KZW5kb2JqCjQgMCBvYmoKPDwKL0Jhc2VGb250IC9UaW1lcy1Sb21hbiAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjMgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iago1IDAgb2JqCjw8Ci9Db250ZW50cyA5IDAgUiAvTWVkaWFCb3ggWyAwIDAgNTk1LjI3NTYgODQxLjg4OTggXSAvUGFyZW50IDggMCBSIC9SZXNvdXJjZXMgPDwKL0ZvbnQgMSAwIFIgL1Byb2NTZXQgWyAvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0KPj4gL1JvdGF0ZSAwIC9UcmFucyA8PAoKPj4gCiAgL1R5cGUgL1BhZ2UKPj4KZW5kb2JqCjYgMCBvYmoKPDwKL1BhZ2VNb2RlIC9Vc2VOb25lIC9QYWdlcyA4IDAgUiAvVHlwZSAvQ2F0YWxvZwo+PgplbmRvYmoKNyAwIG9iago8PAovQXV0aG9yICgpIC9DcmVhdGlvbkRhdGUgKEQ6MjAyNjExMTYxMDIwNTcrMDAnMDAnKSAvQ3JlYXRvciAoXCh1bnNwZWNpZmllZFwpKSAvS2V5d29yZHMgKCkgL01vZERhdGUgKEQ6MjAyNjExMTYxMDIwNTcrMDAnMDAnKSAvUHJvZHVjZXIgKFJlcG9ydExhYiBQREYgTGlicmFyeSAtIFwob3BlbnNvdXJjZVwpKSAKICAvU3ViamVjdCAoXCh1bnNwZWNpZmllZFwpKSAvVGl0bGUgKE1ldGF2aWV3IFJlcG9ydCkgL1RyYXBwZWQgL0ZhbHNlCj4+CmVuZG9iago4IDAgb2JqCjw8Ci9Db3VudCAxIC9LaWRzIFsgNSAwIFIgXSAvVHlwZSAvUGFnZXMKPj4KZW5kb2JqCjkgMCBvYmoKPDwKL0ZpbHRlciBbIC9BU0NJSTg1RGVjb2RlIC9GbGF0ZURlY29kZSBdIC9MZW5ndGggODQ4Ngo+PgpzdHJlYW0KR2F1SFE+QkFSWFpAOEVRZEE8MTBHL2skWyhbIkE1Uz8wM1o5NUpJQTtGZm1ONlhobTI4N0c4Q1QkNHQsbEdlT0pNYWlPbTxhNkBHIlBGNUBxSi5vKyU0RDJ1SGpKczlBSUoibSlTWjUjSjA5TzIsbTpJaF90PlxQaydIYDQoNzckKisqJ1U8byI8JjtDaEkqZT9CRjtgUiI2J202Jy5yJFYrRnFlK25XN009NFwhQyJzSTZcbkdRLSsiOyk1QU9TJVdyWTFWP3BEZEw7bChZKT4za2tTRVNsOHVOVCIwVlpcXVJRTE5dJCE9XWRtcm08XVtYQClhLFZhTlMlbGMjRF8lXiMyP1tiVExXckZWWGU6dWEnYEIiUj0yPilKPjUpTFJuLnQ+Y0JZSk00WkMsXnRLcyRoKkQyRVduYTJTZyJMK1UyIWprKF1KcnEzYXQ6IjA8LEdpNU9JLyFuX04hcGVlMC9aXW5nUUQvPCZbRiJOTispNGYiXCJHXXJWJEZibiFAZl9GXjBZYlQuaDZATzlAOlJWJSsnISNrbWhIK0w3KWMlViVjOigrdDddWTQxM3JZYV1WdVJcPUNIR1cxLUJcIjFdJlhDMjBhMTxcdUlXY2hGMVdPNVlCZVFPUlNVLVhrXGQoQVteL2pMZVsjbmtLUydZOCpEUjdQVWo1Wlo+MEQ8QTAqMCFlaDhMW0RHcm8rVzpZWkoxUSZtNCIrNjVlSjIkOFBiKyhYZlF1QictMHBmRmg3TV1wJTxcUm46WHUiND5eSDsnclFVQTdEN2laKD9BZV9pJ0wkNGNvM1ReblVyN1VPTilrKF4hYyhyWkRYZ2xjNXExTUZsWTxTMDVaKmo/JmFuNzEyI0EyN18iYjVWUCQzSFJgOSZBKiw9ckFPJC4zX0M5YTdLWFhLbkQtPlJhdWhvMUZVOiwsOGAqaSUrWSZyZyE0XkJYc0FvUTtdbGcncEJXcmZNSChLZy9ZdXVPbGZQY1whZGMqOFFXYTZtXFBOOEIxa1s5O1VGMTMnYztiMGZnPFskXSFDLyglbWM9QjYuI0VtczBwWFI/b09ncF9iaj9bJT51aDo0UD5UR280JDErXXJIMFAyLStDIzNuJUw5b15hVmFjLTF0Q2JeQjFxcDQqKVE1I2E8R29HSlAlI1FmS2xrKnRbYFNmVmtHMUBwQS9ycl1IXCc+TVcpLygtRUs7bCZiazYnZk0uR1NzKXBiSFdMJkkrWGEmKC11N2w0JW5TYyRhVit0O0RVdSpgJS5RISRWP2xRTVNfbUJWaXE/L1BkQFdaZDxFJGBIWUpZYD9qUiJOJXVwZi9iI3Erc1JvdUUrQF9tOUdxKy5dWnE4ZkFKKyw3PU8zQTVwOj8tWktXPTkjKFkrZ0hgX0g4Tk5NP0JTKEZIKXRJOSVUXilKPC1VXEk1UzlhXVp1R2o6X2dhbmFJZicrV1xASEVZaDgtQi9TIiZraTwhSipecy5TM11VUmhkTDU2Kj9yTUQuUm1xVDNhQS1QPF9sYmtNJTZMYl5NPVpSa1VvLDBRcEw3Q0ZQbz5vdC9hOnNOO3A3bGNSKjg7a2ttYXFKX1ZucTxnMi1fcDImIkZUcytPMk9sZzhQNjp0U0JcWjsiT3VeSFo0Rjx1VU1zVDZxXEAuXiskaUJTXWFXaCE/aDxCTk9IIlVNa10nOzBCUDJqVjxIcXJAVkotODM1UE5qLik2cG0zWTRXTF5NaFhVVDRXZjBHcG9iVzlZYDdpc1xdPEVeJSs9bSFVMD1CYGUtX0hkVHM3PyNCSGJSQ2FKVDF1bkcrP09ycTtgJGw6KVxbbiJpKiYxRz1JZVo9OnNkMi1YaD9uRkEsKiFxOydpYi8rOm8rcSdVRStLNCgqZEJRS2QwclgwbExsbGlyYC5kQWVcTnJvTnBnK19JIUxBPF8xYzg8UGgjZycoLmhRNzFQIzZadS44UmJMK04tOD0iSiI5QVU+LkNZWkFPKF8nZEczT1I0QWxAYGZiJi1VUWUvI21HakRqYjdRWmUkZk1GNTQ2Vkg7P2ZBX2FZLkgidGFRV24yTnMuXCZCNWBVR1NsRm89NkVNTGUuPk4pS0Mya0FdXkM8UVtYb29KcT9sMS9nPGk3YF1rXChlTU5caVUlSy1bKVlFJWxcOyI7Ul9gX2NdJi9fcVlXTzRPQyM3X25zVSYxcjMnLCJmQjs8cCVTTWFrPVVFPVoiKmpwLi0xYXAqZVpTcD9WYWBwaVBoS2RQRihWIyNpNDhaKWZfSDJlMk5TUzFDQWpMPilaI3BULGAhNlwzWEMnKyojN0VRQjptZlYhUDVqIydJLSpNP3UySz4vQWJEQjVgVG9uYW5qRmpOdD86WVBIayU2Y0RZcEc2aS5yUFw8Y1AiKXM5VCFTZzRFIiJvUDwkJzAhWm10SiU4MFw9U281UCdJUDkvSFxwNVBPXmsuRUVxR0hyRk5TSSFnR01GPHM5Mz0+SmZTUGsicXMlbWxyTDpDJUIoZ2t1aC9uJSQubyhxVSJyQDZTYEpUVUQlN0pNPD44SDsrMjFqOVRrRyUwQyY3YCJbXEpRJDpGXXAzdTA7XjUkb0tdQVcwQV1HSm9OJSNxb2hiQ0FicSVCZVFha1JObjhJaUVeNDsoM3QoNXFgUlNYWzZZY2NkPUduKWVqJ043NnJ1bm5IPG89J0dNJF1tND9DWTAuPjhjKz4ocFA0QHM1I00iOEY0PUpXSjRLSlpvXTg5Nik4MWVTLjtBcE5TdFJINzQ4TWg5MDJNaDVwMl0nPipdIzllTV8zaSJddU91ITVxJm06J3JPJipOQlpjIT0kJyk5RDNGbl0tQ0Y2bitgOS0mL15ARU41JE1ULVRmIl1sUUA+LW1lZkNvSEhMUV9OJkVXImtIR1RsWmw9QmlxO29SS2RMcTE/JWFUQiI9a10qU1Q0TVMwaFBaVjRrbjhTPktWIWAiW05SZShpRmlqVzVLZHAwPEhZMmpPa2cqMlBhdWEkWEBfbyUyTUU7RDNsSTZERWVYX2spMz9mV3VsYDRdZXJBWl1sI0pQPE0vbnArMTM5XWJFWyUwKkNbY0IxJjsuXl5nNFxXO2ErXjZSL2NUKUhGUEZHZCNxKDMjQChDPFosV15pQGlKQ1hbZCReY2Q9SEEpZWonYmBFPj1ebkg7Y3JTN04xPFBNZSsxYyxPUj5aRXMoK1gzVGFYRjtrJydbI0xucTJ1JjxibiYhNlIyVE1CKCgyJkpqQTZEWyNabE86RkZVcGg4MFFwaUItNypGOC8xIStlUDkpbkpmR25sNVtMPj9uQFxKTj5QRkIqIWZKVDVgM2FPOkw9a3RYSVRDWl02TC43WTluSUZXVzxbYHEqI2pQPyo9QERDUUI7OVJDWmREMDBVTU5fPVVMTDcwRUJNZSkzOClqODMjY3V1YzchJ0FCNEpfPmNHNFldcGRiYnBrIyJERkYzRTRLKWw1ZjpJZXE8SDM6cnBGOXFMJT5Ha0w0biYrPXVOXTRcQiVyWzQ1PF8yITMiN3BbJGMuR3VnUipkYDBlJUVoXUtkLWBIUCwoZTJAKmhvJCxLcy0yRCNYZWZEPnNtJ2tyYnU+LTZHN3FmYCNdW3RsbTI3MzgqS2B0cnRdcXFAQU5YT0JfL2UmRFAoZDQrT0ZWR29sZFgpTlQkQD5DT2U8Ilo0b0dUPWhjJlhJSmQ+TCxaXW9ZPWNhcTkqJHVpbjwuTEdISCVcJUBRTCFeV1BcaDwyYXFbSVBgW1tgMk5fQy49VUpLJEQzS289OE9kQD1KZUotdUZEVj9sMVMjYUpHX0IhM3MsXl5JK29dLks4OEsxKzJkXl1pKVlELGk7cnBXU2dARz41X25lOj9XVF5FU19ZT1RnZ2QjJ2gxSTY8cDAjJ2pnZ1ooNlNfayt0cUBQQTVoZGlJc15YMidNZzRwdFI5Sy8jLWpqIWliPGFBSkU9TU0qYzFSOE1xTihEPnMrRWJMMlg/Smlxbz1EdTUoN0YwKTgtaWEoMj0zXi03NnBATChYOUFBW29IVkNxcFhyK00sRD1tRGREVj5WNCskRmdIWyI5ZGFAXj1SOSxUYS5dQDktS3FDaEhVQ0deODtoVW46TCZHX3ImJjlwQ0QvXFQ6ODcpPjJHbjgzYi1FVUtXW08nUzwpVXFXVitHSVlNImYnajNoRkBAJD0xXFU/YT4zRUZVUWtvUCFWKkpCXkRnWEFaRy9UJThUVC4nKnJcTVZmVTJdQCJ1bysoQlRiJE4vJURoRChiaz49QDRERlJjOmVaa1thXEJVVTdVbWM5OUghKHVHZ1JLUF1mSy5RW0xsLG5yLWJYVTo3XF5yWy1qMzFISF0rMT1CazxQKT87UV5pTlJFMl1aWkUmPiNRbjoqLiotVDVBJnQ8UW4rdVxLU3UmOSNGUmhZKiE/WyNDMlFfKiFORTYkSlI9UkM4Tzw7Q2xeTmg/Oj9OKSlgWVdhN2ExQkpZNENjJC47S18tV0I4Ok9rdCM1ZGAsbDEtUFtWVFZLMTxjL29yTmxzckA5Wm9CQ0VRUVJjcktzVG9nXzY3RFtPSURIXGs7ZklmRSRvLGlQWDxHVltta2RkUkdbUEZqbV5sSiQpbkZqX2dES0srYV9nYD85OnFvI2taYDdWNjJYPEhJKDhCVVFiKUxnPV1sSEMuJ2dMPDcraFVqaFYpVlRMYFkxNDlRIWVAT09tKz4+PkZodUZUUCRHJlYlYk9ObjU0WmVJcDROJ3FWcXQmMmEpdCttY3EqUlpvRVw4WWAtIUVKO1s/ajhkU2BqOy9rZDdjWS0pcEsjPWhBUTI+XllbPi9VRFpcYXVlSFtuPjxoIjQzbV5gXV0uYSFDUEk7KjZoMm5fRWVdRyU5OlZnI2VKcGJqZU9qcG9SXV8sOkksVkFlRmhUYVxdVSxdJWVqb2c4LjFGQlM1WFY5cGkka3U7Nms9PV9mY0FULUEvOTNLVmQ9XHAhLzouWGQkNDZcIVFwOV5OX14yNDFsXmQuUzFxOj5pKnFrVS0vMiRvbCJrJCxoOkFTIyRRTlpkXF9KJkYsQkQhZG4raTxEbVduS0MzJmpgWUFNWzo0RDVuOmU0NV5WI0ppRHVTay48WTs9USM9cy9qMyRPLHJRQylxQzxsK2h0QzxIOidhWURiVSVwLEMrLGVpNlNZOV9jVldDTUlAIVxyUnNQRDI3dG5WOyQ1Y2UvYCNpKiZKSitqUClgaUI6IV1OXmMkQjAiNltlTG51UGlvOGcjJ1tTL2VoQTQtSTNPQipGIS9ec0xjWj00KlZcTDBSTmpgIWsrSUo7IlJGRyQpVEJAPXA+R11ELUpyNCIhWTQyR01zaC1fVWVITjRtZ3I8QjA+QmAhcTdYPDZtZHE+RFI/cCRKTicyJElpdEZkQitoXitZcVduI0s9UlRdQE45bygtb3BycF5Ea0xgZmknRXVwY3RGKjkscCEpdGNsWDJMPmBkV1otWT5FUlI7LkZcWXIvYFM+UVM+c0ZgS2leOV5qIyMtZmtTKzRuUS8hLDkjQWlZPjM3c2IuWl5RYlRuUD0zaGNNXTBrOXIpJW85XykjLkg9Y3MxYFczQjJtJD0mPGFyTTxFN0dPKzduYE5RSExbcVpkbS48V2JsK01YO1hrSVxaYllpVVtcSkYjQi9rLj00cVlscGlwJVVibSk5P2ltPzMyKkBLRnVCNjpFXyhcPU1objshcihTNHFrUzpiLWxaIz9zJy1XYyUkZjoyLi5NUiwrUF1sPVJBdTxabyFOYSJpU3MjXV9SOyYmZCsuXiluJTxyXzEwUS1DOzUwTyJlQCQhVSQjZiNRY1owVCM6LGtIYCdZa3FwMVtgPzM3Qm1SUi5HTyIhNCZxZGcnYkcwMjdPL05wIy9HSl1rKmNaWzRiSihbJHRdTSkuJFVcWTwiNDYnLllcX0ItWTU7YnFJVkFuNFVMaidkdUlZQnRsPT8wTEBRWW1oMnE+Km5OXW5CUEw6NGJkITomJzZJcyw7MiokTUQ9Y0pVMkRBU1I+YGdpaGgtczZDdE1jdT0oQ1s9bCVxZ28uP1tZW1FpSiRmRC8jbGkzRzxtQz5uKkAxN2QldF1rcnNjS001KUE5cU5FUDZtVyoqdTYtNlFTQDZAJUIzc2s5c1EjZUdKVVA3bjlXQGA0byEiRl0tS0FKcHBVRzpyJkM6NTBEPC5uVE0wTlVyXiorcUdjSl1nISVRSF5PWCVmJydiMyJfVkQ/aENMbGoiV2hHMFAwSyFmcmdsK2ZGYEFBQFU3JERqLnExYiRnYGw6SWFDUlZsTTw6Q0ApOHJHMTFuZSZsMi01PVowQG9qTVYvZlI6I1ptcUBcRTw4RzImWyhNPmhgTT1CMG9LLylLVVBSYi8sVEdGZEFDXVhtNC8obUdYUk1TSixxOGFlLyguZEUxRD9vUERWMmBOYWpoQy1yTmMzWVYlKkxlMWxhcEhJZUAsLkVVZHJSTitSKlhaMjRYNkskWSxMUFVrXzduMlowL0BkV0dfNEBsIU07RCdMLSFzRVxHJWtkSWkkRkY9MnV1XGwvWiNNVighUUVCTzw3X0ZhMiolXFM3U0RDQjdwQz1WTixBRFBmR2xoKG9PTElVTGBXanVIZ09lX2c6UmVKWzdjWj4xbEZiOiNXM0pePitMZE9qWGZZRChBSENUc1pSSXBoSFNxPk84WEthWWIoSDNxV151TmdNPT5PWTJXPjFXZFExa1BaPU9nPCtJXUpOJE8va2BxN29rRVNNQSFxWGcwTUMiXW9nRD1INS9wLEhtVWguYEBqUjVdalM/blw6NnQoQzM6I1VPJV8jNV5ROXU9W1c8Z1hrcW9cKEw4XDgtTiZmUitub0YrQj9qZV45SERmU0NxWGJiOUZcSiFGP3BGY1VnXEdba2o7XHMoOnIrbEtCPiRMSmFHYnJ0U1ZESUwnYj84RmRHUDwsXVxYb1UwXyk5USdmSyxOaSopP1RrOj4sRjgiZ2tkODlCREFJLFdqbFhIOWZgS2s1Wm9uXzVbYUtGXEk0cWxiNV5fJktCPSgqLkMyYDdvMU9xcWcxLDVdTV5xIidYZCEsQW42Oz1xXllYZiVsdW9TTSpKciNgSjFWIjduJlpmMmVWcTcxWzZ0byExZE4hTGhWJjdyTjhJUWdcKDguXFlbXFhUUjx1a1hxI0pSL2hPWG1BWixRQ2I4cSNAalU/O11wWWw6Pj1XK15iRyYyNFtGM1JcRktmT2ZGX2hBbDgyUVRJOjwtT2JPWzxkS3MuWC4zcCE/TkppRW9qbjRGM3NQQEJnYjtISDZUVjhYZkclMCk2NTFbUXJfayZyMWNuKUo1NiRjYUVXRFlUT2wta0JjIVZnRUgoRVJQIVNucGg9Q1tDQCojP2daYEs0Jj8qQSgkcjhVTzNQNi5MPl8rdXNLaUBSS0hGZSg2YGshUSxlZF8idWordXQ+Mi9xTyNISHBrQ1gqP1NdIWdbWVhTLSxyIWxVTEJIJyMhP1huISlDXztLUmVdJDdgMlxoKy8nKitiLHFUckpBbnFfaCddUyIuLVohRiY7Mz0odTpbNSgnaz9cNSZqTVwjP01mRmE4Qz8hUmtQWTJfIT1lYk5rMzFCajRqaF84bl1VPG9yISNTaD5FbzFZcU8vMkNsSjgtWWhoWVVGdE8scixjQXI4Mj9hQ3VdYjI+TWM9ZWw4RWxeaWxAJUNUMWs6PydlQmM6cmE4QCRfcVprJFpOYC9eSytYUnRIMW8xRWhCbksuT1cpYlV1JDg9RjBwZEFeLVAia0dNPl9fPyRTUUtHaWNvYzUqaEkkaVdBbGVfcy5MTFpiM0xSOjtdS29MVUdLXz9QXFhfJENkbUFJc1xJZlNuXStWK3BAMjJyUGFGNz9NQFohUGdAOCs7b2hKQUdgS25MSD45Vi0sMHBVLlxtLSZkSGEzMDojNk1aYSxkSWZRPWJiTVpDOzNraG0qMEQ3L1hoOCVVUmpwVnBxIUI+ckltb19ZS1koKz03XWdpYk0mZDUiXmduNClsXE49Ul5ALEhvWzYxZDlhMilaLDhxQ1teb0RFLiRYYEJHUid1Sip0THEwZURmK18ocGVsbWxtS2EwSTAuMDNjIzxHPFwoXGpJK3UqQldnVmtrRyZDZCshRTxuJEgvP2VpLFVCdWVKST9hKVlDWShfL2xtQydaKXRcLkZIYF09JmxyXE1qS1NFM1FZSzkoQFsmI1xbZzZwNmchVl1caUZeZC9vKHVMIjNOKVhAQVNjKShxY2JuQyo1ZnVaUVs3WnMtVm5CcWtNVEJUaXRmSkxXJzdSXCxOYmtNN2tEZm1UQCkuLzVBJVVNQ0xndShSdGF1XSEqXEZZLiIrN0ROUkhDa1JtOmpELVxrNjlcOipeNF0wOXNSKFRbakJpTUIlKFMwVCFbIl4nMD5dcDBmY1E5ZCFhLWFsWmY5dFVgZUFBJ14+O0tsJTMiMCdZbEdLMlE8QG07O1BtWlEkLDxXblBuZTQ9ZS1TZ3M2QjIhcFhvOWZYZXUrKShEVSFjbGxDUmYoLEVJTjNHYlcqWGNMYTteL1NwKFVoU0JfbUw7UT9Scz5sTCdRal1WXThDN2U+Xjw+cnVuWkMjYSh0bDpDO0VcJldSUGEzW1FUWEBfPlUwMk1dM0IiN0BYTCZtUzUsPVVOPkVeWCE1ZWBALzNWREZhTSMwREExMG5zQ0tfVz41Ny8oUl1qYm1kYV08SEc2OTkscGhDcks4Z0pFQis0ODFqOThNPXJsMDolZD46cSo6OlcwXWBDJ1kkX15WUjp1I1dcQypiNW5bN2ZmIm9hLXVnLjwnM3BGQ0ltMWEvWzk2Sl5BXlYiJHVFKj1rPHNLJk5jTCJEXzxMIltdKFMpb2BlKnNRUV9FamslYm5MRjpHTlFbVVxrb1FPcm04b3NCYVFQJj8wdVZoSTIhTD5ZKiddZzE5X2ZvcSdvNUxdQ2EqXjEhaVMvNy4kbVkzJilIbXFuNFctPkNBclFzZipgZkFLWCZGOywuP2thNGZRY2EhJG5bQmNeUTwndVBgPDBbJ2ZJM2BVPHMoOVRoMC5SO1hrTydeJGMtMy1DLGsyXyonSSk6aSxZQCwiJExPMm84cTlxUztwTD1NQjNndWxuYig2VlAvRkwrak9EJjMxYWQ4YnMwUW0iJjZvJEdMK004NTckVFcrJnM1bTskN1dga2VkKUs4Tj5AT2wsSi1oUGxvUTBAci1oLTlpclAkUShfNFhNQV5AbyZpLiFRNmdyMV9eXXRjL1MsbEdIOD5FVjpaW1tYbDRZTUFFK2hkTnI3ZlNIKEkrJjhLOCE9Oz1TP0ctXyg4aiNDcFYjUms5KD9pMlpMRzZQQVlCbyYyVFJeOFRBWDcjaklGKVwmdFsjNS1kZ1xUI2tnI0VaWk5nKkNHKEkuUD9UNj1OZ2RjckB1VDBGQ28kPmJHPDlbX0RgR0EoY2tHZT44RiRkWVkoZWY7aUkzaWVDTDVTTlNGQDgzZWVDQTBQbSlhIVJAYGQ/V1IzaVBacCxET0xHZztOYW48KCowUWJUYERGXzkrN0QxbVJnalY1X2tBVk1BcTkqSjZCVTY8a0NEOmE2XXMwIklUN1RPa0VyVEwsKE8oSj5bcl0oQWpmNjVfJCVDc0JoKGFcbypDXl8qbkBHVUg8NHVtPDFKWlAzVzksPC41QCtfQXBaOlM/PDRwMmBjMitsJFoqQERkY0guJVI1ImJjbVkyYTRSTGtGLl4zMkhuITQnQ0lEbV87QHFuJVlMMmkpbjsmWXMhYGcvKiltOmYpJiQjQG0oKC0oOjYibi5KJV1mWWkzOVkqa1dFVjdfUGBeJzpiQEEtWydpI3JYUlBdXFYiXClmbyw1VzpxMm1dJ1xuZSJgNXEmVSlCNXJPXUU+cSYuSFwjVFxlRCZyJ1RpWUJeXGRiLFhSbk9GTyhYcShNKjdISGojKltjUi9JNjVsSUgwKUZZS205XzlnNCtIVWBgJjFzO0k+Z2NObGYkNj8iLUBuUVMiIT9mJjZrY0ZFNCNPTFk3b1BHWCxQUUlXQFVVJlxsIkY8MWZZIURQOGxVZ1lvcTlzWVBUUWViK0RHX0g5QyI8YlJFVChNZzlyIkhMMjlJaEFlbVNhU21FbDMvUyFsQCVOQD04WDQ0PTo7XTtsMSIyWUI2LjVUKDwlU05BS1JrJTZbOWVWLyJnLylDV208ZDIkbmBxaHArITwwTGtrXWQ2IjhMQEN1ayFKOztHWXBndW5zYFZTNC0wPzI9IW9aVzkuXWRYMEE8RCYjSVlQM2FcT0Nra2MxQGpwSWtKIzxKTlBMOjkzVzFYN2pIRVlOXlY/JWVGWEAiVCFcTU5wbkk0WyRpJmdsPG10TF8rcFUxTikkZkNbZmc/SDE7ZzA8LV5AWj5QbUtMUlA9ZD06MCgkIm9SUF5xcHJKSmIvUDBXLktoJi87bCZkL00oYGgyO18sQUkhP09Ma0EkckA2XXNWVlhKWD8uPGFELGtYVkVLc3JgSlw3OkQ6VTA0XG5EV1RUZVMlP0NnZWd1NWtFcCQvWUFiWUEzOjxFUCdyNkIpOj9FPihTKSVSJm0waVNDR1NvPGlAblhbbUdJMG8nbjJkS2MzOigrVyYtQFQuMmFlQGhIbVhmRnJVLXA+MD51KThILTVWaltES3BgO2VYWzgxPW5nbUxDdV9cVExKJGJMYlFmdE8nT2BbU1NsOl9nWyRNUmkwSlEqbjpTQUpOTzMoJGNWL3BvLS1lITA5KyNAV0dmZ25sWzVBaGIyJVA5aExPI3FfRytSZDsubUomIkMpSzVCJWM4WWRQU1BHUj8oUTVKXW1eP1E7SWRbYWtCcDkvcUA0UmU7Mk4vRGReJWM+cD9vQVZOJUd1ViQxZ0lsOUhaOz4tJFlnYj4kJWs0OShiU2BTaGJoMGwkIjB1KG1ldEw/J1FOOy40RDxFPVxhNGRuIUslRGhIJTBpc0BrbmtYQ2NuV1ZzN1VcZGtkXGIjPjQ+R0pGdWxIbE0qXDZLRm5jYVguLT83RSFOLGJqMDZRMjVDN1k4Wmh0YWtwRSxfU01SRUNsKz8kciN1RCdqYnVDVWJQPHAmS183cVNXcW9BQmx1XWgsbldzRVNWU0cpLmN1KjxBYURMZS5qVixeW2RFYTJURDImZEQ3QywhbWJgdFQsUSoybj1qaFxVL1VXRDYpXzRVO0dpPEY4IjdOM0JUPUBpZ1suNHI6b1RaNmtEMEkjQ20laCEzYilHN18rPyE7SWNfQi9HQyZTWm1hZCNiQldKZ29MbUdbSDhBbUtFPnVHIUBYbHA6VmE8TzNZQC5sZj5TWVNkfj5lbmRzdHJlYW0KZW5kb2JqCnhyZWYKMCAxMAowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDAwNjEgMDAwMDAgbiAKMDAwMDAwMDExMiAwMDAwMCBuIAowMDAwMDAwMjE5IDAwMDAwIG4gCjAwMDAwMDAzMzEgMDAwMDAgbiAKMDAwMDAwMDQ0MCAwMDAwMCBuIAowMDAwMDAwNjQzIDAwMDAwIG4gCjAwMDAwMDA3MTEgMDAwMDAgbiAKMDAwMDAwMDk4MCAwMDAwMCBuIAowMDAwMDAxMDM5IDAwMDAwIG4gCnRyYWlsZXIKPDwKL0lEIApbPGM5YzBiYWJiOWU0MWE3MmZhZGQzODFmY2VkM2FjN2NhPjxjOWMwYmFiYjllNDFhNzJmYWRkMzgxZmNlZDNhYzdjYT5dCiUgUmVwb3J0TGFiIGdlbmVyYXRlZCBQREYgZG9jdW1lbnQgLS0gZGlnZXN0IChvcGVuc291cmNlKQoKL0luZm8gNyAwIFIKL1Jvb3QgNiAwIFIKL1NpemUgMTAKPj4Kc3RhcnR4cmVmCjk2MTYKJSVFT0YK",
+     "addedAt": "2026-11-16"
+    }
+   ]
   }
  ],
  "demos": [
@@ -3115,6 +3282,21 @@
      "title": "Atlas product recording",
      "url": "https://drive.google.com/file/d/1vuYV10WPjPhRa6OmuT2yp_CxYzdi3GVN/view",
      "addedAt": "2026-11-11"
+    }
+   ]
+  },
+  {
+   "id": "metaview",
+   "player": "Metaview",
+   "url": "https://metaview.ai",
+   "unique": [],
+   "notes": "",
+   "media": [
+    {
+     "type": "video",
+     "title": "Metaview product recording",
+     "url": "https://drive.google.com/file/d/109Aa5jotZ1GOzzm1ou_zDE_1Y4nGxKke/view?usp=sharing",
+     "addedAt": "2026-11-16"
     }
    ]
   }
@@ -3269,6 +3451,10 @@
   {
    "at": "2026-11-11 15:00",
    "text": "New product page: Atlas"
+  },
+  {
+   "at": "2026-11-16 10:00",
+   "text": "New product page: Metaview"
   }
  ],
  "notes": []
