@@ -1,5 +1,5 @@
 {
- "publishedAt": "2026-11-16 12:00",
+ "publishedAt": "2026-11-17 10:00",
  "players": [
   {
    "id": "bullhorn",
@@ -3755,6 +3755,177 @@
      "addedAt": "2026-11-16"
     }
    ]
+  },
+  {
+   "id": "wrangle",
+   "player": "Wrangle",
+   "url": "",
+   "threat": "",
+   "createdAt": "2026-11-17",
+   "updatedAt": "2026-11-17",
+   "sections": [
+    {
+     "id": "s1",
+     "title": "What Wrangle is, who it is for, and what problem it solves",
+     "type": "text",
+     "addedAt": "2026-11-17",
+     "text": "What it is. Wrangle is an AI-native recruiting platform that joins two jobs in one place: finding candidates (sourcing) and contacting them (multi-step outreach sequences). You describe the person you need in plain words; an AI planner turns it into a scored search over Wrangle's own profile database, and the same AI helps write and run the outreach.\nWho it is for. Internal recruiters, agency recruiters, solo recruiters and founders hiring for themselves.\nThe problem it solves. Recruiters juggle a search tool, a spreadsheet, an email-finder and a sequencing tool, and read hundreds of profiles by hand. Wrangle scores every candidate against what matters, keeps the shortlist, finds contact details and runs the outreach, so the recruiter spends time only on the best people."
+    },
+    {
+     "id": "s2",
+     "title": "How it works, step by step",
+     "type": "steps",
+     "addedAt": "2026-11-17",
+     "text": "Wrangle has two main flows, sourcing and sequences, plus tools around them.\nSourcing: Describe (type the role in plain words), Check plan (the AI restates must-haves and you adjust), Search + score (the AI finds and scores every candidate), Review (match %, reasons, Hide or Shortlist), Refine (update search, evals, fetch more, filters), Shortlist (save the best into a collection), Enrich (find verified emails, uses credits).\nSequences (outreach): Create (a new sequence from the shortlist or Outreach), Add steps (Email, LinkedIn, InMail, Task, AI Draft), Wait times (days between each step), AI lines (AI Content written per candidate), Rules (mailbox, send window, daily cap, tracking), Enrol + run (enrol candidates and enable the sequence), Track (opens, replies, Interested, Analytics).\nAround it: Agents (source and draft in the background), Contacts, Inbox, Notes, Team Analytics, and a Context Library (shared context for the AI).",
+     "steps": [
+      [
+       "Describe",
+       "type the role in plain words",
+       "On Search, type the role, for example \"Senior Backend Engineer in Bengaluru with 5+ years in fintech, Python and AWS\". Quick chips (Software Engineer, Product Designer, Marketing Lead, Data Scientist) and past searches are available."
+      ],
+      [
+       "Check the plan",
+       "AI restates must-haves",
+       "The AI (called Wrangler) restates the request as must-haves and shows its plan. You choose \"Accept plan\" or add context (\"Python and AWS are must-haves, fintech is a bonus\"), and the plan updates before anything runs."
+      ],
+      [
+       "Search and score",
+       "match % and tier",
+       "Wrangler plans the query, finds matches and finalizes candidates. Every candidate gets a match % from weighted criteria (Very Important or Important) and a tier: Excellent (90%+), High (75-89%), Medium (below 75%), plus Hidden matches. A summary says how many were evaluated."
+      ],
+      [
+       "Review and refine",
+       "reasons, Hide or Shortlist",
+       "Open a person to see the score for each criterion, experience, education and skills. Press Hide or Shortlist, or accept the banner \"You have N strong matches: Shortlist All\". Use Update evals to add a criterion (all candidates are re-scored), Update search, Fetch more or Filter candidates."
+      ],
+      [
+       "Shortlist and enrich",
+       "collection, verified emails",
+       "Shortlisted people go into a named collection, a table with Share, Attributes, View, Import People, Export and a bottom bar (Wrangler, Sequence, Upload). \"Enrich emails\" finds missing email addresses using credits."
+      ],
+      [
+       "Sequence",
+       "steps, waits, AI lines",
+       "Choose Sequence, then New sequence. Add steps, waits and AI-written lines, set the mailbox and sending rules, enrol the shortlist and switch the sequence on. A Gmail or Outlook mailbox must be connected before it can send."
+      ]
+     ]
+    },
+    {
+     "id": "s3",
+     "title": "Features and how they work",
+     "type": "table",
+     "addedAt": "2026-11-17",
+     "cols": [
+      "Area",
+      "Feature",
+      "What it does, in simple words"
+     ],
+     "rows": [
+      [
+       "Sourcing",
+       "Natural-language search",
+       "One prompt box (\"Describe your ideal candidate\"), with voice input and an optional job description. Searches run over Wrangle's Profiles (a built-in candidate database). A Preferences menu and a list of Past searches let you reopen earlier work."
+      ],
+      [
+       "Sourcing",
+       "AI plan (Wrangler)",
+       "Before searching, the AI writes back what it understood and what it treats as must-haves. You can accept it or add context; the plan changes. It then shows stages: Thinking, Planning query, Finding matches, Finalizing candidates."
+      ],
+      [
+       "Sourcing",
+       "Weighted scoring",
+       "Each candidate is scored on criteria you can see, each weighted (for example Overall profile match, Years of experience, Python and AWS, Fintech experience, Backend ownership). The result is a match % and a tier (Excellent, High, Medium), with a count of how many fall in each, and an average and top score."
+      ],
+      [
+       "Sourcing",
+       "Refine tools",
+       "Update evals adds or changes a criterion and re-scores everyone. Update search changes the brief. Fetch more brings further people. Filter candidates and Active Filters set cut-offs. Tabs separate Sourcing and Hidden people."
+      ],
+      [
+       "Sourcing",
+       "Candidate view",
+       "A profile shows LinkedIn link, location, connection, skills, experience with company details, education and the per-criterion scores. Buttons: Hide, Shortlist, give feedback to the search, flag, and report a candidate. A thumbs up or down rates the results."
+      ],
+      [
+       "Shortlist",
+       "Collections",
+       "Shortlisting asks where to save: pick an existing collection or create one named after the search. A collection is a table with Attributes (custom columns), View, Share, Import People (add people from outside), Export and Upload. Collections and Projects appear in the sidebar."
+      ],
+      [
+       "Contact data",
+       "Enrich emails",
+       "Finds missing emails for shortlisted people (the column shows \"No email found\" until enriched). Uses credits; the sidebar shows credits left. A Getting-started list gives bonus credits for Enrich an email and Connect LinkedIn (finds warm paths through people you know)."
+      ],
+      [
+       "Outreach",
+       "Sequence builder",
+       "Steps: Email, LinkedIn Connection, InMail, Task (a to-do for a team member) and AI Draft. Steps are linked by \"Wait N days\". Email steps have a subject, rich-text editor, links and merge variables: First Name, Last Name, Company and AI Content, where you write an instruction (\"one line on their latest role and why it fits\") and AI fills it in for each person."
+      ],
+      [
+       "Outreach",
+       "Sequence settings",
+       "Name and description, sender mailbox, email signature (Gmail), unsubscribe link, sending window (for example 9am to 5pm in a chosen time zone) and days of the week, randomized send times, hourly and daily send caps per mailbox, open tracking, reply notifications to the sender and owner, and sending each email as a separate thread."
+      ],
+      [
+       "Outreach",
+       "Recipients and analytics",
+       "Recipients lists who is enrolled. Analytics shows a schedule per recipient with status filter, a date range, search and export. The Outreach page totals Contacted, Active, Opened, Replied and Interested, and has a Templates tab."
+      ],
+      [
+       "Agents",
+       "Background agents",
+       "Describe a task and an agent works in the background: it sources, vets and drafts outreach. Pick a project, a mode (Standard) and a speed/quality setting (Balanced); type / to use skills. Suggested skills: Find Strong Matches (define the role and save the best), Draft Candidate Outreach (turn outreach into drafts to review), Map Your Talent Market (employers, pay, hiring difficulty). Apps can be connected for context. Agents use credits."
+      ],
+      [
+       "Workspace",
+       "Dashboard and team",
+       "Dashboard with quick actions (New search, New agent, New sequence), numbers (Replies, Candidates Saved, Total Searches, Messages sent), profiles added per day and recent items. Also Contacts, Inbox, Notes, Team Analytics and a Context Library (shared background that helps the AI), plus Support."
+      ]
+     ]
+    },
+    {
+     "id": "s4",
+     "title": "How AI is used (the AI-native part)",
+     "type": "table",
+     "addedAt": "2026-11-17",
+     "text": "What makes Wrangle AI-native is that AI is the interface, not an extra button.",
+     "cols": [
+      "How AI is used",
+      "What it means"
+     ],
+     "rows": [
+      [
+       "AI is the interface",
+       "There are no Boolean strings or filter forms to learn. The brief in plain words is the search, and the same chat is used to change it (\"add a criterion for payments or ledger experience\")."
+      ],
+      [
+       "It plans before it acts",
+       "Wrangler shows its reading of the brief and the must-haves, and waits for the user to accept or correct it. This stops wasted searches."
+      ],
+      [
+       "It scores every candidate, with reasons",
+       "Instead of a bare list, each person gets weighted criterion scores and a match %. Changing a criterion re-scores the whole set at once, so the recruiter tunes the standard, not the list."
+      ],
+      [
+       "The same AI writes the outreach",
+       "AI Draft steps and AI Content variables write a personal line for each candidate from their profile. Steps, waits and sending rules stay under human control."
+      ],
+      [
+       "Agents run the loop in the background",
+       "An agent can source, check, and draft outreach while the recruiter does other work, with skills for common jobs. The user reviews drafts before anything is sent."
+      ]
+     ]
+    }
+   ],
+   "files": [
+    {
+     "name": "Wrangle_Report.pdf",
+     "type": "application/pdf",
+     "size": 11337,
+     "dataUrl": "data:application/pdf;base64,JVBERi0xLjQKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUiAvRjMgNCAwIFIKPj4KZW5kb2JqCjIgMCBvYmoKPDwKL0Jhc2VGb250IC9IZWx2ZXRpY2EgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YxIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKMyAwIG9iago8PAovQmFzZUZvbnQgL0hlbHZldGljYS1Cb2xkIC9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nIC9OYW1lIC9GMiAvU3VidHlwZSAvVHlwZTEgL1R5cGUgL0ZvbnQKPj4KZW5kb2JqCjQgMCBvYmoKPDwKL0Jhc2VGb250IC9UaW1lcy1Sb21hbiAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjMgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iago1IDAgb2JqCjw8Ci9Db250ZW50cyA5IDAgUiAvTWVkaWFCb3ggWyAwIDAgNTk1LjI3NTYgODQxLjg4OTggXSAvUGFyZW50IDggMCBSIC9SZXNvdXJjZXMgPDwKL0ZvbnQgMSAwIFIgL1Byb2NTZXQgWyAvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0KPj4gL1JvdGF0ZSAwIC9UcmFucyA8PAoKPj4gCiAgL1R5cGUgL1BhZ2UKPj4KZW5kb2JqCjYgMCBvYmoKPDwKL1BhZ2VNb2RlIC9Vc2VOb25lIC9QYWdlcyA4IDAgUiAvVHlwZSAvQ2F0YWxvZwo+PgplbmRvYmoKNyAwIG9iago8PAovQXV0aG9yICgpIC9DcmVhdGlvbkRhdGUgKEQ6MjAyNjExMTcwNzAzMjUrMDAnMDAnKSAvQ3JlYXRvciAoXCh1bnNwZWNpZmllZFwpKSAvS2V5d29yZHMgKCkgL01vZERhdGUgKEQ6MjAyNjExMTcwNzAzMjUrMDAnMDAnKSAvUHJvZHVjZXIgKFJlcG9ydExhYiBQREYgTGlicmFyeSAtIFwob3BlbnNvdXJjZVwpKSAKICAvU3ViamVjdCAoXCh1bnNwZWNpZmllZFwpKSAvVGl0bGUgKFdyYW5nbGUgUmVwb3J0KSAvVHJhcHBlZCAvRmFsc2UKPj4KZW5kb2JqCjggMCBvYmoKPDwKL0NvdW50IDEgL0tpZHMgWyA1IDAgUiBdIC9UeXBlIC9QYWdlcwo+PgplbmRvYmoKOSAwIG9iago8PAovRmlsdGVyIFsgL0FTQ0lJODVEZWNvZGUgL0ZsYXRlRGVjb2RlIF0gL0xlbmd0aCA5Nzk0Cj4+CnN0cmVhbQpHYXVgWT1gWU5CUCgpU3RhQUJnblpGZCskXGUiUCFtJ2BmTGQ7P0tJR29bUiFJPVBFQj1dUVBiKk10Xi9JTm9MUjpZREpcU1c0TykhJVcnTlFVIy1hI25MOVtfNSUlJjxXRmVWaVJeIjBHV29CWV5eSFxFWTVhMSxmOnN1RDpdPCtnK2EmMlw5c1lQMmVgYjJ0bl91RCEnNiZRTW85J3JcMyFxSW5MTllrLUduJEBKXmtfNF9JWFU3LyhELSpCOFdRKkRYSWJkViJZQUNUKy9WMy5JK2JuKjpONjdNWSgrSGtydVYtUD9AQSFWTy9Vb1ZAYmgjI3FfYi1UQE05TlkjTUJTOFxkPkdSJTI6cj4qUidzcSFqJ1tVS3RnZCFjIyhRUS9GL2JxLyszdFYxLltzLFtyU1QiNjBgIjVRPzFZdGUmW1JPXDZfSmAiUD1XLz9cMiJDZEVjKjNrSF1maywpPDI6Lj9abjY+OmcoXF9vOl9fYzItRU1MUihgalUkLkRcJWExJS5aX2pqdDdtYGk7VUArW10yPVMvZW1AXkRPV0IncmliJFRbcFk4XTNmJ201Tm5WUUEoJFNGczI+Q0pEO1ZHS25LME1nQmpEJytOUC9RImExa0NlQl1PKFZKSGpVKU0xZzM6RDEtS1AnRlBjREN0LF4rS20sTmBNXEY4Vmk0Q2ExaSVxVCg7PTMtTzlZLCUkOid1ZyhxLjtsLC9bbj51U1hoMUkwMzFOZFkvdVhKZlJYWyFERDgoYiFWLkNZaEJCWnVubiE+UEFSXGtiXyh0RjZHVCFWW0kxUG5sPzRqSXMnLD5DMU4hIzswJ2BcY1ljbisiY20nMSpOTS8pPl0pSVRGNTdyUiU6QVVGZnRqWz9IOzdoVDZWVXBmNSEuTU9wVztSPCo/OSQkcFVtVjJXTVoycGgjdUIjZkAwVylYS0V1ay50YWpvMisqcEVAU3NLbDQwdGZcKTxzMTpwbDxAIWo3JHBmQEIzODpvQV5AWV48YVw6KTNxMWBtQDB1Qz91anFAUT9OX15IUTVXOCdlQEZKQTNBXkgsT2wvMURXMmMuJ2IyNnMzQG9uR0RnQzIqMUszbm5fPGpCOj1JaE1sKiZPSzRuPzlMPDJscypYQyE+X0BXNFFCT11PSlBrWTwxJHJTWEB0c2UrUkEjb2I1LFFGV2dKdEVvKy1zbSpuXlBDSyQnNzopU0IlVGopUjhdSXRgRTlqUVVDLEEtdEFHPElMJlpSaVkuOm9hPCksdW90bEk9RigoU0FlTFdoQkBMb3Bob1FibiVpJUxSP1BdbUNfVDxYWEddYyc9QytIYFU0KWgiYUZpJGFLbiMoZXBjU0RGcnJqNTBPY2psND4oUWhGPmdwcEtmNl9QSUNBOVEpWjJqbjA6KTY8OlFAYj0+QEgsOXRmaCZoJSVNTmRvKUM2Y01WRSFPWD5PIyZjP0thYTZNU2RhMVA6Mzs9M0p0XHBhYiNVUDs0KztWISUvbnRGIUAhMzlKVVlRPkZrRFYzKGNRYmU9bHE6NzhYJWBYP1ImYiotbSxrLT0kLzk5LWdEW1FZSiM3WUFBamYrUzd0bEA2LlNOP04qWEk2dD5GSm0qR2coMylPSyZtXUhWPDtVZTg3OztjW3I3X00ycldhUC9vPmVVJTBpUlImRUokLSRjOihSPlpAaW44WE5HbzRlRThpIzNdcE5DU2crcmhLJStRYkcqQjIma0tUYkZGblhNUjMmczVpaD8nXjpxPjwqUXA3al0sMzMqRkAqTjIuVTVVZ1UyMDtEQURCQzxdJitAZk91RjAlJElURSYwM1JXWStMdTJbN1pmPyQicVxUYXEiRjNTNW44MiRYLyxJTzlqTEdJZDNbTjRkcmY3OksjJS1XbGwpPm02NjFhKVJXYmsyNVIrPyltYnRJT1M9UFtfXz8kSUNdWEAlXkxca1tBN2BqbTAkO21EIz9fPk1nJytabmtDQyxoWTNecSxaMSlpcWJZL1s2KSphb1FUVjxjLChVRTI7YWktPzZCXEhOWlBecjk0cV1gUERrWCFHSCIjakY4WktTZDdCVmdXTSs6LGpubDsrOz5FYV10MGhERy1RJztoNmpGUyg+PDxPQWwmQWg5LzNeTiVDJm5mbDUkbzg5aGR1ZDM3WyZnJz5XP0xIRVloJXRiTFJPbmgmYS4nNCJlWFohbWRXW3JEbV9rcm4pPXNgaFkiQXRMTUgmTG8qLCQ2XT8vMGEsQ3RbSkNtS1BsXSlHZU8sKlBJNjc+KyNdTUJ1MUFKTz4/T15uSSM6RTlLYGk/JmNqdFA5c2AhSldrQEZpXl9wO00nJUVoIUhaVDQkVGpbQSFpP2NcIylVbU9wSl0tKDtHUkFDcEc0MGdpZVdiSGkySktSbVQnZiFkaiw2ZTxgNmZWTzorcj88PXBvWjZjQHQiQVBWSSRAXV9ISD9tKSRaKTFXblMyJWxYalA/TlZmRVtZQV81IU0lXSU8VyEkITNVdV1uVmMmZlQqUG0sNCNBcE5QKDYvVTpjcU0wJ0ZEdUhxVGBUdU00Pj1wLmhPaUArSGk3OyI/SitZIWhFQUg1YzVcTEZ1QFRzOi1XaDAqMzJycC1COGxnT1tOaj9WRz9ERlJGb280WHQjVnREcmkqJjlwM2s7LHBmRHNcS0QmUydxcyk1S1tBcmdXPXFhQWZlaGBeRUdmZUBPcGQqWSc7XzhMRV5aJFcwazl0UmFqRmgkOTY+cFhKVV05SGw5bklRbDUtRHNNdFBPJnIqdD1aSzxEMUxbVEp1UTg1MCJbajtgVyYucU1VPCg2bG1KMGxbYlUxQFJXUDplLSZhK3NLOWRBSSkqOj8+Tl43KjIhX1FiYjIwWSJfbT1KPWUkcDtWTVVMK09dWj1MMWZJcm1QVTsvTldLUkNKLUUwODBhV1cnVDxDLjtJJTNcT1A/Sy1XQC04OTJTNXVUTyEmVWJXPGt0cCkqL05zay9PdEtlLVQzY0JhZTBRTGZwcVVOMkk1OVgrZTFYKV9FSl9sJVpqMD9WSXFAYGBKOCNvSEpiYiVxS1coPyo6WityRVUoLVUqQ28zVTYnLWRnIkFxQiREQSRCWyc4OE9fJ005UlRXWCpGY1MxPDxAR11rUzgkT2xIXE8wOzA2JlonL2RuWV10aEBXbGNUPj48KXNYUDlfUFs4STZNLC9rRWZYLShxMVUsK3Q9QjopJ0sqUkFTXldNQysrT1cwNzo/LUUzWjphV1ZBYzUhTTFFMjBCNUVHamdPWkNdSC5gJjg4XmM/YipGMlVHTHVsL1dpaz8wUSJzcTpdJG0+ZT9PSz9LPy5GLEU9Y1A0OVJPclk3cHNbZit1IVxBI1JsR1pCTk9kLihedVZISkJrU3MnKmJpcmZzVTRvTVFzOlJDcz1fMCZAQFZqTDFORDovXiNzb2NucEBkKGFiQFksdFRUJVddUj5mQ2lVYHIzJklBJlskKypfQlE+TG5sbEpBTyFZJzovXl1bdXFELjEpO2NjbCNecjtxRmRNRTZOcl1JZF8hY1ZOQydWKGwkM2NhanVpPkZsWFpHT3M5MXJncTNHUCVIVGNWallOQUJrQTI/RiNRJzxvNStdVyZ0PUJXRkcjIUlmNCYrPSdoM1cnWz5hcjdOZUAyUjc9JlhxY1s8JV5YMzBPYmRnVzIyOltfM08xRkVNcm0lIV5IcF0rQyFzOE1maW1Bbmk/RSYydDtuYlUvaE1jWUNFYyxNTDtQcGlsbS8qKFRybVo4aE5ZKjo/aW4/IypgbTkzKTBnVSElSSlpZzE/MTRHTFE8YWtwJC1RbkRhZUs7PW0lKihTaUMmQ3VVbyFfSHJlRVVbY1ZeL1A+VlMkWz5bXDtkWD5UJU5Kb3RLTjxqbDVEVkNFI0M4RVBiME5xNGpNOWQnVzpbaXM8WlBOZzJUMTRXbmBmXU5aXCVmPWBZUlpMMVxjM2hBXG5lYjNvSk9FUSFXTFRVLShUSVFwJy1DVSE8N1ZxcycjWEtkUENqOSQjNUg8dWsiUjVhaDhENGwzOEJXbyJRbDIsbElNS19kOFZKKmlQcGNYRU8zY3VmT2crSDksMSNOJ181U3VeXGNpXnNZQXI2Yl5uNCZEYTdJTE5qSVIlbF85O1suQzwmM3RtTyEwSGwxXkxnVCRGPCUodEBFJyw7PycxOC42RSphZ3NpTipKOURbWGdEWi8rSyZLYCI/R2w6TF1aVGM7KjhcTkBiWXJqTz5Fa0RfZihdLWBiZSYoZStKWCw5NmlOL1JdPENtXCNHK2lqWTtVJGdMNFA6SnUiKFpfV3AxUUd0VEZEIXIwXWtTZGxzOGdjSFo2cEgtIlVpME8qZmM7M09tMiwrWCxfXEkoZFsqcGIkJlY/Qm5AMm87JjlnXzdrY3FOJCgsMSFeQUMhL0FCOi0wcDJGNHVEI0hTWF5BOmVZXl1AYlZ0a1FudF5MX10rYi5gWWgrMWUrS1ckbTBaLXFXa045LGwzdVNESytSMD0uYnNORlRZLk4qcGo+NzpNN0YwREg8SmBGNl8mJUU3LDVhLV1QP2AnZjAoLT5tOCZIdWRoJSlCLSNdRiQvI2FPM0tLXF8lMyErR3FMO11bV1JCL0o3U2RnJiMzJV9BNHIiMCFXYiNPI0Y7aVY5RzRlMzI+REBfOl1TSS45RipmKXNaTEpaRHVyRm9laDRSZFFwbiFdJ1huODNAU0BGKGFkJTsscGYlRmBBXEYqMSU/N0lYXzY6QmlwZV0qJzJDbD5FKTAnQmhEXi03Si9sPWU0P28rZ0lCP1U7U2hnYjZkZW1TKStuUXI1bV82IWVKSzlFPTttYCU+QCZBMUtlcEE0T2pYN1MiTCgsZz9WIlNkZ2gzXzBbOipHZDNeKkhTSnFca1A2czNRKWVpaEYpWmp1WUlLO0ZpTGQ4YlRZJWtjOiUsWjVDI2YsXChcRGJrJF5mYyk1NSk0anE+YEA3YFZNJj1HPmw6VCIjWU0ubSg3OlJBLVxJcSxMWVFMbW0nW1YyJ2tRS1AxOVVtSjo6aFUuSj1OSlsrX1BJOGxRMiVgSnQwODQnQkhOa1E2PChWXDknSzQ+J0NdU1J1R3VYImZLKE8kPENRXjJXYCJeSyUlZzdAaEBTKmhaODstM2laJlgxT1JyNDYlQ2JqRTVSPFpfU1lUc29EKCRiaSJFT2hFSU1aQ0pWO2FoLSpLQm0+ZEd1PmRmSV8jNko1LlxOWCcnPjUoU1dcUTFvXF1oL19MPk9UUWgxbz4xWz4nLyRNVjF0Wm9kImAjMGgwWFNBS043UE50OUZUTy0jb1YoLGAjLWg8IkMxbmJNbVVpVSpmMCtmXz44IyUhJiNRIl1EWkQ1aD9XU0EzL0E0UjE/bEZXISVwSUpxdFRsL1xAZ1o8ciRVOERLKyQzWCUzNDlzQG1IWV0pRU1TYWJ0O0suV0ksKzBNJyxkdHAyUTE5SkxjSU8mZFNkPlU0ZWg3cjFhS1tuRjZqYFdzN0QrYDFXIz0rRFg/KVxhRk5gLnQkPFZdOXIzJDVNOz48ND5GSExHaCNhSj8tTFxXSC0yVHU2SXNLcSJaRiZgW3MzMmdhWk8kOFVmYVQ3R3RJKE1JY00vTEgwQV4uIiJgdSo8OTEqSjxiXlZIU0tSJk03P1VfL1JEOSYlVCw6OFA5UGchdTopJkNdUDU0R0FXUkFfK1xlKVhIZiwuaFZFNUQyMmFrOUxRUUhdK3Jna1wnLTQwJSFcO2xcUSZbQEVlSiw/NjYmP1pubGBEY3VzSjleL0MxQGAzJEJhLChINzhQMzdQYS1rdCMwcF9VRUFdJm1VcyNRLUVXPiE0OFZGXjlCLTU2MElrbkAuYFdlTCg8LDpBPVguZUQpLUs9K1xgRU1iMV5uJXM0Yy1vcnRfST0kOWVcIllKLW88USlJXjdFRWhYUWwrcThUZ1ltMU5hWS5PIz9rXTtxdEs3SmdiXWdhOjN0YEtAazVoMm9VcSZwLWxeUEw8KTQtRWBFRVQ5aUU9SjhzOVIvZC5FL1BGaytGIUlaY1puUCM3WD5gI0pXVjE1SWVeMG1zalZeZGNhPDctVkVLXWllSWJRRTluamt0YnEoPGNxJ2RVcTBAR1JecnNTYS1vPFIuO2w0VithVmAiSjJmP0QhW21NJGcrPmYsQVpOTU85SG1pREloUSZPIW0rOS03LFdcQS9bZ005O0lbY2tFPy1cV2k+S1N1LT1gc0JtaCNgJ1FwP2I5aiRmLUlyT2hSSWRyLVpNRDk3c21TNWpuTlcrWGxBV0NCRzhyO1VWZUAqVilsQjZcMWolLSgwaVVucERoUTNRU1c3bEU9ITdwQ0U2MUwjOSxyMicnX2hsKVVTVThtJzg9PThNRUZALk1iZDRvQWxcUDJuW2AzcTRtTzFbQCItbE9fKjUhP1RZNl4ibWRSZiRBI0lob0xGQ1tZJjFDUU9OUEM9JVFAT0kzIlxiREZzclFyRCI+Wi9YJEw/bGBHUDQvK15pKW1DUUcqRFtIbWYjXGFdUkgjPFYnR2lsLSoxR1c2S3NIPDUmY10wJmokUVwpPCsoPiEmVD9PVm51aC1ZSDkySk1LXTpWUURsZC0uKjZ0XjM+cjQuR0FDRVg0XT1iPDA3RXArOWlJRzgqSEhzWywqRk1uPiRdJzdfSGQ1ZlBMLDpGR1NnM0xvcFxnaGM4XmtCSkZFUWBdaGE5LTNLQl0rNGlYKzs9QiVGL1FcUyFzKG9JJy03Iy4rL3NHSyU1N1NBLzBRYSFxIzhUOkchVnBtcSdkWSwyQitxa0VDZmZWQmhaSD9nQXRYTko+bVpEJ2JJblxNLlhPZTpqOTBUVlxqczFmVVhgLioiQWBEcTBqYV0sUWxhJVRlUXM1Sjw2PGdHakwhSU5PaVQ/SWFnJk9QWyhKQD8ubltpTFhRZ2puOlo6TnBhb2JtTkptRmVUSF4vbyV0MlJaPjs9YEg5N2g0VmFMR1xPVnMkOVosLU1iY2xWaGpibG85MWM8anRIYzdgU0sqdVJkSEtgWGxJUE9jb08/KmVsZipQNmNiU20jKXFTJDtaNUBFLTpLPGxNL1IxaGYmRyglc1MrdUBrOV5HYm1AXTBBTTpfdCkqXF4/YEVyNjxRdEErSyJiUl50WDJOOVc+bjBSOVtiLC5WYCEiczVCTzFbVzE2dXFFOEdYRiZfZ1ZFLllVXFxfUkJMO25NJi5JKm5fOWBvcFdEXztKcidocVRiKmozJWQ+Y2BycDZfITZSVS1cSy5rbTBlMTtEOUMkN2NWV0RVMVxXIStpJ2RUQmJTUDRTOjg3PjpxWmdhMmBVZFE7aStAQVtiQFVvTDcoTEtda2hxTEdjWnVXUm1EJm1JNldMRGIqXWNDcFs6aVQ7WjIsTUJnXykyYDFOJFNgY09ZKGhsOGU5MEVaZEtbLVBsNG9RMzYuN1lEaDFoMlwoJDxvZC1lbVdSdSc5IiEqXmwxWlUmMGckdV9AU0B0ZWshPDlMZ0QxVlxuJDFOPjAxOyM6ZEdrJXBiYktiXDUvYW1rPSUocTgqaDFETltyb08hWS9HblRET3IkSDYjYTZOJlA8OFljMVsnKk9xI0c/LGxlQTsuWCNZWjxZJ1JvUT1lN1lDWi9hUnJiS0gjaS48PCYmKG9dLFhZMTE+aTJlLG5CbVM0Qm4vTygnQW0jVjhCZUtOTTYqQmkzU15nKicjXj5UX0EuMVxpWDROdTNfXkhAQ0tVQjtLUSZgOl5YKGloPGYxSDBWLjViamBDaj82OGlMaiFhSXJZYSRuWVclcS4uZENFZC5fW11aaW4/aTJwJCNvM1BAcDxXMFhOJ3FeZFsuaWBVLzNERFlXW1BZOW0vMV8wYDIlIWpCQDk7VFE2IlZYS3VdREhSPysuTXVnIWgwMSZyaGoqaDo6WjE5PUNmbF1AKFhMJCouMXJWYTQmXzxUa1cydHQtbDtbbWREbjxjLXMnXygzXXVBMFRTJVNURFNrRTknNWVFXkAxZkErQEU2JHAmdDkxYDpBb2RyP3NpMjxiUisiTVg7TEBvQk5vYi0vZT9ydUYrSlIkOC1rRE9TLzttRU4vSjc7L1k2QD0rRj8hLUg8PE4oWlc1REIkUUVVUVppTiFAL2k8VShCYkBnOWIsMl91W0dZP3FERTctNEMtRylbUGUzMFM4KkVoWXAucS8iZFkwbiFwLnAmMj5WRCQqRHJiT1NDISY9L2M0XC9ScVd0Y1UzWE1JMHMqNWdwVFhSL0BUQzUyK0I4TWguJE1RNi1LMGEqIjNMdFZQWnIuTGFHJ3FcWFteU1Y0R1YmWUxTRnNjaCNUQztaY1RBXUYnYmlRRU89PyYqXHE3O1xtPEU7b0RbcCVLU1giTSpRIVZRbFk3RCVJT3VpLSwuUGBDKj5LJ2VkM0VEYDxYSV1yPURZPz9ILCdAOWE6Ijs9QFBkVC1ZKWkyODAuQ05ydWxpQnQnMUhuX3UuIypuJVR1XTcjKDBLO05QTl91ISdONUVrW2lEMktYZUFtbGJbci4qZnAwQmYuRUBSPi8rNG5ZLm4sZjRLWUQtSj1OP29dXW1oXEZScCs2MXJZRis2XC9nSTQ1Oy1iZVBIOk0tVTpAcWk7OS9SImNaaSlLRkVcOnVHV2osKjZKTW06bTM1c2hYPzI2Jl1WY21iL1Q1VExhJnVVXl1WVFNCI0stcERBIjVPMzFHZThNPFFPQz9lc2EtaDIwMCI4N1tYb1EoKS9FVTMjNGtlZUZTTVJyLm1WVCpQJydWb1wtI0UmXmUoK1JiWWlhYGsqOjpbQlcoLmc4TS9QKS5wOzFhOzRgLyhBc1pRP285SDAoVGE0Z1whT2QxbCVGWkVva11ZWGdacToqaGJiP01AdDgscVxZUWgyN2BMVVdxZEBRM0QvVlNPb0UxVHFWR0AhM1M4aDQ7VDlQTHFdQyYkZDhaaz1qbSIoVDwtZWhrVUNYUnFvaE1ZLHRZJjghTGluaGxTbTVYQiVwaztiJERvVDVubStrYiJVQWdnOz5MT2lsaTg4JlxDTSVAbmVvJWYiYnBWMTFtLCc7WT5JMT5UZ0ZcOi9iK2lgLWwjXTtHJF8pdVBnYXRyNkRUNWwvKCguTHVXalU/cS1rU2dAVTFyJD1eZiJbalNuSF1AVSc7M2I9aXQ5MD8oP2haLnQrYjIlMk88RGMxZGFkUkckdHAuUmExVSRBdU5IZD9ncnNxK0JRYz81aWJfOUIuKCk8IWRsOkBnKTM4VWhFay85ODFmRERNUi5mQ0A6Rmo6QS9Dc1dZUyRvWy1iPFtaWCN0QkM4ZCQsL09IYXFnIUtGI1k1TEBqKTBwUUZbMC05K21laENMSF5UOjpWKGhnaixiYW5XRTJ1MkRxWFw7V2xRIUVIW2lLUjxhXV1ZY2BBcD1qPilYTDAlbzJLVnFUYE4jRV1nclQ7b0w3PVhnVl1URCk4OFsiYyk0L1RiWy9jJFNudEpXTjNfMkJcY0NVQ2tUJyxVMyVJUVwkLWUoRnNTO0dWRzRIZFc/VDZuRF01LCtQNjohJms2ODNYXEppNCZxUyZyQChIQGIvQExOOE5RbTdnPTM2dTpGbWktT0U+Vz1aUy0oQ3I7cEhpUlFTOzxaR0lQRmcyKj1QVFo/Qi5lcFskSlpOYFRtVyxXTCFnTHBMbyQvKTZkZTRAPy5BSlByPStTLGk2MG5JUiZpNT4iYSFGI14ibS4jSEojSDNMTSZEPSskVkM+c0oqRF8pTTA3QSFlRlU3cl1kOyxuNDsoQDVGLGVBaG5BO1hBPE5bWl0kaV9DODYoOkFpcShwMXNTZGFFaUE3NWYwKlFoT2Q7UnJdKy9RVlxNYnQjXXQ1Ly5GQm1qTVFIX3FQRSNjKU9RTGBxQmMiQmRBa2EibGVhQFR0SVRicEU9cF1LbDk5KVc2My8nbV9MKUd1ITBKP3UhNlliJCxyWmRvT2UmK05daWQjUlQsRG5YaTROUjpaR2BkVkZhSk4lLEsmTWwkY2ZAZW5KKVYhdVVOXF9PO14qb2hDT2NxWmosOSM3MkgwbVFmYC5CKz9HNCs/OzsiQGFiInNNaEowOyFHT0NVIkpJbChMTjFLR1I7L1V0M1poO1wqc11lJT89MWRuJilbWio0QTY9QmlWKW9hO0knRCk5QlBXZV4+N0gyT2dfPF08NiteZixJaXMwN2QjMVE5RjYrISI6NlpNS1tqVChEWSE8cT5tI0RgN29wZDVjMzFKO2hiWWJuWDtuOjQwPFZsVHJvTFtXYF5UKkMmJ2ZwSVspa2h0TmZNPFVrTFBgR2NUPmxrWSJqU2k9U28lIWsmKjt0OS49Z3FTMlo8SF8mcDIwJzJSR2BeQ0xVZ0UiWS0+KyVUaSU9JFZeLHBET04vWTJfUD5OKzo7OF0lR0RHXls3ISpUOGpdWUZkUUhqMHBsJDsiQ2pHMF0lc0NDP0JhaCRcSStacz0yXD1pRGNYLWUmKkMtJEtmRkhRaytRbWkiVSFxT21DSylTU1pMV3JaUy1CYTpvJWdsMFF1YVsrc2xIcUw4TFR1OSlaMDpsX2QjKFYnTWxYcllJREo8ZzBMKUZsT2AyY0RKW2pJVmAlZmslIysicWNPJzlMNzZUYE5nUWwxVTNYOlw/Pl0yXXJXPyY4LDIlS2VPaTtFUXNpWmIuS3AjIVlgbjNPQkVFPGBhanRJUSRLPT9pRHBqN2BSXS4jPEttU04+VERVVyxbNkpZPUc/WDxCTmE8TDEqY2A2OXVoJj5wcz1NWlJTLXNQQlY1aXBiSm9HMl0qWWpHY0M6ai8laTtxYiZMQ3JoTWU2WUdIaGUrVywsVzQrPkJcKEhWUkwrJTtnNC89U005KTZZRkU3bidrNmRpUkpqOjtsXFdnZ1A7VSlbRU1jdV4zZE0zLEMuXEAqVDdBdUhYaVYwRWNnUEBFNEJxTDI0ak8/cy9YQ1ZlVyo7J1RZYXFbNVtvcTxeclNuZzBXSHNvaVtjbVFfNEc7O21MSnU9ZD8yRipmcTkwOU9RYVNSQlQlXGVaNlYwPE9eNGRsNSgmTTwiaVxQWylOLV5xOStRWC9PV2RMUHQjcFombEQuKEopVWRuIU4la1EsLGRsMEU/NC03J0ZcY0c+P3BrMCttQC85dDI6KSQvcHFrYkw1KE1yK3NNLUBLOFs0TSg5ckI3YlViXjM0XkJgJUFvZVpMTDxIVF50ZnFYUD1gJzZnKW5CZlVLSXBab2pwWWRaQ1Q2OiQkdF1ANDN1M1VtKTU0PTQmO2xWPyU+blsnOUIyIVpMWFB0UTxNaClGWiRWdC9dLjtNTFhTPUxCI0c5b2U2K1diNkoiZzBDMykwbCJwcW9ESTJuIiJUPC8/RUZjWDFPZEc8PF9tXW9yTDVjRXBhYUxhVSNZdHBhamkpOyc+cW5dKE0oZ0cucmhyVjA2cjw6QXQyTVBTOWMkLyxhZlpVKFQlKzc+VkY4TVUwNz4pTjM8bFpZKTVSSlpOISklaWVSNEAzYmNOdUJaImNJUmFJZlNFUjU4N2BsUFs3NFshPmJBRzZjMV5nQ0VsQiNTaj9xZzdsQS9YTFMtJEkmQkVBKWReMzc3RmNnKiJYWW02aDZscD9eTVRNMDZmXSk+OmVITF5COWA0Tz9IcT5ybSYqb0Q4WShUOiUlIU5vVik2XGlTRkNJYyU7cFpBRFwxYTo8S0BCSU50VVEkSGl0WlJpakloNCVGZlc/NFhQNWBYYjhTZ1hibDpTR0J1RGNNN1VHOyZYMU5VSFskWnJla3RAXG5RLCcsdTJzLi1GLGBdMjcxPTNKW0BGM09lW2YqPSpSS0JtJFxwckVwX2BAR0ElSE4pVjBPKjI6bDpZZWg9SU0kPmBwW0c9aE83LWN0YS9WJmNFSEI+JzpQJmVDdCFWYF1ZWDoqOHI6KU9AYS5tOWxdPU5CSSFLa0U6KWovKmguQkFLQ05DJGsyRHQnLUNAR21UUicycC9DOUlIXHFRJG0iQlBlYU8lbXRpV08mOVBiRiMxZUZELkouNzRtVkdjXGU4VkA2YnNHbmFpLCdOOWA5cCtkPSo8akJgbWBVUzdfQ19bLHFgZztwYE1uUU0hXzUmUFEybF1SPSlXUDRSVyRsTFBDQWdmX2U0QCZmLyxXbjxeI3Q1Z3Ira2tJKjhMOj9dYSs5cDA9P2tyNE5VTnAoUk1ZaClgaSFMJEg/LG0jcW9IOSs3TzdUJ0xiI1FaUXQidGRCKz9AOGJTZTVaS15nQlkqWGtBSz8qWFEybUlrcllBQGlma0diViI7U2diTjpjSW1MQmhGRCdlNltCXVJUQWlaRUtSPjk5ZUpHQUNaM3Rta0xATVBfbD88VGlSYVkwU3MjLkAlWG01KjpEYEdORFQ2PTJjPyVmVEA2PiIvN1BFR0M3Pmw2OTZIU2daRF8yTD5mY15HOl4/MiFGWi8zTXFTIS82P11cKyQ5Y0M1ciwnOjN0VmBhTShvRUw0QCQ2Wi5wXmlTJkE6YmRmYjNPMUhQJ0o+QjFxayIqYUtJQD9kRS07OWdqWiNvM1ZRSlxXLichczYqPjtVXkNVbSVKO11sM0NHQi1xZVhFbnRsaEFvNl4wXGg1JGlJNlEkMW9SSFlXaig2IWdpRk0yJ1FWVCd0SSQyKSxuVEV1K0wxYTI2OElpRj5RQj1gWWlubGteWUMxJihjJ0FTOiotZDBuK1FuXlY7c2RVbDQ4JCplaTReL2RYL3EpMiVPI1hPYDd0bTJvVE9EcTxMPyYtTHBOSCNlQU0jdDQ/USswSSQ4MGtzNT9QXTJVQEpjZG03ZDxNZjJDV1pEaWBRV1FJRScsIjY2LlZnPl5UYzYiUWpnIVE+NWYzNCxqP3NeM1RIUlhyXGYlRi1qPUonYEkna2NRNSorNEI7OnBISl1PMSRKSmM6OEYqcmM/QT86JmciMzZnQEQyU2JLRihRSjJjOFkkIlVfMTdkOEY/JEhFTF1NQ0RpSyEvaGtFT0AzKkxiWmcuR1ZnKlE0UiMrZ1tSQDVvP19xZEU8REFIQydKM1xiWzFbXk5hbT44R1xUcjFvJjUnbidiZVdIQiEjV0xbTnJ+PmVuZHN0cmVhbQplbmRvYmoKeHJlZgowIDEwCjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDA2MSAwMDAwMCBuIAowMDAwMDAwMTEyIDAwMDAwIG4gCjAwMDAwMDAyMTkgMDAwMDAgbiAKMDAwMDAwMDMzMSAwMDAwMCBuIAowMDAwMDAwNDQwIDAwMDAwIG4gCjAwMDAwMDA2NDMgMDAwMDAgbiAKMDAwMDAwMDcxMSAwMDAwMCBuIAowMDAwMDAwOTc5IDAwMDAwIG4gCjAwMDAwMDEwMzggMDAwMDAgbiAKdHJhaWxlcgo8PAovSUQgCls8ZGFjOTVkNDNlYmZiMjZiODYyMjZjNGE4NDUxYTRhNDk+PGRhYzk1ZDQzZWJmYjI2Yjg2MjI2YzRhODQ1MWE0YTQ5Pl0KJSBSZXBvcnRMYWIgZ2VuZXJhdGVkIFBERiBkb2N1bWVudCAtLSBkaWdlc3QgKG9wZW5zb3VyY2UpCgovSW5mbyA3IDAgUgovUm9vdCA2IDAgUgovU2l6ZSAxMAo+PgpzdGFydHhyZWYKMTA5MjMKJSVFT0YK",
+     "addedAt": "2026-11-17"
+    }
+   ]
   }
  ],
  "demos": [
@@ -3872,6 +4043,21 @@
      "title": "Zoho Recruit product recording",
      "url": "https://drive.google.com/file/d/11yp3sGdxG-P607GcfhTPs9rbbNxQdaYp/view?usp=sharing",
      "addedAt": "2026-11-16"
+    }
+   ]
+  },
+  {
+   "id": "wrangle",
+   "player": "Wrangle",
+   "url": "",
+   "unique": [],
+   "notes": "",
+   "media": [
+    {
+     "type": "video",
+     "title": "Wrangle product recording",
+     "url": "https://drive.google.com/file/d/1dHqhBw_YE1Cld5VWH3m3wb_lKH6Hr4FR/view?usp=sharing",
+     "addedAt": "2026-11-17"
     }
    ]
   }
@@ -4042,6 +4228,10 @@
   {
    "at": "2026-11-16 12:00",
    "text": "New product page: Zoho Recruit"
+  },
+  {
+   "at": "2026-11-17 10:00",
+   "text": "New product page: Wrangle"
   }
  ],
  "notes": []
